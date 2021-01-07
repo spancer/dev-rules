@@ -1,0 +1,1980 @@
+Message-ID: <1577839039.7.1610004927235.JavaMail.daemon@ab309fdadf7f>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_6_438599749.1610004927234"
+
+------=_Part_6_438599749.1610004927234
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>JAVA=E4=BB=A3=E7=A0=81=E8=A7=84=E8=8C=83</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>JAVA=E4=BB=A3=E7=A0=81=E8=A7=84=E8=8C=83</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"JAVA=E4=BB=A3=E7=A0=81=E8=A7=84=E8=8C=83-=E4=B8=80=E3=80=
+=81=E5=91=BD=E5=90=8D=E8=A7=84=E8=8C=83">=E4=B8=80=E3=80=81=E5=91=BD=E5=90=
+=8D=E8=A7=84=E8=8C=83</h2>
+<ol>
+<li><p><span>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91</span>&nbsp;=E4=BB=A3=E7=
+=A0=81=E4=B8=AD=E7=9A=84=E5=91=BD=E5=90=8D=E5=9D=87=E4=B8=8D=E8=83=BD=E4=BB=
+=A5=E4=B8=8B=E5=88=92=E7=BA=BF=E6=88=96=E7=BE=8E=E5=85=83=E7=AC=A6=E5=8F=B7=
+=E5=BC=80=E5=A7=8B=EF=BC=8C=E4=B9=9F=E4=B8=8D=E8=83=BD=E4=BB=A5=E4=B8=8B=E5=
+=88=92=E7=BA=BF=E6=88=96=E7=BE=8E=E5=85=83=E7=AC=A6=E5=8F=B7=E7=BB=93=E6=9D=
+=9F=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E5=8F=8D=E4=BE=8B:&nbsp;<em>name / __name / $Object / name</em>&nbsp;/ =
+name$ / Object$</p>
+</blockquote></li>
+<li><p><span>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91</span>&nbsp;=E4=BB=A3=E7=
+=A0=81=E4=B8=AD=E7=9A=84=E5=91=BD=E5=90=8D=E4=B8=A5=E7=A6=81=E4=BD=BF=E7=94=
+=A8=E6=8B=BC=E9=9F=B3=E4=B8=8E=E8=8B=B1=E6=96=87=E6=B7=B7=E5=90=88=E7=9A=84=
+=E6=96=B9=E5=BC=8F=EF=BC=8C=E6=9B=B4=E4=B8=8D=E5=85=81=E8=AE=B8=E7=9B=B4=E6=
+=8E=A5=E4=BD=BF=E7=94=A8=E4=B8=AD=E6=96=87=E7=9A=84=E6=96=B9=E5=BC=8F=E3=80=
+=82 =E8=AF=B4=E6=98=8E:=E6=AD=A3=E7=A1=AE=E7=9A=84=E8=8B=B1=E6=96=87=E6=8B=
+=BC=E5=86=99=E5=92=8C=E8=AF=AD=E6=B3=95=E5=8F=AF=E4=BB=A5=E8=AE=A9=E9=98=85=
+=E8=AF=BB=E8=80=85=E6=98=93=E4=BA=8E=E7=90=86=E8=A7=A3=EF=BC=8C=E9=81=BF=E5=
+=85=8D=E6=AD=A7=E4=B9=89=E3=80=82=E6=B3=A8=E6=84=8F=EF=BC=8C=E5=8D=B3=E4=BD=
+=BF=E7=BA=AF=E6=8B=BC=E9=9F=B3=E5=91=BD=E5=90=8D=E6=96=B9=E5=BC=8F =E4=B9=
+=9F=E8=A6=81=E9=81=BF=E5=85=8D=E9=87=87=E7=94=A8=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E5=8F=8D=E4=BE=8B: DaZhePromotion [=E6=89=93=E6=8A=98] / getPingfenByNa=
+me() [=E8=AF=84=E5=88=86] / int =E6=9F=90=E5=8F=98=E9=87=8F =3D 3</p>
+<p>=E6=AD=A3=E4=BE=8B: alibaba / taobao / youku / hangzhou =E7=AD=89=E5=9B=
+=BD=E9=99=85=E9=80=9A=E7=94=A8=E7=9A=84=E5=90=8D=E7=A7=B0=EF=BC=8C=E5=8F=AF=
+=E8=A7=86=E5=90=8C=E8=8B=B1=E6=96=87=E3=80=82</p>
+</blockquote></li>
+<li><p><span>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91</span>=E7=B1=BB=E5=90=8D=
+=E4=BD=BF=E7=94=A8 UpperCamelCase =E9=A3=8E=E6=A0=BC=EF=BC=8C=E5=BF=85=E9=
+=A1=BB=E9=81=B5=E4=BB=8E=E9=A9=BC=E5=B3=B0=E5=BD=A2=E5=BC=8F=EF=BC=8C=E4=BD=
+=86=E4=BB=A5=E4=B8=8B=E6=83=85=E5=BD=A2=E4=BE=8B=E5=A4=96:(=E9=A2=86=E5=9F=
+=9F=E6=A8=A1=E5=9E=8B =E7=9A=84=E7=9B=B8=E5=85=B3=E5=91=BD=E5=90=8D)DO / BO=
+ / DTO / VO=E7=AD=89=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E6=AD=A3=E4=BE=8B:MarcoPolo / UserDO / XmlService / TcpUdpDeal / TaProm=
+otion</p>
+<p>=E5=8F=8D=E4=BE=8B:macroPolo / UserDo / XMLService / TCPUDPDeal / TAProm=
+otion</p>
+</blockquote></li>
+<li><p><span>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91</span>=E6=96=B9=E6=B3=95=
+=E5=90=8D=E3=80=81=E5=8F=82=E6=95=B0=E5=90=8D=E3=80=81=E6=88=90=E5=91=98=E5=
+=8F=98=E9=87=8F=E3=80=81=E5=B1=80=E9=83=A8=E5=8F=98=E9=87=8F=E9=83=BD=E7=BB=
+=9F=E4=B8=80=E4=BD=BF=E7=94=A8 lowerCamelCase =E9=A3=8E=E6=A0=BC=EF=BC=8C=
+=E5=BF=85=E9=A1=BB=E9=81=B5=E4=BB=8E=E9=A9=BC=E5=B3=B0=E5=BD=A2=E5=BC=8F=E3=
+=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E6=AD=A3=E4=BE=8B: localValue / getHttpMessage() / inputUserId</p>
+</blockquote></li>
+<li><p><span>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91</span>=E5=B8=B8=E9=87=8F=
+=E5=91=BD=E5=90=8D=E5=85=A8=E9=83=A8=E5=A4=A7=E5=86=99=EF=BC=8C=E5=8D=95=E8=
+=AF=8D=E9=97=B4=E7=94=A8=E4=B8=8B=E5=88=92=E7=BA=BF=E9=9A=94=E5=BC=80=EF=BC=
+=8C=E5=8A=9B=E6=B1=82=E8=AF=AD=E4=B9=89=E8=A1=A8=E8=BE=BE=E5=AE=8C=E6=95=B4=
+=E6=B8=85=E6=A5=9A=EF=BC=8C=E4=B8=8D=E8=A6=81=E5=AB=8C=E5=90=8D=E5=AD=97=E9=
+=95=BF=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E6=AD=A3=E4=BE=8B: MAX_STOCK_COUNT</p>
+<p>=E5=8F=8D=E4=BE=8B: MAX_COUNT</p>
+</blockquote></li>
+<li><p><span>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91</span>=E6=8A=BD=E8=B1=A1=
+=E7=B1=BB=E5=91=BD=E5=90=8D=E4=BD=BF=E7=94=A8 Abstract =E6=88=96 Base =E5=
+=BC=80=E5=A4=B4;=E5=BC=82=E5=B8=B8=E7=B1=BB=E5=91=BD=E5=90=8D=E4=BD=BF=E7=
+=94=A8 Exception =E7=BB=93=E5=B0=BE;=E6=B5=8B=E8=AF=95=E7=B1=BB=E5=91=BD=E5=
+=90=8D=E4=BB=A5=E5=AE=83=E8=A6=81=E6=B5=8B=E8=AF=95=E7=9A=84=E7=B1=BB=E7=9A=
+=84=E5=90=8D=E7=A7=B0=E5=BC=80=E5=A7=8B=EF=BC=8C=E4=BB=A5 Test =E7=BB=93=E5=
+=B0=BE=E3=80=82</p></li>
+<li><p><span>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91</span>=E4=B8=AD=E6=8B=AC=
+=E5=8F=B7=E6=98=AF=E6=95=B0=E7=BB=84=E7=B1=BB=E5=9E=8B=E7=9A=84=E4=B8=80=E9=
+=83=A8=E5=88=86=EF=BC=8C=E6=95=B0=E7=BB=84=E5=AE=9A=E4=B9=89=E5=A6=82=E4=B8=
+=8B:String[] args;=E5=8F=8D=E4=BE=8B:=E8=AF=B7=E5=8B=BF=E4=BD=BF=E7=94=A8St=
+ring args[]=E7=9A=84=E6=96=B9=E5=BC=8F=E6=9D=A5=E5=AE=9A=E4=B9=89=E3=80=82<=
+/p></li>
+<li><p><span>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91</span>POJO =E7=B1=BB=E4=
+=B8=AD=E5=B8=83=E5=B0=94=E7=B1=BB=E5=9E=8B=E7=9A=84=E5=8F=98=E9=87=8F=EF=BC=
+=8C=E9=83=BD=E4=B8=8D=E8=A6=81=E5=8A=A0 is=EF=BC=8C=E5=90=A6=E5=88=99=E9=83=
+=A8=E5=88=86=E6=A1=86=E6=9E=B6=E8=A7=A3=E6=9E=90=E4=BC=9A=E5=BC=95=E8=B5=B7=
+=E5=BA=8F=E5=88=97=E5=8C=96=E9=94=99=E8=AF=AF=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E5=8F=8D=E4=BE=8B:=E5=AE=9A=E4=B9=89=E4=B8=BA=E5=9F=BA=E6=9C=AC=E6=95=
+=B0=E6=8D=AE=E7=B1=BB=E5=9E=8Bboolean isSuccess;=E7=9A=84=E5=B1=9E=E6=80=A7=
+=EF=BC=8C=E5=AE=83=E7=9A=84=E6=96=B9=E6=B3=95=E4=B9=9F=E6=98=AFisSuccess()=
+=EF=BC=8CRPC=E6=A1=86=E6=9E=B6=E5=9C=A8=E5=8F=8D=E5=90=91=E8=A7=A3=E6=9E=90=
+=E7=9A=84=E6=97=B6=E5=80=99=EF=BC=8C=E2=80=9C=E4=BB=A5=E4=B8=BA=E2=80=9D=E5=
+=AF=B9=E5=BA=94=E7=9A=84=E5=B1=9E=E6=80=A7=E5=90=8D=E7=A7=B0=E6=98=AF succe=
+ss=EF=BC=8C=E5=AF=BC=E8=87=B4=E5=B1=9E=E6=80=A7=E8=8E=B7=E5=8F=96=E4=B8=8D=
+=E5=88=B0=EF=BC=8C=E8=BF=9B=E8=80=8C=E6=8A=9B=E5=87=BA=E5=BC=82=E5=B8=B8=E3=
+=80=82</p>
+</blockquote></li>
+<li><p><span>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91</span>=E5=8C=85=E5=90=8D=
+=E7=BB=9F=E4=B8=80=E4=BD=BF=E7=94=A8=E5=B0=8F=E5=86=99=EF=BC=8C=E7=82=B9=E5=
+=88=86=E9=9A=94=E7=AC=A6=E4=B9=8B=E9=97=B4=E6=9C=89=E4=B8=94=E4=BB=85=E6=9C=
+=89=E4=B8=80=E4=B8=AA=E8=87=AA=E7=84=B6=E8=AF=AD=E4=B9=89=E7=9A=84=E8=8B=B1=
+=E8=AF=AD=E5=8D=95=E8=AF=8D=E3=80=82=E5=8C=85=E5=90=8D=E7=BB=9F=E4=B8=80=E4=
+=BD=BF=E7=94=A8 =E5=8D=95=E6=95=B0=E5=BD=A2=E5=BC=8F=EF=BC=8C=E4=BD=86=E6=
+=98=AF=E7=B1=BB=E5=90=8D=E5=A6=82=E6=9E=9C=E6=9C=89=E5=A4=8D=E6=95=B0=E5=90=
+=AB=E4=B9=89=EF=BC=8C=E7=B1=BB=E5=90=8D=E5=8F=AF=E4=BB=A5=E4=BD=BF=E7=94=A8=
+=E5=A4=8D=E6=95=B0=E5=BD=A2=E5=BC=8F=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E6=AD=A3=E4=BE=8B: =E5=BA=94=E7=94=A8=E5=B7=A5=E5=85=B7=E7=B1=BB=E5=8C=
+=85=E5=90=8D=E4=B8=BAcom.alibaba.open.util=E3=80=81=E7=B1=BB=E5=90=8D=E4=B8=
+=BAMessageUtils(=E6=AD=A4=E8=A7=84=E5=88=99=E5=8F=82=E8=80=83spring =E7=9A=
+=84=E6=A1=86=E6=9E=B6=E7=BB=93=E6=9E=84)</p>
+</blockquote></li>
+<li><p><span>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91</span>=E6=9D=9C=E7=BB=9D=
+=E5=AE=8C=E5=85=A8=E4=B8=8D=E8=A7=84=E8=8C=83=E7=9A=84=E7=BC=A9=E5=86=99=EF=
+=BC=8C=E9=81=BF=E5=85=8D=E6=9C=9B=E6=96=87=E4=B8=8D=E7=9F=A5=E4=B9=89=E3=80=
+=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E5=8F=8D=E4=BE=8B: AbstractClass=E2=80=9C=E7=BC=A9=E5=86=99=E2=80=9D=E5=
+=91=BD=E5=90=8D=E6=88=90 AbsClass;condition=E2=80=9C=E7=BC=A9=E5=86=99=E2=
+=80=9D=E5=91=BD=E5=90=8D=E6=88=90 condi=EF=BC=8C=E6=AD=A4=E7=B1=BB=E9=9A=8F=
+=E6=84=8F=E7=BC=A9=E5=86=99=E4=B8=A5=E9=87=8D=E9=99=8D=E4=BD=8E=E4=BA=86=E4=
+=BB=A3=E7=A0=81=E7=9A=84=E5=8F=AF=E9=98=85=E8=AF=BB=E6=80=A7=E3=80=82</p>
+</blockquote></li>
+<li><p><span>=E3=80=90=E6=8E=A8=E8=8D=90=E3=80=91</span>=E5=A6=82=E6=9E=9C=
+=E4=BD=BF=E7=94=A8=E5=88=B0=E4=BA=86=E8=AE=BE=E8=AE=A1=E6=A8=A1=E5=BC=8F=EF=
+=BC=8C=E5=BB=BA=E8=AE=AE=E5=9C=A8=E7=B1=BB=E5=90=8D=E4=B8=AD=E4=BD=93=E7=8E=
+=B0=E5=87=BA=E5=85=B7=E4=BD=93=E6=A8=A1=E5=BC=8F=E3=80=82=E8=AF=B4=E6=98=8E=
+:=E5=B0=86=E8=AE=BE=E8=AE=A1=E6=A8=A1=E5=BC=8F=E4=BD=93=E7=8E=B0=E5=9C=A8=
+=E5=90=8D=E5=AD=97=E4=B8=AD=EF=BC=8C=E6=9C=89=E5=88=A9=E4=BA=8E=E9=98=85=E8=
+=AF=BB=E8=80=85=E5=BF=AB=E9=80=9F=E7=90=86=E8=A7=A3=E6=9E=B6=E6=9E=84=E8=AE=
+=BE=E8=AE=A1=E6=80=9D=E6=83=B3=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E6=AD=A3=E4=BE=8B:public class OrderFactory;public class LoginProxy;pub=
+lic class ResourceObserver;</p>
+</blockquote></li>
+<li><p><span>=E3=80=90=E6=8E=A8=E8=8D=90=E3=80=91</span>=E6=8E=A5=E5=8F=A3=
+=E7=B1=BB=E4=B8=AD=E7=9A=84=E6=96=B9=E6=B3=95=E5=92=8C=E5=B1=9E=E6=80=A7=E4=
+=B8=8D=E8=A6=81=E5=8A=A0=E4=BB=BB=E4=BD=95=E4=BF=AE=E9=A5=B0=E7=AC=A6=E5=8F=
+=B7(public =E4=B9=9F=E4=B8=8D=E8=A6=81=E5=8A=A0)=EF=BC=8C=E4=BF=9D=E6=8C=81=
+=E4=BB=A3=E7=A0=81=E7=9A=84=E7=AE=80=E6=B4=81 =E6=80=A7=EF=BC=8C=E5=B9=B6=
+=E5=8A=A0=E4=B8=8A=E6=9C=89=E6=95=88=E7=9A=84 Javadoc =E6=B3=A8=E9=87=8A=E3=
+=80=82=E5=B0=BD=E9=87=8F=E4=B8=8D=E8=A6=81=E5=9C=A8=E6=8E=A5=E5=8F=A3=E9=87=
+=8C=E5=AE=9A=E4=B9=89=E5=8F=98=E9=87=8F=EF=BC=8C=E5=A6=82=E6=9E=9C=E4=B8=80=
+=E5=AE=9A=E8=A6=81=E5=AE=9A=E4=B9=89=E5=8F=98=E9=87=8F=EF=BC=8C=E8=82=AF=E5=
+=AE=9A=E6=98=AF =E4=B8=8E=E6=8E=A5=E5=8F=A3=E6=96=B9=E6=B3=95=E7=9B=B8=E5=
+=85=B3=EF=BC=8C=E5=B9=B6=E4=B8=94=E6=98=AF=E6=95=B4=E4=B8=AA=E5=BA=94=E7=94=
+=A8=E7=9A=84=E5=9F=BA=E7=A1=80=E5=B8=B8=E9=87=8F=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E6=AD=A3=E4=BE=8B:=E6=8E=A5=E5=8F=A3=E6=96=B9=E6=B3=95=E7=AD=BE=E5=90=
+=8D:void f();=E6=8E=A5=E5=8F=A3=E5=9F=BA=E7=A1=80=E5=B8=B8=E9=87=8F=E8=A1=
+=A8=E7=A4=BA:String COMPANY =3D "alibaba";</p>
+<p>=E5=8F=8D=E4=BE=8B:=E6=8E=A5=E5=8F=A3=E6=96=B9=E6=B3=95=E5=AE=9A=E4=B9=
+=89:public abstract void f();</p>
+<p>=E8=AF=B4=E6=98=8E:JDK8 =E4=B8=AD=E6=8E=A5=E5=8F=A3=E5=85=81=E8=AE=B8=E6=
+=9C=89=E9=BB=98=E8=AE=A4=E5=AE=9E=E7=8E=B0=EF=BC=8C=E9=82=A3=E4=B9=88=E8=BF=
+=99=E4=B8=AA default =E6=96=B9=E6=B3=95=EF=BC=8C=E6=98=AF=E5=AF=B9=E6=89=80=
+=E6=9C=89=E5=AE=9E=E7=8E=B0=E7=B1=BB=E9=83=BD=E6=9C=89=E4=BB=B7=E5=80=BC=E7=
+=9A=84=E9=BB=98 =E8=AE=A4=E5=AE=9E=E7=8E=B0=E3=80=82</p>
+</blockquote></li>
+<li><p>=E6=8E=A5=E5=8F=A3=E5=92=8C=E5=AE=9E=E7=8E=B0=E7=B1=BB=E7=9A=84=E5=
+=91=BD=E5=90=8D=E6=9C=89=E4=B8=A4=E5=A5=97=E8=A7=84=E5=88=99:</p><p><span>=
+=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91</span>=E5=AF=B9=E4=BA=8E Service =E5=
+=92=8C DAO =E7=B1=BB=EF=BC=8C=E5=9F=BA=E4=BA=8E SOA =E7=9A=84=E7=90=86=E5=
+=BF=B5=EF=BC=8C=E6=9A=B4=E9=9C=B2=E5=87=BA=E6=9D=A5=E7=9A=84=E6=9C=8D=E5=8A=
+=A1=E4=B8=80=E5=AE=9A=E6=98=AF=E6=8E=A5=E5=8F=A3=EF=BC=8C=E5=86=85=E9=83=A8=
+</p><p>=E7=9A=84=E5=AE=9E=E7=8E=B0=E7=B1=BB=E7=94=A8 Impl =E7=9A=84=E5=90=
+=8E=E7=BC=80=E4=B8=8E=E6=8E=A5=E5=8F=A3=E5=8C=BA=E5=88=AB=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E6=AD=A3=E4=BE=8B:CacheServiceImpl =E5=AE=9E=E7=8E=B0 CacheService =E6=
+=8E=A5=E5=8F=A3=E3=80=82</p>
+</blockquote><p><span>=E3=80=90=E6=8E=A8=E8=8D=90=E3=80=91</span>&nbsp;=E5=
+=A6=82=E6=9E=9C=E6=98=AF=E5=BD=A2=E5=AE=B9=E8=83=BD=E5=8A=9B=E7=9A=84=E6=8E=
+=A5=E5=8F=A3=E5=90=8D=E7=A7=B0=EF=BC=8C=E5=8F=96=E5=AF=B9=E5=BA=94=E7=9A=84=
+=E5=BD=A2=E5=AE=B9=E8=AF=8D=E5=81=9A=E6=8E=A5=E5=8F=A3=E5=90=8D(=E9=80=9A=
+=E5=B8=B8=E6=98=AF=E2=80=93able =E7=9A=84=E5=BD=A2=E5=BC=8F)=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E6=AD=A3=E4=BE=8B:AbstractTranslator =E5=AE=9E=E7=8E=B0 Translatable=E3=
+=80=82</p>
+</blockquote></li>
+<li><p><span>=E3=80=90=E5=8F=82=E8=80=83=E3=80=91</span>=E6=9E=9A=E4=B8=BE=
+=E7=B1=BB=E5=90=8D=E5=BB=BA=E8=AE=AE=E5=B8=A6=E4=B8=8A Enum =E5=90=8E=E7=BC=
+=80=EF=BC=8C=E6=9E=9A=E4=B8=BE=E6=88=90=E5=91=98=E5=90=8D=E7=A7=B0=E9=9C=80=
+=E8=A6=81=E5=85=A8=E5=A4=A7=E5=86=99=EF=BC=8C=E5=8D=95=E8=AF=8D=E9=97=B4=E7=
+=94=A8=E4=B8=8B=E5=88=92=E7=BA=BF=E9=9A=94=E5=BC=80=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:=E6=9E=9A=E4=B8=BE=E5=85=B6=E5=AE=9E=E5=B0=B1=E6=98=
+=AF=E7=89=B9=E6=AE=8A=E7=9A=84=E5=B8=B8=E9=87=8F=E7=B1=BB=EF=BC=8C=E4=B8=94=
+=E6=9E=84=E9=80=A0=E6=96=B9=E6=B3=95=E8=A2=AB=E9=BB=98=E8=AE=A4=E5=BC=BA=E5=
+=88=B6=E6=98=AF=E7=A7=81=E6=9C=89=E3=80=82</p>
+<p>=E6=AD=A3=E4=BE=8B:=E6=9E=9A=E4=B8=BE=E5=90=8D=E5=AD=97:DealStatusEnum=
+=EF=BC=8C=E6=88=90=E5=91=98=E5=90=8D=E7=A7=B0:SUCCESS / UNKOWN_REASON=E3=80=
+=82</p>
+</blockquote></li>
+<li><p><span>=E3=80=90=E5=8F=82=E8=80=83=E3=80=91</span>=E5=90=84=E5=B1=82=
+=E5=91=BD=E5=90=8D=E8=A7=84=E7=BA=A6:</p>
+<ul>
+<li>Service/DAO=E5=B1=82=E6=96=B9=E6=B3=95=E5=91=BD=E5=90=8D=E8=A7=84=E7=BA=
+=A6
+<ol>
+<li>=E8=8E=B7=E5=8F=96=E5=8D=95=E4=B8=AA=E5=AF=B9=E8=B1=A1=E7=9A=84=E6=96=
+=B9=E6=B3=95=E7=94=A8get=E5=81=9A=E5=89=8D=E7=BC=80=E3=80=82</li>
+<li>=E8=8E=B7=E5=8F=96=E5=A4=9A=E4=B8=AA=E5=AF=B9=E8=B1=A1=E7=9A=84=E6=96=
+=B9=E6=B3=95=E7=94=A8list=E5=81=9A=E5=89=8D=E7=BC=80=E3=80=82</li>
+<li>=E8=8E=B7=E5=8F=96=E7=BB=9F=E8=AE=A1=E5=80=BC=E7=9A=84=E6=96=B9=E6=B3=
+=95=E7=94=A8count=E5=81=9A=E5=89=8D=E7=BC=80=E3=80=82</li>
+<li>=E6=8F=92=E5=85=A5=E7=9A=84=E6=96=B9=E6=B3=95=E7=94=A8save(=E6=8E=A8=E8=
+=8D=90)=E6=88=96insert=E5=81=9A=E5=89=8D=E7=BC=80=E3=80=82</li>
+<li>=E5=88=A0=E9=99=A4=E7=9A=84=E6=96=B9=E6=B3=95=E7=94=A8remove(=E6=8E=A8=
+=E8=8D=90)=E6=88=96delete=E5=81=9A=E5=89=8D=E7=BC=80=E3=80=82</li>
+<li>=E4=BF=AE=E6=94=B9=E7=9A=84=E6=96=B9=E6=B3=95=E7=94=A8update=E5=81=9A=
+=E5=89=8D=E7=BC=80=E3=80=82</li>
+</ol></li>
+<li>=E9=A2=86=E5=9F=9F=E6=A8=A1=E5=9E=8B=E5=91=BD=E5=90=8D=E8=A7=84=E7=BA=
+=A6
+<ol>
+<li>=E6=95=B0=E6=8D=AE=E5=AF=B9=E8=B1=A1:xxxDO=EF=BC=8Cxxx=E5=8D=B3=E4=B8=
+=BA=E6=95=B0=E6=8D=AE=E8=A1=A8=E5=90=8D=E3=80=82</li>
+<li>=E6=95=B0=E6=8D=AE=E4=BC=A0=E8=BE=93=E5=AF=B9=E8=B1=A1:xxxDTO=EF=BC=8Cx=
+xx=E4=B8=BA=E4=B8=9A=E5=8A=A1=E9=A2=86=E5=9F=9F=E7=9B=B8=E5=85=B3=E7=9A=84=
+=E5=90=8D=E7=A7=B0=E3=80=82</li>
+<li>=E5=B1=95=E7=A4=BA=E5=AF=B9=E8=B1=A1:xxxVO=EF=BC=8Cxxx=E4=B8=80=E8=88=
+=AC=E4=B8=BA=E7=BD=91=E9=A1=B5=E5=90=8D=E7=A7=B0=E3=80=82</li>
+<li>POJO=E6=98=AFDO/DTO/BO/VO=E7=9A=84=E7=BB=9F=E7=A7=B0=EF=BC=8C=E7=A6=81=
+=E6=AD=A2=E5=91=BD=E5=90=8D=E6=88=90xxxPOJO=E3=80=82</li>
+</ol></li>
+</ul></li>
+</ol>
+<h3 id=3D"JAVA=E4=BB=A3=E7=A0=81=E8=A7=84=E8=8C=83-=E4=BA=8C=E3=80=81=E5=B8=
+=B8=E9=87=8F=E5=AE=9A=E4=B9=89">=E4=BA=8C=E3=80=81=E5=B8=B8=E9=87=8F=E5=AE=
+=9A=E4=B9=89</h3>
+<ol>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E4=B8=8D=E5=85=81=E8=AE=B8=E5=
+=87=BA=E7=8E=B0=E4=BB=BB=E4=BD=95=E9=AD=94=E6=B3=95=E5=80=BC(=E5=8D=B3=E6=
+=9C=AA=E7=BB=8F=E5=AE=9A=E4=B9=89=E7=9A=84=E5=B8=B8=E9=87=8F)=E7=9B=B4=E6=
+=8E=A5=E5=87=BA=E7=8E=B0=E5=9C=A8=E4=BB=A3=E7=A0=81=E4=B8=AD=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E5=8F=8D=E4=BE=8B: String key=3D"Id#taobao_"+tradeId;cache.put(key, val=
+ue);</p>
+</blockquote></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91long =E6=88=96=E8=80=85 Long =E5=
+=88=9D=E5=A7=8B=E8=B5=8B=E5=80=BC=E6=97=B6=EF=BC=8C=E5=BF=85=E9=A1=BB=E4=BD=
+=BF=E7=94=A8=E5=A4=A7=E5=86=99=E7=9A=84 L=EF=BC=8C=E4=B8=8D=E8=83=BD=E6=98=
+=AF=E5=B0=8F=E5=86=99=E7=9A=84 l=EF=BC=8C=E5=B0=8F=E5=86=99=E5=AE=B9=E6=98=
+=93=E8=B7=9F=E6=95=B0=E5=AD=971 =E6=B7=B7=E6=B7=86=EF=BC=8C=E9=80=A0=E6=88=
+=90=E8=AF=AF=E8=A7=A3=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:Long a =3D 2l; =E5=86=99=E7=9A=84=E6=98=AF=E6=95=B0=
+=E5=AD=97=E7=9A=8421=EF=BC=8C=E8=BF=98=E6=98=AFLong=E5=9E=8B=E7=9A=842?</p>
+</blockquote></li>
+<li><p>=E3=80=90=E6=8E=A8=E8=8D=90=E3=80=91=E4=B8=8D=E8=A6=81=E4=BD=BF=E7=
+=94=A8=E4=B8=80=E4=B8=AA=E5=B8=B8=E9=87=8F=E7=B1=BB=E7=BB=B4=E6=8A=A4=E6=89=
+=80=E6=9C=89=E5=B8=B8=E9=87=8F=EF=BC=8C=E5=BA=94=E8=AF=A5=E6=8C=89=E5=B8=B8=
+=E9=87=8F=E5=8A=9F=E8=83=BD=E8=BF=9B=E8=A1=8C=E5=BD=92=E7=B1=BB=EF=BC=8C=E5=
+=88=86=E5=BC=80=E7=BB=B4=E6=8A=A4=E3=80=82=E5=A6=82:=E7=BC=93=E5=AD=98=E7=
+=9B=B8=E5=85=B3=E7=9A=84=E5=B8=B8=E9=87=8F=E6=94=BE=E5=9C=A8=E7=B1=BB:Cache=
+Consts =E4=B8=8B;=E7=B3=BB=E7=BB=9F=E9=85=8D=E7=BD=AE=E7=9B=B8=E5=85=B3=E7=
+=9A=84=E5=B8=B8=E9=87=8F=E6=94=BE=E5=9C=A8=E7=B1=BB:ConfigConsts =E4=B8=8B=
+=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:=E5=A4=A7=E8=80=8C=E5=85=A8=E7=9A=84=E5=B8=B8=E9=87=
+=8F=E7=B1=BB=EF=BC=8C=E9=9D=9E=E5=BE=97=E4=BD=BF=E7=94=A8=E6=9F=A5=E6=89=BE=
+=E5=8A=9F=E8=83=BD=E6=89=8D=E8=83=BD=E5=AE=9A=E4=BD=8D=E5=88=B0=E4=BF=AE=E6=
+=94=B9=E7=9A=84=E5=B8=B8=E9=87=8F=EF=BC=8C=E4=B8=8D=E5=88=A9=E4=BA=8E=E7=90=
+=86=E8=A7=A3=E5=92=8C=E7=BB=B4=E6=8A=A4=E3=80=82</p>
+</blockquote></li>
+<li><p>=E3=80=90=E6=8E=A8=E8=8D=90=E3=80=91=E5=B8=B8=E9=87=8F=E7=9A=84=E5=
+=A4=8D=E7=94=A8=E5=B1=82=E6=AC=A1=E6=9C=89=E4=BA=94=E5=B1=82:=E8=B7=A8=E5=
+=BA=94=E7=94=A8=E5=85=B1=E4=BA=AB=E5=B8=B8=E9=87=8F=E3=80=81=E5=BA=94=E7=94=
+=A8=E5=86=85=E5=85=B1=E4=BA=AB=E5=B8=B8=E9=87=8F=E3=80=81=E5=AD=90=E5=B7=A5=
+=E7=A8=8B=E5=86=85=E5=85=B1=E4=BA=AB=E5=B8=B8=E9=87=8F=E3=80=81=E5=8C=85=E5=
+=86=85=E5=85=B1=E4=BA=AB=E5=B8=B8=E9=87=8F=E3=80=81=E7=B1=BB=E5=86=85=E5=85=
+=B1=E4=BA=AB=E5=B8=B8=E9=87=8F=E3=80=82</p>
+<ul>
+<li><p>=E8=B7=A8=E5=BA=94=E7=94=A8=E5=85=B1=E4=BA=AB=E5=B8=B8=E9=87=8F:=E6=
+=94=BE=E7=BD=AE=E5=9C=A8=E4=BA=8C=E6=96=B9=E5=BA=93=E4=B8=AD=EF=BC=8C=E9=80=
+=9A=E5=B8=B8=E6=98=AFclient.jar=E4=B8=AD=E7=9A=84constant=E7=9B=AE=E5=BD=95=
+=E4=B8=8B=E3=80=82</p></li>
+<li><p>=E5=BA=94=E7=94=A8=E5=86=85=E5=85=B1=E4=BA=AB=E5=B8=B8=E9=87=8F:=E6=
+=94=BE=E7=BD=AE=E5=9C=A8=E4=B8=80=E6=96=B9=E5=BA=93=E7=9A=84modules=E4=B8=
+=AD=E7=9A=84constant=E7=9B=AE=E5=BD=95=E4=B8=8B=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E5=8F=8D=E4=BE=8B:=E6=98=93=E6=87=82=E5=8F=98=E9=87=8F=E4=B9=9F=E8=A6=
+=81=E7=BB=9F=E4=B8=80=E5=AE=9A=E4=B9=89=E6=88=90=E5=BA=94=E7=94=A8=E5=86=85=
+=E5=85=B1=E4=BA=AB=E5=B8=B8=E9=87=8F=EF=BC=8C=E4=B8=A4=E4=BD=8D=E6=94=BB=E5=
+=9F=8E=E5=B8=88=E5=9C=A8=E4=B8=A4=E4=B8=AA=E7=B1=BB=E4=B8=AD=E5=88=86=E5=88=
+=AB=E5=AE=9A=E4=B9=89 =E4=BA=86=E8=A1=A8=E7=A4=BA=E2=80=9C=E6=98=AF=E2=80=
+=9D=E7=9A=84=E5=8F=98=E9=87=8F:</p>
+<p>=E7=B1=BBA=E4=B8=AD:public static final String YES =3D "yes";</p>
+<p>=E7=B1=BBB=E4=B8=AD:public static final String YES =3D "y";</p>
+<p>A.YES.equals(B.YES)=EF=BC=8C=E9=A2=84=E6=9C=9F=E6=98=AF true=EF=BC=8C=E4=
+=BD=86=E5=AE=9E=E9=99=85=E8=BF=94=E5=9B=9E=E4=B8=BA false=EF=BC=8C=E5=AF=BC=
+=E8=87=B4=E4=BA=A7=E7=94=9F=E7=BA=BF=E4=B8=8A=E9=97=AE=E9=A2=98=E3=80=82</p=
+>
+</blockquote></li>
+<li><p>=E5=AD=90=E5=B7=A5=E7=A8=8B=E5=86=85=E9=83=A8=E5=85=B1=E4=BA=AB=E5=
+=B8=B8=E9=87=8F:=E5=8D=B3=E5=9C=A8=E5=BD=93=E5=89=8D=E5=AD=90=E5=B7=A5=E7=
+=A8=8B=E7=9A=84constant=E7=9B=AE=E5=BD=95=E4=B8=8B=E3=80=82</p></li>
+<li><p>=E5=8C=85=E5=86=85=E5=85=B1=E4=BA=AB=E5=B8=B8=E9=87=8F:=E5=8D=B3=E5=
+=9C=A8=E5=BD=93=E5=89=8D=E5=8C=85=E4=B8=8B=E5=8D=95=E7=8B=AC=E7=9A=84consta=
+nt=E7=9B=AE=E5=BD=95=E4=B8=8B=E3=80=82</p></li>
+<li><p>=E7=B1=BB=E5=86=85=E5=85=B1=E4=BA=AB=E5=B8=B8=E9=87=8F:=E7=9B=B4=E6=
+=8E=A5=E5=9C=A8=E7=B1=BB=E5=86=85=E9=83=A8private static final=E5=AE=9A=E4=
+=B9=89=E3=80=82</p></li>
+</ul></li>
+<li><p><span>=E3=80=90=E6=8E=A8=E8=8D=90=E3=80=91</span>=E5=A6=82=E6=9E=9C=
+=E5=8F=98=E9=87=8F=E5=80=BC=E4=BB=85=E5=9C=A8=E4=B8=80=E4=B8=AA=E8=8C=83=E5=
+=9B=B4=E5=86=85=E5=8F=98=E5=8C=96=E7=94=A8 Enum =E7=B1=BB=E3=80=82=E5=A6=82=
+=E6=9E=9C=E8=BF=98=E5=B8=A6=E6=9C=89=E5=90=8D=E7=A7=B0=E4=B9=8B=E5=A4=96=E7=
+=9A=84=E5=BB=B6=E4=BC=B8=E5=B1=9E=E6=80=A7=EF=BC=8C=E5=BF=85=E9=A1=BB =E4=
+=BD=BF=E7=94=A8 Enum =E7=B1=BB=EF=BC=8C=E4=B8=8B=E9=9D=A2=E6=AD=A3=E4=BE=8B=
+=E4=B8=AD=E7=9A=84=E6=95=B0=E5=AD=97=E5=B0=B1=E6=98=AF=E5=BB=B6=E4=BC=B8=E4=
+=BF=A1=E6=81=AF=EF=BC=8C=E8=A1=A8=E7=A4=BA=E6=98=9F=E6=9C=9F=E5=87=A0=E3=80=
+=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E6=AD=A3=E4=BE=8B:public Enum{ MONDAY(1), TUESDAY(2), WEDNESDAY(3), THU=
+RSDAY(4), FRIDAY(5),SATURDAY(6), SUNDAY(7);}</p>
+</blockquote></li>
+</ol>
+<h3 id=3D"JAVA=E4=BB=A3=E7=A0=81=E8=A7=84=E8=8C=83-=E4=B8=89=E3=80=81=E6=A0=
+=BC=E5=BC=8F=E8=A7=84=E7=BA=A6">=E4=B8=89=E3=80=81=E6=A0=BC=E5=BC=8F=E8=A7=
+=84=E7=BA=A6</h3>
+<ol>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E5=A4=A7=E6=8B=AC=E5=8F=B7=E7=
+=9A=84=E4=BD=BF=E7=94=A8=E7=BA=A6=E5=AE=9A=E3=80=82=E5=A6=82=E6=9E=9C=E6=98=
+=AF=E5=A4=A7=E6=8B=AC=E5=8F=B7=E5=86=85=E4=B8=BA=E7=A9=BA=EF=BC=8C=E5=88=99=
+=E7=AE=80=E6=B4=81=E5=9C=B0=E5=86=99=E6=88=90{}=E5=8D=B3=E5=8F=AF=EF=BC=8C=
+=E4=B8=8D=E9=9C=80=E8=A6=81=E6=8D=A2=E8=A1=8C;=E5=A6=82=E6=9E=9C=E6=98=AF=
+=E9=9D=9E=E7=A9=BA=E4=BB=A3=E7=A0=81=E5=9D=97=E5=88=99:</p>
+<ul>
+<li>=E5=B7=A6=E5=A4=A7=E6=8B=AC=E5=8F=B7=E5=89=8D=E4=B8=8D=E6=8D=A2=E8=A1=
+=8C=E3=80=82</li>
+<li>=E5=B7=A6=E5=A4=A7=E6=8B=AC=E5=8F=B7=E5=90=8E=E6=8D=A2=E8=A1=8C=E3=80=
+=82</li>
+<li>=E5=8F=B3=E5=A4=A7=E6=8B=AC=E5=8F=B7=E5=89=8D=E6=8D=A2=E8=A1=8C=E3=80=
+=82</li>
+<li>=E5=8F=B3=E5=A4=A7=E6=8B=AC=E5=8F=B7=E5=90=8E=E8=BF=98=E6=9C=89else=E7=
+=AD=89=E4=BB=A3=E7=A0=81=E5=88=99=E4=B8=8D=E6=8D=A2=E8=A1=8C;=E8=A1=A8=E7=
+=A4=BA=E7=BB=88=E6=AD=A2=E5=8F=B3=E5=A4=A7=E6=8B=AC=E5=8F=B7=E5=90=8E=E5=BF=
+=85=E9=A1=BB=E6=8D=A2=E8=A1=8C=E3=80=82</li>
+</ul></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91 =E5=B7=A6=E6=8B=AC=E5=8F=B7=E5=
+=92=8C=E5=90=8E=E4=B8=80=E4=B8=AA=E5=AD=97=E7=AC=A6=E4=B9=8B=E9=97=B4=E4=B8=
+=8D=E5=87=BA=E7=8E=B0=E7=A9=BA=E6=A0=BC;=E5=90=8C=E6=A0=B7=EF=BC=8C=E5=8F=
+=B3=E6=8B=AC=E5=8F=B7=E5=92=8C=E5=89=8D=E4=B8=80=E4=B8=AA=E5=AD=97=E7=AC=A6=
+=E4=B9=8B=E9=97=B4=E4=B9=9F=E4=B8=8D=E5=87=BA=E7=8E=B0=E7=A9=BA=E6=A0=BC=E3=
+=80=82=E8=AF=A6=E8=A7=81=E7=AC=AC 5 =E6=9D=A1=E4=B8=8B=E6=96=B9=E6=AD=A3=E4=
+=BE=8B=E6=8F=90=E7=A4=BA=E3=80=82</p></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91if/for/while/switch/do =E7=AD=89=
+=E4=BF=9D=E7=95=99=E5=AD=97=E4=B8=8E=E5=B7=A6=E5=8F=B3=E6=8B=AC=E5=8F=B7=E4=
+=B9=8B=E9=97=B4=E9=83=BD=E5=BF=85=E9=A1=BB=E5=8A=A0=E7=A9=BA=E6=A0=BC=E3=80=
+=82</p></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E4=BB=BB=E4=BD=95=E8=BF=90=E7=
+=AE=97=E7=AC=A6=E5=B7=A6=E5=8F=B3=E5=BF=85=E9=A1=BB=E5=8A=A0=E4=B8=80=E4=B8=
+=AA=E7=A9=BA=E6=A0=BC=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:=E8=BF=90=E7=AE=97=E7=AC=A6=E5=8C=85=E6=8B=AC=E8=B5=
+=8B=E5=80=BC=E8=BF=90=E7=AE=97=E7=AC=A6=3D=E3=80=81=E9=80=BB=E8=BE=91=E8=BF=
+=90=E7=AE=97=E7=AC=A6&amp;&amp;=E3=80=81=E5=8A=A0=E5=87=8F=E4=B9=98=E9=99=
+=A4=E7=AC=A6=E5=8F=B7=E3=80=81=E4=B8=89=E7=9B=AE=E8=BF=90=E8=A1=8C=E7=AC=A6=
+=E7=AD=89=E3=80=82</p>
+</blockquote></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E7=BC=A9=E8=BF=9B=E9=87=87=E7=
+=94=A8 4 =E4=B8=AA=E7=A9=BA=E6=A0=BC=EF=BC=8C=E7=A6=81=E6=AD=A2=E4=BD=BF=E7=
+=94=A8 tab =E5=AD=97=E7=AC=A6=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:=E5=A6=82=E6=9E=9C=E4=BD=BF=E7=94=A8 tab =E7=BC=A9=E8=
+=BF=9B=EF=BC=8C=E5=BF=85=E9=A1=BB=E8=AE=BE=E7=BD=AE 1 =E4=B8=AA tab =E4=B8=
+=BA 4 =E4=B8=AA=E7=A9=BA=E6=A0=BC=E3=80=82IDEA =E8=AE=BE=E7=BD=AE tab =E4=
+=B8=BA 4 =E4=B8=AA=E7=A9=BA=E6=A0=BC=E6=97=B6=EF=BC=8C =E8=AF=B7=E5=8B=BF=
+=E5=8B=BE=E9=80=89Use tab character;=E8=80=8C=E5=9C=A8 eclipse =E4=B8=AD=EF=
+=BC=8C=E5=BF=85=E9=A1=BB=E5=8B=BE=E9=80=89insert spaces for tabs=E3=80=82</=
+p>
+</blockquote><pre><code class=3D"lang-java">=E6=AD=A3=E4=BE=8B: (=E6=B6=89=
+=E5=8F=8A<span class=3D"hljs-number" style=3D"color: rgb(245,135,31);">1</s=
+pan>-<span class=3D"hljs-number" style=3D"color: rgb(245,135,31);">5</span>=
+=E7=82=B9)
+<span class=3D"hljs-function" style=3D"color: rgb(66,113,174);"><span class=
+=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">public</span> <span cla=
+ss=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">static</span> <span c=
+lass=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">void</span> <span c=
+lass=3D"hljs-title" style=3D"color: rgb(142,144,140);">main</span><span cla=
+ss=3D"hljs-params" style=3D"color: rgb(245,135,31);">(String args[])</span>=
+ </span>{
+<span class=3D"hljs-comment" style=3D"color: rgb(142,144,140);">// =E7=BC=
+=A9=E8=BF=9B 4 =E4=B8=AA=E7=A9=BA=E6=A0=BC</span>
+String say =3D <span class=3D"hljs-string" style=3D"color: rgb(113,140,0);"=
+>"hello"</span>;
+<span class=3D"hljs-comment" style=3D"color: rgb(142,144,140);">// =E8=BF=
+=90=E7=AE=97=E7=AC=A6=E7=9A=84=E5=B7=A6=E5=8F=B3=E5=BF=85=E9=A1=BB=E6=9C=89=
+=E4=B8=80=E4=B8=AA=E7=A9=BA=E6=A0=BC</span>
+<span class=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">int</span> f=
+lag =3D <span class=3D"hljs-number" style=3D"color: rgb(245,135,31);">0</sp=
+an>;
+<span class=3D"hljs-comment" style=3D"color: rgb(142,144,140);">// =E5=85=
+=B3=E9=94=AE=E8=AF=8D if =E4=B8=8E=E6=8B=AC=E5=8F=B7=E4=B9=8B=E9=97=B4=E5=
+=BF=85=E9=A1=BB=E6=9C=89=E4=B8=80=E4=B8=AA=E7=A9=BA=E6=A0=BC=EF=BC=8C=E6=8B=
+=AC=E5=8F=B7=E5=86=85=E7=9A=84 f =E4=B8=8E=E5=B7=A6=E6=8B=AC=E5=8F=B7=EF=BC=
+=8C0 =E4=B8=8E=E5=8F=B3=E6=8B=AC=E5=8F=B7=E4=B8=8D=E9=9C=80=E8=A6=81=E7=A9=
+=BA=E6=A0=BC if (flag =3D=3D 0) {</span>
+          System.out.println(say);
+       }
+<span class=3D"hljs-comment" style=3D"color: rgb(142,144,140);">// =E5=B7=
+=A6=E5=A4=A7=E6=8B=AC=E5=8F=B7=E5=89=8D=E5=8A=A0=E7=A9=BA=E6=A0=BC=E4=B8=94=
+=E4=B8=8D=E6=8D=A2=E8=A1=8C;=E5=B7=A6=E5=A4=A7=E6=8B=AC=E5=8F=B7=E5=90=8E=
+=E6=8D=A2=E8=A1=8C if (flag =3D=3D 1) {</span>
+          System.out.println(<span class=3D"hljs-string" style=3D"color: rg=
+b(113,140,0);">"world"</span>);
+<span class=3D"hljs-comment" style=3D"color: rgb(142,144,140);">// =E5=8F=
+=B3=E5=A4=A7=E6=8B=AC=E5=8F=B7=E5=89=8D=E6=8D=A2=E8=A1=8C=EF=BC=8C=E5=8F=B3=
+=E5=A4=A7=E6=8B=AC=E5=8F=B7=E5=90=8E=E6=9C=89 else=EF=BC=8C=E4=B8=8D=E7=94=
+=A8=E6=8D=A2=E8=A1=8C </span>
+} <span class=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">else</span=
+> { System.out.println(<span class=3D"hljs-string" style=3D"color: rgb(113,=
+140,0);">"ok"</span>);
+<span class=3D"hljs-comment" style=3D"color: rgb(142,144,140);">// =E5=9C=
+=A8=E5=8F=B3=E5=A4=A7=E6=8B=AC=E5=8F=B7=E5=90=8E=E7=9B=B4=E6=8E=A5=E7=BB=93=
+=E6=9D=9F=EF=BC=8C=E5=88=99=E5=BF=85=E9=A1=BB=E6=8D=A2=E8=A1=8C</span>
+} }
+</code></pre></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E5=8D=95=E8=A1=8C=E5=AD=97=E7=
+=AC=A6=E6=95=B0=E9=99=90=E5=88=B6=E4=B8=8D=E8=B6=85=E8=BF=87 120 =E4=B8=AA=
+=EF=BC=8C=E8=B6=85=E5=87=BA=E9=9C=80=E8=A6=81=E6=8D=A2=E8=A1=8C=EF=BC=8C=E6=
+=8D=A2=E8=A1=8C=E6=97=B6=E9=81=B5=E5=BE=AA=E5=A6=82=E4=B8=8B=E5=8E=9F=E5=88=
+=99:</p>
+<ul>
+<li>=E7=AC=AC=E4=BA=8C=E8=A1=8C=E7=9B=B8=E5=AF=B9=E7=AC=AC=E4=B8=80=E8=A1=
+=8C=E7=BC=A9=E8=BF=9B 4 =E4=B8=AA=E7=A9=BA=E6=A0=BC=EF=BC=8C=E4=BB=8E=E7=AC=
+=AC=E4=B8=89=E8=A1=8C=E5=BC=80=E5=A7=8B=EF=BC=8C=E4=B8=8D=E5=86=8D=E7=BB=A7=
+=E7=BB=AD=E7=BC=A9=E8=BF=9B=EF=BC=8C=E5=8F=82=E8=80=83=E7=A4=BA=E4=BE=8B=E3=
+=80=82</li>
+<li>=E8=BF=90=E7=AE=97=E7=AC=A6=E4=B8=8E=E4=B8=8B=E6=96=87=E4=B8=80=E8=B5=
+=B7=E6=8D=A2=E8=A1=8C=E3=80=82</li>
+<li>=E6=96=B9=E6=B3=95=E8=B0=83=E7=94=A8=E7=9A=84=E7=82=B9=E7=AC=A6=E5=8F=
+=B7=E4=B8=8E=E4=B8=8B=E6=96=87=E4=B8=80=E8=B5=B7=E6=8D=A2=E8=A1=8C=E3=80=82=
+</li>
+<li>=E5=9C=A8=E5=A4=9A=E4=B8=AA=E5=8F=82=E6=95=B0=E8=B6=85=E9=95=BF=EF=BC=
+=8C=E9=80=97=E5=8F=B7=E5=90=8E=E8=BF=9B=E8=A1=8C=E6=8D=A2=E8=A1=8C=E3=80=82=
+</li>
+<li>=E5=9C=A8=E6=8B=AC=E5=8F=B7=E5=89=8D=E4=B8=8D=E8=A6=81=E6=8D=A2=E8=A1=
+=8C=EF=BC=8C=E8=A7=81=E5=8F=8D=E4=BE=8B=E3=80=82</li>
+</ul><pre><code class=3D"lang-java">=E6=AD=A3=E4=BE=8B:
+StringBuffer sb =3D <span class=3D"hljs-keyword" style=3D"color: rgb(137,89=
+,168);">new</span> StringBuffer();
+<span class=3D"hljs-comment" style=3D"color: rgb(142,144,140);">//=E8=B6=85=
+=E8=BF=87 120 =E4=B8=AA=E5=AD=97=E7=AC=A6=E7=9A=84=E6=83=85=E5=86=B5=E4=B8=
+=8B=EF=BC=8C=E6=8D=A2=E8=A1=8C=E7=BC=A9=E8=BF=9B 4 =E4=B8=AA=E7=A9=BA=E6=A0=
+=BC=EF=BC=8C=E5=B9=B6=E4=B8=94=E6=96=B9=E6=B3=95=E5=89=8D=E7=9A=84=E7=82=B9=
+=E7=AC=A6=E5=8F=B7=E4=B8=80=E8=B5=B7=E6=8D=A2=E8=A1=8C </span>
+sb.append(<span class=3D"hljs-string" style=3D"color: rgb(113,140,0);">"zi"=
+</span>).append(<span class=3D"hljs-string" style=3D"color: rgb(113,140,0);=
+">"xin"</span>)...
+          .append(<span class=3D"hljs-string" style=3D"color: rgb(113,140,0=
+);">"huang"</span>)...
+          .append(<span class=3D"hljs-string" style=3D"color: rgb(113,140,0=
+);">"huang"</span>)...
+          .append(<span class=3D"hljs-string" style=3D"color: rgb(113,140,0=
+);">"huang"</span>);
+=E5=8F=8D=E4=BE=8B:
+StringBuffer sb =3D <span class=3D"hljs-keyword" style=3D"color: rgb(137,89=
+,168);">new</span> StringBuffer();
+<span class=3D"hljs-comment" style=3D"color: rgb(142,144,140);">//=E8=B6=85=
+=E8=BF=87 120 =E4=B8=AA=E5=AD=97=E7=AC=A6=E7=9A=84=E6=83=85=E5=86=B5=E4=B8=
+=8B=EF=BC=8C=E4=B8=8D=E8=A6=81=E5=9C=A8=E6=8B=AC=E5=8F=B7=E5=89=8D=E6=8D=A2=
+=E8=A1=8C </span>
+sb.append(<span class=3D"hljs-string" style=3D"color: rgb(113,140,0);">"zi"=
+</span>).append(<span class=3D"hljs-string" style=3D"color: rgb(113,140,0);=
+">"xin"</span>)...append
+(<span class=3D"hljs-string" style=3D"color: rgb(113,140,0);">"huang"</span=
+>);
+<span class=3D"hljs-comment" style=3D"color: rgb(142,144,140);">//=E5=8F=82=
+=E6=95=B0=E5=BE=88=E5=A4=9A=E7=9A=84=E6=96=B9=E6=B3=95=E8=B0=83=E7=94=A8=E5=
+=8F=AF=E8=83=BD=E8=B6=85=E8=BF=87 120 =E4=B8=AA=E5=AD=97=E7=AC=A6=EF=BC=8C=
+=E4=B8=8D=E8=A6=81=E5=9C=A8=E9=80=97=E5=8F=B7=E5=89=8D=E6=8D=A2=E8=A1=8C </=
+span>
+method(args1, args2, args3, ...
+       , argsX);
+</code></pre></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E6=96=B9=E6=B3=95=E5=8F=82=E6=
+=95=B0=E5=9C=A8=E5=AE=9A=E4=B9=89=E5=92=8C=E4=BC=A0=E5=85=A5=E6=97=B6=EF=BC=
+=8C=E5=A4=9A=E4=B8=AA=E5=8F=82=E6=95=B0=E9=80=97=E5=8F=B7=E5=90=8E=E8=BE=B9=
+=E5=BF=85=E9=A1=BB=E5=8A=A0=E7=A9=BA=E6=A0=BC=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E6=AD=A3=E4=BE=8B:=E4=B8=8B=E4=BE=8B=E4=B8=AD=E5=AE=9E=E5=8F=82=E7=9A=
+=84"a",=E5=90=8E=E8=BE=B9=E5=BF=85=E9=A1=BB=E8=A6=81=E6=9C=89=E4=B8=80=E4=
+=B8=AA=E7=A9=BA=E6=A0=BC=E3=80=82 method("a", "b", "c");</p>
+</blockquote></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91IDE=E7=9A=84text file encoding=
+=E8=AE=BE=E7=BD=AE=E4=B8=BAUTF-8; IDE=E4=B8=AD=E6=96=87=E4=BB=B6=E7=9A=84=
+=E6=8D=A2=E8=A1=8C=E7=AC=A6=E4=BD=BF=E7=94=A8Unix=E6=A0=BC=E5=BC=8F=EF=BC=
+=8C =E4=B8=8D=E8=A6=81=E4=BD=BF=E7=94=A8 windows =E6=A0=BC=E5=BC=8F=E3=80=
+=82</p></li>
+<li><p>=E3=80=90=E6=8E=A8=E8=8D=90=E3=80=91=E6=B2=A1=E6=9C=89=E5=BF=85=E8=
+=A6=81=E5=A2=9E=E5=8A=A0=E8=8B=A5=E5=B9=B2=E7=A9=BA=E6=A0=BC=E6=9D=A5=E4=BD=
+=BF=E6=9F=90=E4=B8=80=E8=A1=8C=E7=9A=84=E5=AD=97=E7=AC=A6=E4=B8=8E=E4=B8=8A=
+=E4=B8=80=E8=A1=8C=E7=9A=84=E7=9B=B8=E5=BA=94=E5=AD=97=E7=AC=A6=E5=AF=B9=E9=
+=BD=90=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E6=AD=A3=E4=BE=8B: int a =3D 3; long b =3D 4L; float c =3D 5F; StringBu=
+ffer sb =3D new StringBuffer(); =E8=AF=B4=E6=98=8E:=E5=A2=9E=E5=8A=A0 sb =
+=E8=BF=99=E4=B8=AA=E5=8F=98=E9=87=8F=EF=BC=8C=E5=A6=82=E6=9E=9C=E9=9C=80=E8=
+=A6=81=E5=AF=B9=E9=BD=90=EF=BC=8C=E5=88=99=E7=BB=99 a=E3=80=81b=E3=80=81c =
+=E9=83=BD=E8=A6=81=E5=A2=9E=E5=8A=A0=E5=87=A0=E4=B8=AA=E7=A9=BA=E6=A0=BC=EF=
+=BC=8C=E5=9C=A8=E5=8F=98=E9=87=8F=E6=AF=94=E8=BE=83=E5=A4=9A=E7=9A=84 =E6=
+=83=85=E5=86=B5=E4=B8=8B=EF=BC=8C=E6=98=AF=E4=B8=80=E7=A7=8D=E7=B4=AF=E8=B5=
+=98=E7=9A=84=E4=BA=8B=E6=83=85=E3=80=82</p>
+</blockquote></li>
+<li><p>=E3=80=90=E6=8E=A8=E8=8D=90=E3=80=91=E6=96=B9=E6=B3=95=E4=BD=93=E5=
+=86=85=E7=9A=84=E6=89=A7=E8=A1=8C=E8=AF=AD=E5=8F=A5=E7=BB=84=E3=80=81=E5=8F=
+=98=E9=87=8F=E7=9A=84=E5=AE=9A=E4=B9=89=E8=AF=AD=E5=8F=A5=E7=BB=84=E3=80=81=
+=E4=B8=8D=E5=90=8C=E7=9A=84=E4=B8=9A=E5=8A=A1=E9=80=BB=E8=BE=91=E4=B9=8B=E9=
+=97=B4=E6=88=96=E8=80=85=E4=B8=8D=E5=90=8C=E7=9A=84=E8=AF=AD=E4=B9=89=E4=B9=
+=8B=E9=97=B4=E6=8F=92=E5=85=A5=E4=B8=80=E4=B8=AA=E7=A9=BA=E8=A1=8C=E3=80=82=
+=E7=9B=B8=E5=90=8C=E4=B8=9A=E5=8A=A1=E9=80=BB=E8=BE=91=E5=92=8C=E8=AF=AD=E4=
+=B9=89=E4=B9=8B=E9=97=B4=E4=B8=8D=E9=9C=80=E8=A6=81=E6=8F=92=E5=85=A5=E7=A9=
+=BA=E8=A1=8C=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:=E6=B2=A1=E6=9C=89=E5=BF=85=E8=A6=81=E6=8F=92=E5=85=
+=A5=E5=A4=9A=E8=A1=8C=E7=A9=BA=E6=A0=BC=E8=BF=9B=E8=A1=8C=E9=9A=94=E5=BC=80=
+=E3=80=82</p>
+</blockquote></li>
+</ol>
+<h3 id=3D"JAVA=E4=BB=A3=E7=A0=81=E8=A7=84=E8=8C=83-=E5=9B=9B=E3=80=81OOP=E8=
+=A7=84=E7=BA=A6">=E5=9B=9B=E3=80=81OOP=E8=A7=84=E7=BA=A6</h3>
+<ol>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E9=81=BF=E5=85=8D=E9=80=9A=E8=
+=BF=87=E4=B8=80=E4=B8=AA=E7=B1=BB=E7=9A=84=E5=AF=B9=E8=B1=A1=E5=BC=95=E7=94=
+=A8=E8=AE=BF=E9=97=AE=E6=AD=A4=E7=B1=BB=E7=9A=84=E9=9D=99=E6=80=81=E5=8F=98=
+=E9=87=8F=E6=88=96=E9=9D=99=E6=80=81=E6=96=B9=E6=B3=95=EF=BC=8C=E6=97=A0=E8=
+=B0=93=E5=A2=9E=E5=8A=A0=E7=BC=96=E8=AF=91=E5=99=A8=E8=A7=A3=E6=9E=90=E6=88=
+=90=E6=9C=AC=EF=BC=8C=E7=9B=B4=E6=8E=A5=E7=94=A8=E7=B1=BB=E5=90=8D=E6=9D=A5=
+=E8=AE=BF=E9=97=AE=E5=8D=B3=E5=8F=AF=E3=80=82</p></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E6=89=80=E6=9C=89=E7=9A=84=E8=
+=A6=86=E5=86=99=E6=96=B9=E6=B3=95=EF=BC=8C=E5=BF=85=E9=A1=BB=E5=8A=A0@Overr=
+ide =E6=B3=A8=E8=A7=A3=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E5=8F=8D=E4=BE=8B:getObject()=E4=B8=8E get0bject()=E7=9A=84=E9=97=AE=E9=
+=A2=98=E3=80=82=E4=B8=80=E4=B8=AA=E6=98=AF=E5=AD=97=E6=AF=8D=E7=9A=84 O=EF=
+=BC=8C=E4=B8=80=E4=B8=AA=E6=98=AF=E6=95=B0=E5=AD=97=E7=9A=84 0=EF=BC=8C=E5=
+=8A=A0@Override =E5=8F=AF=E4=BB=A5=E5=87=86=E7=A1=AE=E5=88=A4=E6=96=AD=E6=
+=98=AF=E5=90=A6=E8=A6=86=E7=9B=96=E6=88=90=E5=8A=9F=E3=80=82=E5=8F=A6=E5=A4=
+=96=EF=BC=8C=E5=A6=82=E6=9E=9C=E5=9C=A8=E6=8A=BD=E8=B1=A1=E7=B1=BB=E4=B8=AD=
+=E5=AF=B9=E6=96=B9=E6=B3=95=E7=AD=BE=E5=90=8D=E8=BF=9B=E8=A1=8C=E4=BF=AE=E6=
+=94=B9=EF=BC=8C=E5=85=B6=E5=AE=9E=E7=8E=B0=E7=B1=BB=E4=BC=9A=E9=A9=AC=E4=B8=
+=8A=E7=BC=96 =E8=AF=91=E6=8A=A5=E9=94=99=E3=80=82</p>
+</blockquote></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E7=9B=B8=E5=90=8C=E5=8F=82=E6=
+=95=B0=E7=B1=BB=E5=9E=8B=EF=BC=8C=E7=9B=B8=E5=90=8C=E4=B8=9A=E5=8A=A1=E5=90=
+=AB=E4=B9=89=EF=BC=8C=E6=89=8D=E5=8F=AF=E4=BB=A5=E4=BD=BF=E7=94=A8 Java =E7=
+=9A=84=E5=8F=AF=E5=8F=98=E5=8F=82=E6=95=B0=EF=BC=8C=E9=81=BF=E5=85=8D=E4=BD=
+=BF=E7=94=A8 Object=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:=E5=8F=AF=E5=8F=98=E5=8F=82=E6=95=B0=E5=BF=85=E9=A1=
+=BB=E6=94=BE=E7=BD=AE=E5=9C=A8=E5=8F=82=E6=95=B0=E5=88=97=E8=A1=A8=E7=9A=84=
+=E6=9C=80=E5=90=8E=E3=80=82(=E6=8F=90=E5=80=A1=E5=90=8C=E5=AD=A6=E4=BB=AC=
+=E5=B0=BD=E9=87=8F=E4=B8=8D=E7=94=A8=E5=8F=AF=E5=8F=98=E5=8F=82=E6=95=B0=E7=
+=BC=96=E7=A8=8B)</p>
+<p>=E6=AD=A3=E4=BE=8B:public User getUsers(String type, Integer... ids)</p>
+</blockquote></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E5=AF=B9=E5=A4=96=E6=9A=B4=E9=
+=9C=B2=E7=9A=84=E6=8E=A5=E5=8F=A3=E7=AD=BE=E5=90=8D=EF=BC=8C=E5=8E=9F=E5=88=
+=99=E4=B8=8A=E4=B8=8D=E5=85=81=E8=AE=B8=E4=BF=AE=E6=94=B9=E6=96=B9=E6=B3=95=
+=E7=AD=BE=E5=90=8D=EF=BC=8C=E9=81=BF=E5=85=8D=E5=AF=B9=E6=8E=A5=E5=8F=A3=E8=
+=B0=83=E7=94=A8=E6=96=B9=E4=BA=A7=E7=94=9F=E5=BD=B1=E5=93=8D=E3=80=82=E6=8E=
+=A5=E5=8F=A3=E8=BF=87=E6=97=B6=E5=BF=85=E9=A1=BB=E5=8A=A0@Deprecated =E6=B3=
+=A8=E8=A7=A3=EF=BC=8C=E5=B9=B6=E6=B8=85=E6=99=B0=E5=9C=B0=E8=AF=B4=E6=98=8E=
+=E9=87=87=E7=94=A8=E7=9A=84=E6=96=B0=E6=8E=A5=E5=8F=A3=E6=88=96=E8=80=85=E6=
+=96=B0=E6=9C=8D=E5=8A=A1=E6=98=AF=E4=BB=80=E4=B9=88=E3=80=82</p></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E4=B8=8D=E8=83=BD=E4=BD=BF=E7=
+=94=A8=E8=BF=87=E6=97=B6=E7=9A=84=E7=B1=BB=E6=88=96=E6=96=B9=E6=B3=95=E3=80=
+=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:<a class=3D"external-link" href=3D"http://java.net" r=
+el=3D"nofollow">java.net</a>.URLDecoder =E4=B8=AD=E7=9A=84=E6=96=B9=E6=B3=
+=95 decode(String encodeStr) =E8=BF=99=E4=B8=AA=E6=96=B9=E6=B3=95=E5=B7=B2=
+=E7=BB=8F=E8=BF=87=E6=97=B6=EF=BC=8C=E5=BA=94 =E8=AF=A5=E4=BD=BF=E7=94=A8=
+=E5=8F=8C=E5=8F=82=E6=95=B0 decode(String source, String encode)=E3=80=82=
+=E6=8E=A5=E5=8F=A3=E6=8F=90=E4=BE=9B=E6=96=B9=E6=97=A2=E7=84=B6=E6=98=8E=E7=
+=A1=AE=E6=98=AF=E8=BF=87=E6=97=B6=E6=8E=A5=E5=8F=A3=EF=BC=8C =E9=82=A3=E4=
+=B9=88=E6=9C=89=E4=B9=89=E5=8A=A1=E5=90=8C=E6=97=B6=E6=8F=90=E4=BE=9B=E6=96=
+=B0=E7=9A=84=E6=8E=A5=E5=8F=A3;=E4=BD=9C=E4=B8=BA=E8=B0=83=E7=94=A8=E6=96=
+=B9=E6=9D=A5=E8=AF=B4=EF=BC=8C=E6=9C=89=E4=B9=89=E5=8A=A1=E5=8E=BB=E8=80=83=
+=E8=AF=81=E8=BF=87=E6=97=B6=E6=96=B9=E6=B3=95=E7=9A=84=E6=96=B0=E5=AE=9E=E7=
+=8E=B0=E6=98=AF=E4=BB=80=E4=B9=88=E3=80=82</p>
+</blockquote></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91Object =E7=9A=84 equals =E6=96=
+=B9=E6=B3=95=E5=AE=B9=E6=98=93=E6=8A=9B=E7=A9=BA=E6=8C=87=E9=92=88=E5=BC=82=
+=E5=B8=B8=EF=BC=8C=E5=BA=94=E4=BD=BF=E7=94=A8=E5=B8=B8=E9=87=8F=E6=88=96=E7=
+=A1=AE=E5=AE=9A=E6=9C=89=E5=80=BC=E7=9A=84=E5=AF=B9=E8=B1=A1=E6=9D=A5=E8=B0=
+=83=E7=94=A8 equals=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E6=AD=A3=E4=BE=8B: "test".equals(object);</p>
+<p>=E5=8F=8D=E4=BE=8B: object.equals("test"); =E8=AF=B4=E6=98=8E:=E6=8E=A8=
+=E8=8D=90=E4=BD=BF=E7=94=A8java.util.Objects#equals (JDK7=E5=BC=95=E5=85=A5=
+=E7=9A=84=E5=B7=A5=E5=85=B7=E7=B1=BB)</p>
+</blockquote></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E6=89=80=E6=9C=89=E7=9A=84=E7=
+=9B=B8=E5=90=8C=E7=B1=BB=E5=9E=8B=E7=9A=84=E5=8C=85=E8=A3=85=E7=B1=BB=E5=AF=
+=B9=E8=B1=A1=E4=B9=8B=E9=97=B4=E5=80=BC=E7=9A=84=E6=AF=94=E8=BE=83=EF=BC=8C=
+=E5=85=A8=E9=83=A8=E4=BD=BF=E7=94=A8 equals =E6=96=B9=E6=B3=95=E6=AF=94=E8=
+=BE=83=E3=80=82 =E8=AF=B4=E6=98=8E:=E5=AF=B9=E4=BA=8EInteger var=3D?=E5=9C=
+=A8-128=E8=87=B3127=E4=B9=8B=E9=97=B4=E7=9A=84=E8=B5=8B=E5=80=BC=EF=BC=8CIn=
+teger=E5=AF=B9=E8=B1=A1=E6=98=AF=E5=9C=A8 IntegerCache.cache =E4=BA=A7=E7=
+=94=9F=EF=BC=8C=E4=BC=9A=E5=A4=8D=E7=94=A8=E5=B7=B2=E6=9C=89=E5=AF=B9=E8=B1=
+=A1=EF=BC=8C=E8=BF=99=E4=B8=AA=E5=8C=BA=E9=97=B4=E5=86=85=E7=9A=84 Integer =
+=E5=80=BC=E5=8F=AF=E4=BB=A5=E7=9B=B4=E6=8E=A5=E4=BD=BF=E7=94=A8=3D=3D=E8=BF=
+=9B=E8=A1=8C =E5=88=A4=E6=96=AD=EF=BC=8C=E4=BD=86=E6=98=AF=E8=BF=99=E4=B8=
+=AA=E5=8C=BA=E9=97=B4=E4=B9=8B=E5=A4=96=E7=9A=84=E6=89=80=E6=9C=89=E6=95=B0=
+=E6=8D=AE=EF=BC=8C=E9=83=BD=E4=BC=9A=E5=9C=A8=E5=A0=86=E4=B8=8A=E4=BA=A7=E7=
+=94=9F=EF=BC=8C=E5=B9=B6=E4=B8=8D=E4=BC=9A=E5=A4=8D=E7=94=A8=E5=B7=B2=E6=9C=
+=89=E5=AF=B9=E8=B1=A1=EF=BC=8C=E8=BF=99=E6=98=AF=E4=B8=80=E4=B8=AA=E5=A4=A7=
+=E5=9D=91=EF=BC=8C =E6=8E=A8=E8=8D=90=E4=BD=BF=E7=94=A8 equals =E6=96=B9=E6=
+=B3=95=E8=BF=9B=E8=A1=8C=E5=88=A4=E6=96=AD=E3=80=82</p></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E5=85=B3=E4=BA=8E=E5=9F=BA=E6=
+=9C=AC=E6=95=B0=E6=8D=AE=E7=B1=BB=E5=9E=8B=E4=B8=8E=E5=8C=85=E8=A3=85=E6=95=
+=B0=E6=8D=AE=E7=B1=BB=E5=9E=8B=E7=9A=84=E4=BD=BF=E7=94=A8=E6=A0=87=E5=87=86=
+=E5=A6=82=E4=B8=8B:</p>
+<ul>
+<li>=E6=89=80=E6=9C=89=E7=9A=84POJO=E7=B1=BB=E5=B1=9E=E6=80=A7=E5=BF=85=E9=
+=A1=BB=E4=BD=BF=E7=94=A8=E5=8C=85=E8=A3=85=E6=95=B0=E6=8D=AE=E7=B1=BB=E5=9E=
+=8B=E3=80=82</li>
+<li>RPC=E6=96=B9=E6=B3=95=E7=9A=84=E8=BF=94=E5=9B=9E=E5=80=BC=E5=92=8C=E5=
+=8F=82=E6=95=B0=E5=BF=85=E9=A1=BB=E4=BD=BF=E7=94=A8=E5=8C=85=E8=A3=85=E6=95=
+=B0=E6=8D=AE=E7=B1=BB=E5=9E=8B=E3=80=82</li>
+<li>=E6=89=80=E6=9C=89=E7=9A=84=E5=B1=80=E9=83=A8=E5=8F=98=E9=87=8F=E3=80=
+=90=E6=8E=A8=E8=8D=90=E3=80=91=E4=BD=BF=E7=94=A8=E5=9F=BA=E6=9C=AC=E6=95=B0=
+=E6=8D=AE=E7=B1=BB=E5=9E=8B=E3=80=82</li>
+</ul>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:POJO =E7=B1=BB=E5=B1=9E=E6=80=A7=E6=B2=A1=E6=9C=89=E5=
+=88=9D=E5=80=BC=E6=98=AF=E6=8F=90=E9=86=92=E4=BD=BF=E7=94=A8=E8=80=85=E5=9C=
+=A8=E9=9C=80=E8=A6=81=E4=BD=BF=E7=94=A8=E6=97=B6=EF=BC=8C=E5=BF=85=E9=A1=BB=
+=E8=87=AA=E5=B7=B1=E6=98=BE=E5=BC=8F=E5=9C=B0=E8=BF=9B=E8=A1=8C=E8=B5=8B=E5=
+=80=BC=EF=BC=8C=E4=BB=BB=E4=BD=95NPE =E9=97=AE=E9=A2=98=EF=BC=8C=E6=88=96=
+=E8=80=85=E5=85=A5=E5=BA=93=E6=A3=80=E6=9F=A5=EF=BC=8C=E9=83=BD=E7=94=B1=E4=
+=BD=BF=E7=94=A8=E8=80=85=E6=9D=A5=E4=BF=9D=E8=AF=81=E3=80=82</p>
+<p>=E6=AD=A3=E4=BE=8B:=E6=95=B0=E6=8D=AE=E5=BA=93=E7=9A=84=E6=9F=A5=E8=AF=
+=A2=E7=BB=93=E6=9E=9C=E5=8F=AF=E8=83=BD=E6=98=AF null=EF=BC=8C=E5=9B=A0=E4=
+=B8=BA=E8=87=AA=E5=8A=A8=E6=8B=86=E7=AE=B1=EF=BC=8C=E7=94=A8=E5=9F=BA=E6=9C=
+=AC=E6=95=B0=E6=8D=AE=E7=B1=BB=E5=9E=8B=E6=8E=A5=E6=94=B6=E6=9C=89 NPE =E9=
+=A3=8E=E9=99=A9=E3=80=82 =E5=8F=8D=E4=BE=8B:=E6=AF=94=E5=A6=82=E6=98=BE=E7=
+=A4=BA=E6=88=90=E4=BA=A4=E6=80=BB=E9=A2=9D=E6=B6=A8=E8=B7=8C=E6=83=85=E5=86=
+=B5=EF=BC=8C=E5=8D=B3=E6=AD=A3=E8=B4=9F x%=EF=BC=8Cx =E4=B8=BA=E5=9F=BA=E6=
+=9C=AC=E6=95=B0=E6=8D=AE=E7=B1=BB=E5=9E=8B=EF=BC=8C=E8=B0=83=E7=94=A8=E7=9A=
+=84 RPC =E6=9C=8D=E5=8A=A1=EF=BC=8C=E8=B0=83=E7=94=A8=E4=B8=8D=E6=88=90=E5=
+=8A=9F=E6=97=B6=EF=BC=8C=E8=BF=94=E5=9B=9E=E7=9A=84=E6=98=AF=E9=BB=98=E8=AE=
+=A4=E5=80=BC=EF=BC=8C=E9=A1=B5=E9=9D=A2=E6=98=BE=E7=A4=BA:0%=EF=BC=8C=E8=BF=
+=99=E6=98=AF=E4=B8=8D=E5=90=88=E7=90=86=E7=9A=84=EF=BC=8C=E5=BA=94=E8=AF=A5=
+=E6=98=BE=E7=A4=BA=E6=88=90=E4=B8=AD=E5=88=92=E7=BA=BF-=E3=80=82=E6=89=80=
+=E4=BB=A5=E5=8C=85=E8=A3=85 =E6=95=B0=E6=8D=AE=E7=B1=BB=E5=9E=8B=E7=9A=84 n=
+ull =E5=80=BC=EF=BC=8C=E8=83=BD=E5=A4=9F=E8=A1=A8=E7=A4=BA=E9=A2=9D=E5=A4=
+=96=E7=9A=84=E4=BF=A1=E6=81=AF=EF=BC=8C=E5=A6=82:=E8=BF=9C=E7=A8=8B=E8=B0=
+=83=E7=94=A8=E5=A4=B1=E8=B4=A5=EF=BC=8C=E5=BC=82=E5=B8=B8=E9=80=80=E5=87=BA=
+=E3=80=82</p>
+</blockquote></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E5=AE=9A=E4=B9=89 DO/DTO/VO =E7=
+=AD=89 POJO =E7=B1=BB=E6=97=B6=EF=BC=8C=E4=B8=8D=E8=A6=81=E8=AE=BE=E5=AE=9A=
+=E4=BB=BB=E4=BD=95=E5=B1=9E=E6=80=A7=E9=BB=98=E8=AE=A4=E5=80=BC=E3=80=82 =
+=E5=8F=8D=E4=BE=8B:POJO=E7=B1=BB=E7=9A=84gmtCreate=E9=BB=98=E8=AE=A4=E5=80=
+=BC=E4=B8=BAnew Date();=E4=BD=86=E6=98=AF=E8=BF=99=E4=B8=AA=E5=B1=9E=E6=80=
+=A7=E5=9C=A8=E6=95=B0=E6=8D=AE=E6=8F=90=E5=8F=96=E6=97=B6=E5=B9=B6=E6=B2=A1=
+=E6=9C=89=E7=BD=AE=E5=85=A5=E5=85=B7 =E4=BD=93=E5=80=BC=EF=BC=8C=E5=9C=A8=
+=E6=9B=B4=E6=96=B0=E5=85=B6=E5=AE=83=E5=AD=97=E6=AE=B5=E6=97=B6=E5=8F=88=E9=
+=99=84=E5=B8=A6=E6=9B=B4=E6=96=B0=E4=BA=86=E6=AD=A4=E5=AD=97=E6=AE=B5=EF=BC=
+=8C=E5=AF=BC=E8=87=B4=E5=88=9B=E5=BB=BA=E6=97=B6=E9=97=B4=E8=A2=AB=E4=BF=AE=
+=E6=94=B9=E6=88=90=E5=BD=93=E5=89=8D=E6=97=B6=E9=97=B4=E3=80=82</p></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E5=BA=8F=E5=88=97=E5=8C=96=E7=
+=B1=BB=E6=96=B0=E5=A2=9E=E5=B1=9E=E6=80=A7=E6=97=B6=EF=BC=8C=E8=AF=B7=E4=B8=
+=8D=E8=A6=81=E4=BF=AE=E6=94=B9 serialVersionUID =E5=AD=97=E6=AE=B5=EF=BC=8C=
+=E9=81=BF=E5=85=8D=E5=8F=8D=E5=BA=8F=E5=88=97=E5=A4=B1=E8=B4=A5;=E5=A6=82 =
+=E6=9E=9C=E5=AE=8C=E5=85=A8=E4=B8=8D=E5=85=BC=E5=AE=B9=E5=8D=87=E7=BA=A7=EF=
+=BC=8C=E9=81=BF=E5=85=8D=E5=8F=8D=E5=BA=8F=E5=88=97=E5=8C=96=E6=B7=B7=E4=B9=
+=B1=EF=BC=8C=E9=82=A3=E4=B9=88=E8=AF=B7=E4=BF=AE=E6=94=B9 serialVersionUID =
+=E5=80=BC=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:=E6=B3=A8=E6=84=8F serialVersionUID =E4=B8=8D=E4=B8=
+=80=E8=87=B4=E4=BC=9A=E6=8A=9B=E5=87=BA=E5=BA=8F=E5=88=97=E5=8C=96=E8=BF=90=
+=E8=A1=8C=E6=97=B6=E5=BC=82=E5=B8=B8=E3=80=82</p>
+</blockquote></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E6=9E=84=E9=80=A0=E6=96=B9=E6=
+=B3=95=E9=87=8C=E9=9D=A2=E7=A6=81=E6=AD=A2=E5=8A=A0=E5=85=A5=E4=BB=BB=E4=BD=
+=95=E4=B8=9A=E5=8A=A1=E9=80=BB=E8=BE=91=EF=BC=8C=E5=A6=82=E6=9E=9C=E6=9C=89=
+=E5=88=9D=E5=A7=8B=E5=8C=96=E9=80=BB=E8=BE=91=EF=BC=8C=E8=AF=B7=E6=94=BE=E5=
+=9C=A8 init =E6=96=B9=E6=B3=95=E4=B8=AD=E3=80=82</p></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91POJO =E7=B1=BB=E5=BF=85=E9=A1=BB=
+=E5=86=99 toString =E6=96=B9=E6=B3=95=E3=80=82=E4=BD=BF=E7=94=A8 IDE =E7=9A=
+=84=E4=B8=AD=E5=B7=A5=E5=85=B7:source&gt; generate toString =E6=97=B6=EF=BC=
+=8C=E5=A6=82=E6=9E=9C=E7=BB=A7=E6=89=BF=E4=BA=86=E5=8F=A6=E4=B8=80=E4=B8=AA=
+ POJO =E7=B1=BB=EF=BC=8C=E6=B3=A8=E6=84=8F=E5=9C=A8=E5=89=8D=E9=9D=A2=E5=8A=
+=A0=E4=B8=80=E4=B8=8B super.toString=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:=E5=9C=A8=E6=96=B9=E6=B3=95=E6=89=A7=E8=A1=8C=E6=8A=
+=9B=E5=87=BA=E5=BC=82=E5=B8=B8=E6=97=B6=EF=BC=8C=E5=8F=AF=E4=BB=A5=E7=9B=B4=
+=E6=8E=A5=E8=B0=83=E7=94=A8 POJO =E7=9A=84 toString()=E6=96=B9=E6=B3=95=E6=
+=89=93=E5=8D=B0=E5=85=B6=E5=B1=9E=E6=80=A7=E5=80=BC=EF=BC=8C=E4=BE=BF=E4=BA=
+=8E=E6=8E=92=E6=9F=A5=E9=97=AE=E9=A2=98=E3=80=82</p>
+</blockquote></li>
+<li><p>=E3=80=90=E6=8E=A8=E8=8D=90=E3=80=91=E4=BD=BF=E7=94=A8=E7=B4=A2=E5=
+=BC=95=E8=AE=BF=E9=97=AE=E7=94=A8 String =E7=9A=84 split =E6=96=B9=E6=B3=95=
+=E5=BE=97=E5=88=B0=E7=9A=84=E6=95=B0=E7=BB=84=E6=97=B6=EF=BC=8C=E9=9C=80=E5=
+=81=9A=E6=9C=80=E5=90=8E=E4=B8=80=E4=B8=AA=E5=88=86=E9=9A=94=E7=AC=A6=E5=90=
+=8E=E6=9C=89=E6=97=A0=E5=86=85=E5=AE=B9=E7=9A=84=E6=A3=80=E6=9F=A5=EF=BC=8C=
+=E5=90=A6=E5=88=99=E4=BC=9A=E6=9C=89=E6=8A=9B IndexOutOfBoundsException =E7=
+=9A=84=E9=A3=8E=E9=99=A9=E3=80=82</p></li>
+</ol>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E: String str =3D "a,b,c,,"; String[] ary =3D str.split=
+(","); //=E9=A2=84=E6=9C=9F=E5=A4=A7=E4=BA=8E 3=EF=BC=8C=E7=BB=93=E6=9E=9C=
+=E6=98=AF 3 System.out.println(ary.length);</p>
+</blockquote>
+<ol>
+<li>=E3=80=90=E6=8E=A8=E8=8D=90=E3=80=91=E5=BD=93=E4=B8=80=E4=B8=AA=E7=B1=
+=BB=E6=9C=89=E5=A4=9A=E4=B8=AA=E6=9E=84=E9=80=A0=E6=96=B9=E6=B3=95=EF=BC=8C=
+=E6=88=96=E8=80=85=E5=A4=9A=E4=B8=AA=E5=90=8C=E5=90=8D=E6=96=B9=E6=B3=95=EF=
+=BC=8C=E8=BF=99=E4=BA=9B=E6=96=B9=E6=B3=95=E5=BA=94=E8=AF=A5=E6=8C=89=E9=A1=
+=BA=E5=BA=8F=E6=94=BE=E7=BD=AE=E5=9C=A8=E4=B8=80=E8=B5=B7=EF=BC=8C =E4=BE=
+=BF=E4=BA=8E=E9=98=85=E8=AF=BB=E3=80=82</li>
+<li>=E3=80=90=E6=8E=A8=E8=8D=90=E3=80=91 =E7=B1=BB=E5=86=85=E6=96=B9=E6=B3=
+=95=E5=AE=9A=E4=B9=89=E9=A1=BA=E5=BA=8F=E4=BE=9D=E6=AC=A1=E6=98=AF:=E5=85=
+=AC=E6=9C=89=E6=96=B9=E6=B3=95=E6=88=96=E4=BF=9D=E6=8A=A4=E6=96=B9=E6=B3=95=
+ &gt; =E7=A7=81=E6=9C=89=E6=96=B9=E6=B3=95 &gt; getter/setter=E6=96=B9=E6=
+=B3=95=E3=80=82</li>
+</ol>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:=E5=85=AC=E6=9C=89=E6=96=B9=E6=B3=95=E6=98=AF=E7=B1=
+=BB=E7=9A=84=E8=B0=83=E7=94=A8=E8=80=85=E5=92=8C=E7=BB=B4=E6=8A=A4=E8=80=85=
+=E6=9C=80=E5=85=B3=E5=BF=83=E7=9A=84=E6=96=B9=E6=B3=95=EF=BC=8C=E9=A6=96=E5=
+=B1=8F=E5=B1=95=E7=A4=BA=E6=9C=80=E5=A5=BD;=E4=BF=9D=E6=8A=A4=E6=96=B9=E6=
+=B3=95=E8=99=BD=E7=84=B6=E5=8F=AA=E6=98=AF=E5=AD=90=E7=B1=BB =E5=85=B3=E5=
+=BF=83=EF=BC=8C=E4=B9=9F=E5=8F=AF=E8=83=BD=E6=98=AF=E2=80=9C=E6=A8=A1=E6=9D=
+=BF=E8=AE=BE=E8=AE=A1=E6=A8=A1=E5=BC=8F=E2=80=9D=E4=B8=8B=E7=9A=84=E6=A0=B8=
+=E5=BF=83=E6=96=B9=E6=B3=95;=E8=80=8C=E7=A7=81=E6=9C=89=E6=96=B9=E6=B3=95=
+=E5=A4=96=E9=83=A8=E4=B8=80=E8=88=AC=E4=B8=8D=E9=9C=80=E8=A6=81=E7=89=B9=E5=
+=88=AB=E5=85=B3=E5=BF=83=EF=BC=8C=E6=98=AF=E4=B8=80=E4=B8=AA =E9=BB=91=E7=
+=9B=92=E5=AE=9E=E7=8E=B0;=E5=9B=A0=E4=B8=BA=E6=96=B9=E6=B3=95=E4=BF=A1=E6=
+=81=AF=E4=BB=B7=E5=80=BC=E8=BE=83=E4=BD=8E=EF=BC=8C=E6=89=80=E6=9C=89 Servi=
+ce =E5=92=8C DAO =E7=9A=84 getter/setter =E6=96=B9=E6=B3=95=E6=94=BE=E5=9C=
+=A8=E7=B1=BB=E4=BD=93=E6=9C=80=E5=90=8E=E3=80=82</p>
+</blockquote>
+<ol>
+<li>=E3=80=90=E6=8E=A8=E8=8D=90=E3=80=91setter =E6=96=B9=E6=B3=95=E4=B8=AD=
+=EF=BC=8C=E5=8F=82=E6=95=B0=E5=90=8D=E7=A7=B0=E4=B8=8E=E7=B1=BB=E6=88=90=E5=
+=91=98=E5=8F=98=E9=87=8F=E5=90=8D=E7=A7=B0=E4=B8=80=E8=87=B4=EF=BC=8Cthis.=
+=E6=88=90=E5=91=98=E5=90=8D=3D=E5=8F=82=E6=95=B0=E5=90=8D=E3=80=82=E5=9C=A8=
+getter/setter =E6=96=B9=E6=B3=95=E4=B8=AD=EF=BC=8C=E5=B0=BD=E9=87=8F=E4=B8=
+=8D=E8=A6=81=E5=A2=9E=E5=8A=A0=E4=B8=9A=E5=8A=A1=E9=80=BB=E8=BE=91=EF=BC=8C=
+=E5=A2=9E=E5=8A=A0=E6=8E=92=E6=9F=A5=E9=97=AE=E9=A2=98=E7=9A=84=E9=9A=BE=E5=
+=BA=A6=E3=80=82</li>
+</ol>
+<pre><code class=3D"lang-java">=E5=8F=8D=E4=BE=8B:
+<span class=3D"hljs-function" style=3D"color: rgb(66,113,174);"><span class=
+=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">public</span> Integer <=
+span class=3D"hljs-title" style=3D"color: rgb(142,144,140);">getData</span>=
+<span class=3D"hljs-params" style=3D"color: rgb(245,135,31);">()</span></sp=
+an>{ <span class=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">if</spa=
+n>(<span class=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">true</spa=
+n>) {
+<span class=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">return</span=
+> data + <span class=3D"hljs-number" style=3D"color: rgb(245,135,31);">100<=
+/span>; }<span class=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">els=
+e</span> {
+<span class=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">return</span=
+> data - <span class=3D"hljs-number" style=3D"color: rgb(245,135,31);">100<=
+/span>; }
+}
+</code></pre>
+<ol>
+<li><p>=E3=80=90=E6=8E=A8=E8=8D=90=E3=80=91=E5=BE=AA=E7=8E=AF=E4=BD=93=E5=
+=86=85=EF=BC=8C=E5=AD=97=E7=AC=A6=E4=B8=B2=E7=9A=84=E8=81=94=E6=8E=A5=E6=96=
+=B9=E5=BC=8F=EF=BC=8C=E4=BD=BF=E7=94=A8 StringBuilder =E7=9A=84 append =E6=
+=96=B9=E6=B3=95=E8=BF=9B=E8=A1=8C=E6=89=A9=E5=B1=95=E3=80=82</p><pre><code =
+class=3D"lang-java">=E5=8F=8D=E4=BE=8B:
+String str =3D <span class=3D"hljs-string" style=3D"color: rgb(113,140,0);"=
+>"start"</span>; <span class=3D"hljs-keyword" style=3D"color: rgb(137,89,16=
+8);">for</span>(<span class=3D"hljs-keyword" style=3D"color: rgb(137,89,168=
+);">int</span> i=3D<span class=3D"hljs-number" style=3D"color: rgb(245,135,=
+31);">0</span>; i&lt;<span class=3D"hljs-number" style=3D"color: rgb(245,13=
+5,31);">100</span>; i++){
+str =3D str + <span class=3D"hljs-string" style=3D"color: rgb(113,140,0);">=
+"hello"</span>; }
+</code></pre>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:=E5=8F=8D=E7=BC=96=E8=AF=91=E5=87=BA=E7=9A=84=E5=AD=
+=97=E8=8A=82=E7=A0=81=E6=96=87=E4=BB=B6=E6=98=BE=E7=A4=BA=E6=AF=8F=E6=AC=A1=
+=E5=BE=AA=E7=8E=AF=E9=83=BD=E4=BC=9A new =E5=87=BA=E4=B8=80=E4=B8=AA String=
+Builder =E5=AF=B9=E8=B1=A1=EF=BC=8C=E7=84=B6=E5=90=8E=E8=BF=9B=E8=A1=8C app=
+end =E6=93=8D=E4=BD=9C=EF=BC=8C=E6=9C=80=E5=90=8E=E9=80=9A=E8=BF=87 toStrin=
+g =E6=96=B9=E6=B3=95=E8=BF=94=E5=9B=9E String =E5=AF=B9=E8=B1=A1=EF=BC=8C=
+=E9=80=A0=E6=88=90=E5=86=85=E5=AD=98=E8=B5=84=E6=BA=90=E6=B5=AA=E8=B4=B9=E3=
+=80=82</p>
+</blockquote></li>
+<li><p>=E3=80=90=E6=8E=A8=E8=8D=90=E3=80=91final =E5=8F=AF=E6=8F=90=E9=AB=
+=98=E7=A8=8B=E5=BA=8F=E5=93=8D=E5=BA=94=E6=95=88=E7=8E=87=EF=BC=8C=E5=A3=B0=
+=E6=98=8E=E6=88=90 final =E7=9A=84=E6=83=85=E5=86=B5:</p>
+<ul>
+<li>=E4=B8=8D=E9=9C=80=E8=A6=81=E9=87=8D=E6=96=B0=E8=B5=8B=E5=80=BC=E7=9A=
+=84=E5=8F=98=E9=87=8F=EF=BC=8C=E5=8C=85=E6=8B=AC=E7=B1=BB=E5=B1=9E=E6=80=A7=
+=E3=80=81=E5=B1=80=E9=83=A8=E5=8F=98=E9=87=8F=E3=80=82</li>
+<li>=E5=AF=B9=E8=B1=A1=E5=8F=82=E6=95=B0=E5=89=8D=E5=8A=A0final=EF=BC=8C=E8=
+=A1=A8=E7=A4=BA=E4=B8=8D=E5=85=81=E8=AE=B8=E4=BF=AE=E6=94=B9=E5=BC=95=E7=94=
+=A8=E7=9A=84=E6=8C=87=E5=90=91=E3=80=82</li>
+<li>=E7=B1=BB=E6=96=B9=E6=B3=95=E7=A1=AE=E5=AE=9A=E4=B8=8D=E5=85=81=E8=AE=
+=B8=E8=A2=AB=E9=87=8D=E5=86=99=E3=80=82</li>
+</ul></li>
+<li><p>=E3=80=90=E6=8E=A8=E8=8D=90=E3=80=91=E6=85=8E=E7=94=A8 Object =E7=9A=
+=84 clone =E6=96=B9=E6=B3=95=E6=9D=A5=E6=8B=B7=E8=B4=9D=E5=AF=B9=E8=B1=A1=
+=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:=E5=AF=B9=E8=B1=A1=E7=9A=84 clone =E6=96=B9=E6=B3=95=
+=E9=BB=98=E8=AE=A4=E6=98=AF=E6=B5=85=E6=8B=B7=E8=B4=9D=EF=BC=8C=E8=8B=A5=E6=
+=83=B3=E5=AE=9E=E7=8E=B0=E6=B7=B1=E6=8B=B7=E8=B4=9D=E9=9C=80=E8=A6=81=E9=87=
+=8D=E5=86=99 clone =E6=96=B9=E6=B3=95=E5=AE=9E=E7=8E=B0=E5=B1=9E=E6=80=A7=
+=E5=AF=B9=E8=B1=A1 =E7=9A=84=E6=8B=B7=E8=B4=9D=E3=80=82</p>
+</blockquote></li>
+<li><p>=E3=80=90=E6=8E=A8=E8=8D=90=E3=80=91=E7=B1=BB=E6=88=90=E5=91=98=E4=
+=B8=8E=E6=96=B9=E6=B3=95=E8=AE=BF=E9=97=AE=E6=8E=A7=E5=88=B6=E4=BB=8E=E4=B8=
+=A5:</p>
+<ul>
+<li>=E5=A6=82=E6=9E=9C=E4=B8=8D=E5=85=81=E8=AE=B8=E5=A4=96=E9=83=A8=E7=9B=
+=B4=E6=8E=A5=E9=80=9A=E8=BF=87new=E6=9D=A5=E5=88=9B=E5=BB=BA=E5=AF=B9=E8=B1=
+=A1=EF=BC=8C=E9=82=A3=E4=B9=88=E6=9E=84=E9=80=A0=E6=96=B9=E6=B3=95=E5=BF=85=
+=E9=A1=BB=E6=98=AFprivate=E3=80=82 2) =E5=B7=A5=E5=85=B7=E7=B1=BB=E4=B8=8D=
+=E5=85=81=E8=AE=B8=E6=9C=89public=E6=88=96default=E6=9E=84=E9=80=A0=E6=96=
+=B9=E6=B3=95=E3=80=82</li>
+<li>=E7=B1=BB=E9=9D=9Estatic=E6=88=90=E5=91=98=E5=8F=98=E9=87=8F=E5=B9=B6=
+=E4=B8=94=E4=B8=8E=E5=AD=90=E7=B1=BB=E5=85=B1=E4=BA=AB=EF=BC=8C=E5=BF=85=E9=
+=A1=BB=E6=98=AFprotected=E3=80=82</li>
+<li>=E7=B1=BB=E9=9D=9Estatic=E6=88=90=E5=91=98=E5=8F=98=E9=87=8F=E5=B9=B6=
+=E4=B8=94=E4=BB=85=E5=9C=A8=E6=9C=AC=E7=B1=BB=E4=BD=BF=E7=94=A8=EF=BC=8C=E5=
+=BF=85=E9=A1=BB=E6=98=AFprivate=E3=80=82</li>
+<li>=E7=B1=BBstatic=E6=88=90=E5=91=98=E5=8F=98=E9=87=8F=E5=A6=82=E6=9E=9C=
+=E4=BB=85=E5=9C=A8=E6=9C=AC=E7=B1=BB=E4=BD=BF=E7=94=A8=EF=BC=8C=E5=BF=85=E9=
+=A1=BB=E6=98=AFprivate=E3=80=82</li>
+<li>=E8=8B=A5=E6=98=AFstatic=E6=88=90=E5=91=98=E5=8F=98=E9=87=8F=EF=BC=8C=
+=E5=BF=85=E9=A1=BB=E8=80=83=E8=99=91=E6=98=AF=E5=90=A6=E4=B8=BAfinal=E3=80=
+=82</li>
+<li>=E7=B1=BB=E6=88=90=E5=91=98=E6=96=B9=E6=B3=95=E5=8F=AA=E4=BE=9B=E7=B1=
+=BB=E5=86=85=E9=83=A8=E8=B0=83=E7=94=A8=EF=BC=8C=E5=BF=85=E9=A1=BB=E6=98=AF=
+private=E3=80=82</li>
+<li>=E7=B1=BB=E6=88=90=E5=91=98=E6=96=B9=E6=B3=95=E5=8F=AA=E5=AF=B9=E7=BB=
+=A7=E6=89=BF=E7=B1=BB=E5=85=AC=E5=BC=80=EF=BC=8C=E9=82=A3=E4=B9=88=E9=99=90=
+=E5=88=B6=E4=B8=BAprotected=E3=80=82</li>
+</ul></li>
+</ol>
+<h3 id=3D"JAVA=E4=BB=A3=E7=A0=81=E8=A7=84=E8=8C=83-=E4=BA=94=E3=80=81=E9=9B=
+=86=E5=90=88=E5=A4=84=E7=90=86">=E4=BA=94=E3=80=81=E9=9B=86=E5=90=88=E5=A4=
+=84=E7=90=86</h3>
+<ol>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E5=85=B3=E4=BA=8E hashCode =E5=
+=92=8C equals =E7=9A=84=E5=A4=84=E7=90=86=EF=BC=8C=E9=81=B5=E5=BE=AA=E5=A6=
+=82=E4=B8=8B=E8=A7=84=E5=88=99:</p>
+<ul>
+<li>=E5=8F=AA=E8=A6=81=E9=87=8D=E5=86=99equals=EF=BC=8C=E5=B0=B1=E5=BF=85=
+=E9=A1=BB=E9=87=8D=E5=86=99hashCode=E3=80=82</li>
+</ul></li>
+<li><p>=E5=9B=A0=E4=B8=BASet=E5=AD=98=E5=82=A8=E7=9A=84=E6=98=AF=E4=B8=8D=
+=E9=87=8D=E5=A4=8D=E7=9A=84=E5=AF=B9=E8=B1=A1=EF=BC=8C=E4=BE=9D=E6=8D=AEhas=
+hCode=E5=92=8Cequals=E8=BF=9B=E8=A1=8C=E5=88=A4=E6=96=AD=EF=BC=8C=E6=89=80=
+=E4=BB=A5Set=E5=AD=98=E5=82=A8=E7=9A=84 =E5=AF=B9=E8=B1=A1=E5=BF=85=E9=A1=
+=BB=E9=87=8D=E5=86=99=E8=BF=99=E4=B8=A4=E4=B8=AA=E6=96=B9=E6=B3=95=E3=80=82=
+</p></li>
+</ol>
+<ul>
+<li><p>=E5=A6=82=E6=9E=9C=E8=87=AA=E5=AE=9A=E4=B9=89=E5=AF=B9=E8=B1=A1=E5=
+=81=9A=E4=B8=BAMap=E7=9A=84=E9=94=AE=EF=BC=8C=E9=82=A3=E4=B9=88=E5=BF=85=E9=
+=A1=BB=E9=87=8D=E5=86=99hashCode=E5=92=8Cequals=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E6=AD=A3=E4=BE=8B:String =E9=87=8D=E5=86=99=E4=BA=86 hashCode =E5=92=8C=
+ equals =E6=96=B9=E6=B3=95=EF=BC=8C=E6=89=80=E4=BB=A5=E6=88=91=E4=BB=AC=E5=
+=8F=AF=E4=BB=A5=E9=9D=9E=E5=B8=B8=E6=84=89=E5=BF=AB=E5=9C=B0=E4=BD=BF=E7=94=
+=A8 String =E5=AF=B9=E8=B1=A1 =E4=BD=9C=E4=B8=BA key =E6=9D=A5=E4=BD=BF=E7=
+=94=A8=E3=80=82</p>
+</blockquote></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91ArrayList=E7=9A=84subList=E7=BB=
+=93=E6=9E=9C=E4=B8=8D=E5=8F=AF=E5=BC=BA=E8=BD=AC=E6=88=90ArrayList=EF=BC=8C=
+=E5=90=A6=E5=88=99=E4=BC=9A=E6=8A=9B=E5=87=BAClassCastException =E5=BC=82=
+=E5=B8=B8:java.util.RandomAccessSubList cannot be cast to java.util.ArrayLi=
+st ;</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:subList =E8=BF=94=E5=9B=9E=E7=9A=84=E6=98=AF ArrayLis=
+t =E7=9A=84=E5=86=85=E9=83=A8=E7=B1=BB SubList=EF=BC=8C=E5=B9=B6=E4=B8=8D=
+=E6=98=AF ArrayList =EF=BC=8C=E8=80=8C=E6=98=AF ArrayList =E7=9A=84=E4=B8=
+=80=E4=B8=AA=E8=A7=86=E5=9B=BE=EF=BC=8C=E5=AF=B9=E4=BA=8ESubList=E5=AD=90=
+=E5=88=97=E8=A1=A8=E7=9A=84=E6=89=80=E6=9C=89=E6=93=8D=E4=BD=9C=E6=9C=80=E7=
+=BB=88=E4=BC=9A=E5=8F=8D=E6=98=A0=E5=88=B0=E5=8E=9F=E5=88=97=E8=A1=A8=E4=B8=
+=8A=E3=80=82</p>
+</blockquote></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91 =E5=9C=A8 subList =E5=9C=BA=E6=
+=99=AF=E4=B8=AD=EF=BC=8C=E9=AB=98=E5=BA=A6=E6=B3=A8=E6=84=8F=E5=AF=B9=E5=8E=
+=9F=E9=9B=86=E5=90=88=E5=85=83=E7=B4=A0=E4=B8=AA=E6=95=B0=E7=9A=84=E4=BF=AE=
+=E6=94=B9=EF=BC=8C=E4=BC=9A=E5=AF=BC=E8=87=B4=E5=AD=90=E5=88=97=E8=A1=A8=E7=
+=9A=84=E9=81=8D=E5=8E=86=E3=80=81=E5=A2=9E =E5=8A=A0=E3=80=81=E5=88=A0=E9=
+=99=A4=E5=9D=87=E4=BA=A7=E7=94=9FConcurrentModificationException =E5=BC=82=
+=E5=B8=B8=E3=80=82</p></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E4=BD=BF=E7=94=A8=E9=9B=86=E5=
+=90=88=E8=BD=AC=E6=95=B0=E7=BB=84=E7=9A=84=E6=96=B9=E6=B3=95=EF=BC=8C=E5=BF=
+=85=E9=A1=BB=E4=BD=BF=E7=94=A8=E9=9B=86=E5=90=88=E7=9A=84toArray(T[] array)=
+=EF=BC=8C=E4=BC=A0=E5=85=A5=E7=9A=84=E6=98=AF=E7=B1=BB=E5=9E=8B=E5=AE=8C=E5=
+=85=A8 =E4=B8=80=E6=A0=B7=E7=9A=84=E6=95=B0=E7=BB=84=EF=BC=8C=E5=A4=A7=E5=
+=B0=8F=E5=B0=B1=E6=98=AF list.size()=E3=80=82</p><pre><code class=3D"lang-j=
+ava">=E5=8F=8D=E4=BE=8B:=E7=9B=B4=E6=8E=A5=E4=BD=BF=E7=94=A8 toArray =E6=97=
+=A0=E5=8F=82=E6=96=B9=E6=B3=95=E5=AD=98=E5=9C=A8=E9=97=AE=E9=A2=98=EF=BC=8C=
+=E6=AD=A4=E6=96=B9=E6=B3=95=E8=BF=94=E5=9B=9E=E5=80=BC=E5=8F=AA=E8=83=BD=E6=
+=98=AF Object[]=E7=B1=BB=EF=BC=8C=E8=8B=A5=E5=BC=BA=E8=BD=AC=E5=85=B6=E5=AE=
+=83 =E7=B1=BB=E5=9E=8B=E6=95=B0=E7=BB=84=E5=B0=86=E5=87=BA=E7=8E=B0 ClassCa=
+stException =E9=94=99=E8=AF=AF=E3=80=82
+=E6=AD=A3=E4=BE=8B:
+List&lt;String&gt; list =3D <span class=3D"hljs-keyword" style=3D"color: rg=
+b(137,89,168);">new</span> ArrayList&lt;String&gt;(<span class=3D"hljs-numb=
+er" style=3D"color: rgb(245,135,31);">2</span>); list.add(<span class=3D"hl=
+js-string" style=3D"color: rgb(113,140,0);">"guan"</span>);
+list.add(<span class=3D"hljs-string" style=3D"color: rgb(113,140,0);">"bao"=
+</span>);
+String[] array =3D <span class=3D"hljs-keyword" style=3D"color: rgb(137,89,=
+168);">new</span> String[list.size()]; array =3D list.toArray(array);
+</code></pre>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:=E4=BD=BF=E7=94=A8 toArray =E5=B8=A6=E5=8F=82=E6=96=
+=B9=E6=B3=95=EF=BC=8C=E5=85=A5=E5=8F=82=E5=88=86=E9=85=8D=E7=9A=84=E6=95=B0=
+=E7=BB=84=E7=A9=BA=E9=97=B4=E4=B8=8D=E5=A4=9F=E5=A4=A7=E6=97=B6=EF=BC=8CtoA=
+rray =E6=96=B9=E6=B3=95=E5=86=85=E9=83=A8=E5=B0=86=E9=87=8D=E6=96=B0=E5=88=
+=86=E9=85=8D =E5=86=85=E5=AD=98=E7=A9=BA=E9=97=B4=EF=BC=8C=E5=B9=B6=E8=BF=
+=94=E5=9B=9E=E6=96=B0=E6=95=B0=E7=BB=84=E5=9C=B0=E5=9D=80;=E5=A6=82=E6=9E=
+=9C=E6=95=B0=E7=BB=84=E5=85=83=E7=B4=A0=E5=A4=A7=E4=BA=8E=E5=AE=9E=E9=99=85=
+=E6=89=80=E9=9C=80=EF=BC=8C=E4=B8=8B=E6=A0=87=E4=B8=BA[ list.size() ]=E7=9A=
+=84=E6=95=B0=E7=BB=84 =E5=85=83=E7=B4=A0=E5=B0=86=E8=A2=AB=E7=BD=AE=E4=B8=
+=BA null=EF=BC=8C=E5=85=B6=E5=AE=83=E6=95=B0=E7=BB=84=E5=85=83=E7=B4=A0=E4=
+=BF=9D=E6=8C=81=E5=8E=9F=E5=80=BC=EF=BC=8C=E5=9B=A0=E6=AD=A4=E6=9C=80=E5=A5=
+=BD=E5=B0=86=E6=96=B9=E6=B3=95=E5=85=A5=E5=8F=82=E6=95=B0=E7=BB=84=E5=A4=A7=
+=E5=B0=8F=E5=AE=9A=E4=B9=89=E4=B8=8E=E9=9B=86=E5=90=88=E5=85=83=E7=B4=A0 =
+=E4=B8=AA=E6=95=B0=E4=B8=80=E8=87=B4=E3=80=82</p>
+</blockquote></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E4=BD=BF=E7=94=A8=E5=B7=A5=E5=
+=85=B7=E7=B1=BB Arrays.asList()=E6=8A=8A=E6=95=B0=E7=BB=84=E8=BD=AC=E6=8D=
+=A2=E6=88=90=E9=9B=86=E5=90=88=E6=97=B6=EF=BC=8C=E4=B8=8D=E8=83=BD=E4=BD=BF=
+=E7=94=A8=E5=85=B6=E4=BF=AE=E6=94=B9=E9=9B=86=E5=90=88=E7=9B=B8=E5=85=B3=E7=
+=9A=84=E6=96=B9 =E6=B3=95=EF=BC=8C=E5=AE=83=E7=9A=84 add/remove/clear =E6=
+=96=B9=E6=B3=95=E4=BC=9A=E6=8A=9B=E5=87=BA UnsupportedOperationException =
+=E5=BC=82=E5=B8=B8=E3=80=82 =E8=AF=B4=E6=98=8E:asList =E7=9A=84=E8=BF=94=E5=
+=9B=9E=E5=AF=B9=E8=B1=A1=E6=98=AF=E4=B8=80=E4=B8=AA Arrays =E5=86=85=E9=83=
+=A8=E7=B1=BB=EF=BC=8C=E5=B9=B6=E6=B2=A1=E6=9C=89=E5=AE=9E=E7=8E=B0=E9=9B=86=
+=E5=90=88=E7=9A=84=E4=BF=AE=E6=94=B9=E6=96=B9=E6=B3=95=E3=80=82Arrays.asLis=
+t =E4=BD=93=E7=8E=B0=E7=9A=84=E6=98=AF=E9=80=82=E9=85=8D=E5=99=A8=E6=A8=A1=
+=E5=BC=8F=EF=BC=8C=E5=8F=AA=E6=98=AF=E8=BD=AC=E6=8D=A2=E6=8E=A5=E5=8F=A3=EF=
+=BC=8C=E5=90=8E=E5=8F=B0=E7=9A=84=E6=95=B0=E6=8D=AE=E4=BB=8D=E6=98=AF=E6=95=
+=B0=E7=BB=84=E3=80=82</p></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E6=B3=9B=E5=9E=8B=E9=80=9A=E9=
+=85=8D=E7=AC=A6&lt;? extends T&gt;=E6=9D=A5=E6=8E=A5=E6=94=B6=E8=BF=94=E5=
+=9B=9E=E7=9A=84=E6=95=B0=E6=8D=AE=EF=BC=8C=E6=AD=A4=E5=86=99=E6=B3=95=E7=9A=
+=84=E6=B3=9B=E5=9E=8B=E9=9B=86=E5=90=88=E4=B8=8D=E8=83=BD=E4=BD=BF=E7=94=A8=
+add=E6=96=B9=E6=B3=95=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:=E8=8B=B9=E6=9E=9C=E8=A3=85=E7=AE=B1=E5=90=8E=E8=BF=
+=94=E5=9B=9E=E4=B8=80=E4=B8=AA&lt;? extends Fruits&gt;=E5=AF=B9=E8=B1=A1=EF=
+=BC=8C=E6=AD=A4=E5=AF=B9=E8=B1=A1=E5=B0=B1=E4=B8=8D=E8=83=BD=E5=BE=80=E9=87=
+=8C=E5=8A=A0=E4=BB=BB=E4=BD=95=E6=B0=B4=E6=9E=9C=EF=BC=8C=E5=8C=85=E6=8B=AC=
+ =E8=8B=B9=E6=9E=9C=E3=80=82</p>
+</blockquote></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E4=B8=8D=E8=A6=81=E5=9C=A8 fore=
+ach =E5=BE=AA=E7=8E=AF=E9=87=8C=E8=BF=9B=E8=A1=8C=E5=85=83=E7=B4=A0=E7=9A=
+=84 remove/add =E6=93=8D=E4=BD=9C=E3=80=82remove =E5=85=83=E7=B4=A0=E8=AF=
+=B7=E4=BD=BF=E7=94=A8 Iterator=E6=96=B9=E5=BC=8F=EF=BC=8C=E5=A6=82=E6=9E=9C=
+=E5=B9=B6=E5=8F=91=E6=93=8D=E4=BD=9C=EF=BC=8C=E9=9C=80=E8=A6=81=E5=AF=B9 It=
+erator =E5=AF=B9=E8=B1=A1=E5=8A=A0=E9=94=81=E3=80=82</p><pre><code class=3D=
+"lang-java">=E5=8F=8D=E4=BE=8B:
+List&lt;String&gt; a =3D <span class=3D"hljs-keyword" style=3D"color: rgb(1=
+37,89,168);">new</span> ArrayList&lt;String&gt;(); a.add(<span class=3D"hlj=
+s-string" style=3D"color: rgb(113,140,0);">"1"</span>);
+a.add(<span class=3D"hljs-string" style=3D"color: rgb(113,140,0);">"2"</spa=
+n>);
+<span class=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">for</span> (=
+String temp : a) {
+          <span class=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">if=
+</span>(<span class=3D"hljs-string" style=3D"color: rgb(113,140,0);">"1"</s=
+pan>.equals(temp)){
+             a.remove(temp);
+} }
+</code></pre>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:=E4=BB=A5=E4=B8=8A=E4=BB=A3=E7=A0=81=E7=9A=84=E6=89=
+=A7=E8=A1=8C=E7=BB=93=E6=9E=9C=E8=82=AF=E5=AE=9A=E4=BC=9A=E5=87=BA=E4=B9=8E=
+=E5=A4=A7=E5=AE=B6=E7=9A=84=E6=84=8F=E6=96=99=EF=BC=8C=E9=82=A3=E4=B9=88=E8=
+=AF=95=E4=B8=80=E4=B8=8B=E6=8A=8A=E2=80=9C1=E2=80=9D=E6=8D=A2=E6=88=90=E2=
+=80=9C2=E2=80=9D=EF=BC=8C=E4=BC=9A=E6=98=AF=E5=90=8C=E6=A0=B7=E7=9A=84 =E7=
+=BB=93=E6=9E=9C=E5=90=97?</p>
+</blockquote><pre><code class=3D"lang-java">=E6=AD=A3=E4=BE=8B:
+Iterator&lt;String&gt; it =3D a.iterator(); <span class=3D"hljs-keyword" st=
+yle=3D"color: rgb(137,89,168);">while</span>(it.hasNext()){
+String temp =3D it.next(); <span class=3D"hljs-keyword" style=3D"color: rgb=
+(137,89,168);">if</span>(=E5=88=A0=E9=99=A4=E5=85=83=E7=B4=A0=E7=9A=84=E6=
+=9D=A1=E4=BB=B6){
+             it.remove();
+          }
+}
+</code></pre></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E5=9C=A8 JDK7 =E7=89=88=E6=9C=
+=AC=E4=BB=A5=E4=B8=8A=EF=BC=8CComparator =E8=A6=81=E6=BB=A1=E8=B6=B3=E8=87=
+=AA=E5=8F=8D=E6=80=A7=EF=BC=8C=E4=BC=A0=E9=80=92=E6=80=A7=EF=BC=8C=E5=AF=B9=
+=E7=A7=B0=E6=80=A7=EF=BC=8C=E4=B8=8D=E7=84=B6 Arrays.sort=EF=BC=8C Collecti=
+ons.sort =E4=BC=9A=E6=8A=A5 IllegalArgumentException =E5=BC=82=E5=B8=B8=E3=
+=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E: =E8=87=AA=E5=8F=8D=E6=80=A7:x=EF=BC=8Cy=E7=9A=84=E6=
+=AF=94=E8=BE=83=E7=BB=93=E6=9E=9C=E5=92=8Cy=EF=BC=8Cx=E7=9A=84=E6=AF=94=E8=
+=BE=83=E7=BB=93=E6=9E=9C=E7=9B=B8=E5=8F=8D=E3=80=82</p>
+<p>=E4=BC=A0=E9=80=92=E6=80=A7:x&gt;y,y&gt;z,=E5=88=99x&gt;z=E3=80=82</p>
+<p>=E5=AF=B9=E7=A7=B0=E6=80=A7:x=3Dy,=E5=88=99x,z=E6=AF=94=E8=BE=83=E7=BB=
+=93=E6=9E=9C=E5=92=8Cy=EF=BC=8Cz=E6=AF=94=E8=BE=83=E7=BB=93=E6=9E=9C=E7=9B=
+=B8=E5=90=8C=E3=80=82</p>
+</blockquote><pre><code class=3D"lang-java">=E5=8F=8D=E4=BE=8B:=E4=B8=8B=E4=
+=BE=8B=E4=B8=AD=E6=B2=A1=E6=9C=89=E5=A4=84=E7=90=86=E7=9B=B8=E7=AD=89=E7=9A=
+=84=E6=83=85=E5=86=B5=EF=BC=8C=E5=AE=9E=E9=99=85=E4=BD=BF=E7=94=A8=E4=B8=AD=
+=E5=8F=AF=E8=83=BD=E4=BC=9A=E5=87=BA=E7=8E=B0=E5=BC=82=E5=B8=B8:
+<span class=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">new</span> C=
+omparator&lt;Student&gt;() {
+<span class=3D"hljs-meta">@Override</span>
+<span class=3D"hljs-function" style=3D"color: rgb(66,113,174);"><span class=
+=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">public</span> <span cla=
+ss=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">int</span> <span clas=
+s=3D"hljs-title" style=3D"color: rgb(142,144,140);">compare</span><span cla=
+ss=3D"hljs-params" style=3D"color: rgb(245,135,31);">(Student o1, Student o=
+2)</span> </span>{
+<span class=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">return</span=
+> o1.getId() &gt; o2.getId() ? <span class=3D"hljs-number" style=3D"color: =
+rgb(245,135,31);">1</span> : -<span class=3D"hljs-number" style=3D"color: r=
+gb(245,135,31);">1</span>; }
+}
+</code></pre><p><br></p></li>
+<li><p>=E3=80=90=E6=8E=A8=E8=8D=90=E3=80=91=E9=9B=86=E5=90=88=E5=88=9D=E5=
+=A7=8B=E5=8C=96=E6=97=B6=EF=BC=8C=E5=B0=BD=E9=87=8F=E6=8C=87=E5=AE=9A=E9=9B=
+=86=E5=90=88=E5=88=9D=E5=A7=8B=E5=80=BC=E5=A4=A7=E5=B0=8F=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:ArrayList=E5=B0=BD=E9=87=8F=E4=BD=BF=E7=94=A8ArrayLis=
+t(int initialCapacity) =E5=88=9D=E5=A7=8B=E5=8C=96=E3=80=82</p>
+</blockquote></li>
+<li><p>=E3=80=90=E6=8E=A8=E8=8D=90=E3=80=91=E4=BD=BF=E7=94=A8 entrySet =E9=
+=81=8D=E5=8E=86 Map =E7=B1=BB=E9=9B=86=E5=90=88 KV=EF=BC=8C=E8=80=8C=E4=B8=
+=8D=E6=98=AF keySet =E6=96=B9=E5=BC=8F=E8=BF=9B=E8=A1=8C=E9=81=8D=E5=8E=86=
+=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:keySet =E5=85=B6=E5=AE=9E=E6=98=AF=E9=81=8D=E5=8E=86=
+=E4=BA=86 2 =E6=AC=A1=EF=BC=8C=E4=B8=80=E6=AC=A1=E6=98=AF=E8=BD=AC=E4=B8=BA=
+ Iterator =E5=AF=B9=E8=B1=A1=EF=BC=8C=E5=8F=A6=E4=B8=80=E6=AC=A1=E6=98=AF=
+=E4=BB=8E hashMap =E4=B8=AD=E5=8F=96=E5=87=BA key =E6=89=80=E5=AF=B9=E5=BA=
+=94=E7=9A=84 value=E3=80=82=E8=80=8C entrySet =E5=8F=AA=E6=98=AF=E9=81=8D=
+=E5=8E=86=E4=BA=86=E4=B8=80=E6=AC=A1=E5=B0=B1=E6=8A=8A key =E5=92=8C value =
+=E9=83=BD=E6=94=BE=E5=88=B0=E4=BA=86 entry =E4=B8=AD=EF=BC=8C=E6=95=88 =E7=
+=8E=87=E6=9B=B4=E9=AB=98=E3=80=82=E5=A6=82=E6=9E=9C=E6=98=AF JDK8=EF=BC=8C=
+=E4=BD=BF=E7=94=A8 Map.foreach =E6=96=B9=E6=B3=95=E3=80=82 =E6=AD=A3=E4=BE=
+=8B:values()=E8=BF=94=E5=9B=9E=E7=9A=84=E6=98=AF V =E5=80=BC=E9=9B=86=E5=90=
+=88=EF=BC=8C=E6=98=AF=E4=B8=80=E4=B8=AA list =E9=9B=86=E5=90=88=E5=AF=B9=E8=
+=B1=A1;keySet()=E8=BF=94=E5=9B=9E=E7=9A=84=E6=98=AF K =E5=80=BC=E9=9B=86=E5=
+=90=88=EF=BC=8C=E6=98=AF =E4=B8=80=E4=B8=AA Set =E9=9B=86=E5=90=88=E5=AF=B9=
+=E8=B1=A1;entrySet()=E8=BF=94=E5=9B=9E=E7=9A=84=E6=98=AF K-V =E5=80=BC=E7=
+=BB=84=E5=90=88=E9=9B=86=E5=90=88=E3=80=82</p>
+</blockquote></li>
+<li><p>=E3=80=90=E6=8E=A8=E8=8D=90=E3=80=91=E9=AB=98=E5=BA=A6=E6=B3=A8=E6=
+=84=8F Map =E7=B1=BB=E9=9B=86=E5=90=88 K/V =E8=83=BD=E4=B8=8D=E8=83=BD=E5=
+=AD=98=E5=82=A8 null =E5=80=BC=E7=9A=84=E6=83=85=E5=86=B5=EF=BC=8C=E5=A6=82=
+=E4=B8=8B=E8=A1=A8=E6=A0=BC:</p></li>
+<li><p>=E3=80=90=E5=8F=82=E8=80=83=E3=80=91=E5=90=88=E7=90=86=E5=88=A9=E7=
+=94=A8=E5=A5=BD=E9=9B=86=E5=90=88=E7=9A=84=E6=9C=89=E5=BA=8F=E6=80=A7(sort)=
+=E5=92=8C=E7=A8=B3=E5=AE=9A=E6=80=A7(order)=EF=BC=8C=E9=81=BF=E5=85=8D=E9=
+=9B=86=E5=90=88=E7=9A=84=E6=97=A0=E5=BA=8F=E6=80=A7(unsort)=E5=92=8C =E4=B8=
+=8D=E7=A8=B3=E5=AE=9A=E6=80=A7(unorder)=E5=B8=A6=E6=9D=A5=E7=9A=84=E8=B4=9F=
+=E9=9D=A2=E5=BD=B1=E5=93=8D=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:=E7=A8=B3=E5=AE=9A=E6=80=A7=E6=8C=87=E9=9B=86=E5=90=
+=88=E6=AF=8F=E6=AC=A1=E9=81=8D=E5=8E=86=E7=9A=84=E5=85=83=E7=B4=A0=E6=AC=A1=
+=E5=BA=8F=E6=98=AF=E4=B8=80=E5=AE=9A=E7=9A=84=E3=80=82=E6=9C=89=E5=BA=8F=E6=
+=80=A7=E6=98=AF=E6=8C=87=E9=81=8D=E5=8E=86=E7=9A=84=E7=BB=93=E6=9E=9C=E6=98=
+=AF=E6=8C=89=E6=9F=90=E7=A7=8D=E6=AF=94=E8=BE=83=E8=A7=84=E5=88=99 =E4=BE=
+=9D=E6=AC=A1=E6=8E=92=E5=88=97=E7=9A=84=E3=80=82=E5=A6=82:ArrayList =E6=98=
+=AF order/unsort;HashMap =E6=98=AF unorder/unsort;TreeSet =E6=98=AF order/s=
+ort=E3=80=82</p>
+</blockquote></li>
+<li><p>=E3=80=90=E5=8F=82=E8=80=83=E3=80=91=E5=88=A9=E7=94=A8 Set =E5=85=83=
+=E7=B4=A0=E5=94=AF=E4=B8=80=E7=9A=84=E7=89=B9=E6=80=A7=EF=BC=8C=E5=8F=AF=E4=
+=BB=A5=E5=BF=AB=E9=80=9F=E5=AF=B9=E4=B8=80=E4=B8=AA=E9=9B=86=E5=90=88=E8=BF=
+=9B=E8=A1=8C=E5=8E=BB=E9=87=8D=E6=93=8D=E4=BD=9C=EF=BC=8C=E9=81=BF=E5=85=8D=
+=E4=BD=BF=E7=94=A8 List =E7=9A=84 contains =E6=96=B9=E6=B3=95=E8=BF=9B=E8=
+=A1=8C=E9=81=8D=E5=8E=86=E3=80=81=E5=AF=B9=E6=AF=94=E3=80=81=E5=8E=BB=E9=87=
+=8D=E6=93=8D=E4=BD=9C=E3=80=82</p></li>
+</ul>
+<h3 id=3D"JAVA=E4=BB=A3=E7=A0=81=E8=A7=84=E8=8C=83-=E5=85=AD=E3=80=81=E5=B9=
+=B6=E5=8F=91=E5=A4=84=E7=90=86">=E5=85=AD=E3=80=81=E5=B9=B6=E5=8F=91=E5=A4=
+=84=E7=90=86</h3>
+<ol>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E8=8E=B7=E5=8F=96=E5=8D=95=E4=
+=BE=8B=E5=AF=B9=E8=B1=A1=E9=9C=80=E8=A6=81=E4=BF=9D=E8=AF=81=E7=BA=BF=E7=A8=
+=8B=E5=AE=89=E5=85=A8=EF=BC=8C=E5=85=B6=E4=B8=AD=E7=9A=84=E6=96=B9=E6=B3=95=
+=E4=B9=9F=E8=A6=81=E4=BF=9D=E8=AF=81=E7=BA=BF=E7=A8=8B=E5=AE=89=E5=85=A8=E3=
+=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:=E8=B5=84=E6=BA=90=E9=A9=B1=E5=8A=A8=E7=B1=BB=E3=80=
+=81=E5=B7=A5=E5=85=B7=E7=B1=BB=E3=80=81=E5=8D=95=E4=BE=8B=E5=B7=A5=E5=8E=82=
+=E7=B1=BB=E9=83=BD=E9=9C=80=E8=A6=81=E6=B3=A8=E6=84=8F=E3=80=82</p>
+</blockquote></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E5=88=9B=E5=BB=BA=E7=BA=BF=E7=
+=A8=8B=E6=88=96=E7=BA=BF=E7=A8=8B=E6=B1=A0=E6=97=B6=E8=AF=B7=E6=8C=87=E5=AE=
+=9A=E6=9C=89=E6=84=8F=E4=B9=89=E7=9A=84=E7=BA=BF=E7=A8=8B=E5=90=8D=E7=A7=B0=
+=EF=BC=8C=E6=96=B9=E4=BE=BF=E5=87=BA=E9=94=99=E6=97=B6=E5=9B=9E=E6=BA=AF=E3=
+=80=82</p><pre><code class=3D"lang-java">=E6=AD=A3=E4=BE=8B:
+
+<span class=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">public</span=
+> <span class=3D"hljs-class"><span class=3D"hljs-keyword" style=3D"color: r=
+gb(137,89,168);">class</span> <span class=3D"hljs-title" style=3D"color: rg=
+b(142,144,140);">TimerTaskThread</span> <span class=3D"hljs-keyword" style=
+=3D"color: rgb(137,89,168);">extends</span> <span class=3D"hljs-title" styl=
+e=3D"color: rgb(142,144,140);">Thread</span> </span>{ <span class=3D"hljs-f=
+unction" style=3D"color: rgb(66,113,174);"><span class=3D"hljs-keyword" sty=
+le=3D"color: rgb(137,89,168);">public</span> <span class=3D"hljs-title" sty=
+le=3D"color: rgb(142,144,140);">TimerTaskThread</span><span class=3D"hljs-p=
+arams" style=3D"color: rgb(245,135,31);">()</span></span>{
+
+<span class=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">super</span>=
+.setName(<span class=3D"hljs-string" style=3D"color: rgb(113,140,0);">"Time=
+rTaskThread"</span>); ... }
+</code></pre></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E7=BA=BF=E7=A8=8B=E8=B5=84=E6=
+=BA=90=E5=BF=85=E9=A1=BB=E9=80=9A=E8=BF=87=E7=BA=BF=E7=A8=8B=E6=B1=A0=E6=8F=
+=90=E4=BE=9B=EF=BC=8C=E4=B8=8D=E5=85=81=E8=AE=B8=E5=9C=A8=E5=BA=94=E7=94=A8=
+=E4=B8=AD=E8=87=AA=E8=A1=8C=E6=98=BE=E5=BC=8F=E5=88=9B=E5=BB=BA=E7=BA=BF=E7=
+=A8=8B=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:=E4=BD=BF=E7=94=A8=E7=BA=BF=E7=A8=8B=E6=B1=A0=E7=9A=
+=84=E5=A5=BD=E5=A4=84=E6=98=AF=E5=87=8F=E5=B0=91=E5=9C=A8=E5=88=9B=E5=BB=BA=
+=E5=92=8C=E9=94=80=E6=AF=81=E7=BA=BF=E7=A8=8B=E4=B8=8A=E6=89=80=E8=8A=B1=E7=
+=9A=84=E6=97=B6=E9=97=B4=E4=BB=A5=E5=8F=8A=E7=B3=BB=E7=BB=9F=E8=B5=84=E6=BA=
+=90=E7=9A=84=E5=BC=80=E9=94=80=EF=BC=8C=E8=A7=A3=E5=86=B3=E8=B5=84 =E6=BA=
+=90=E4=B8=8D=E8=B6=B3=E7=9A=84=E9=97=AE=E9=A2=98=E3=80=82=E5=A6=82=E6=9E=9C=
+=E4=B8=8D=E4=BD=BF=E7=94=A8=E7=BA=BF=E7=A8=8B=E6=B1=A0=EF=BC=8C=E6=9C=89=E5=
+=8F=AF=E8=83=BD=E9=80=A0=E6=88=90=E7=B3=BB=E7=BB=9F=E5=88=9B=E5=BB=BA=E5=A4=
+=A7=E9=87=8F=E5=90=8C=E7=B1=BB=E7=BA=BF=E7=A8=8B=E8=80=8C=E5=AF=BC=E8=87=B4=
+=E6=B6=88=E8=80=97=E5=AE=8C=E5=86=85=E5=AD=98=E6=88=96=E8=80=85 =E2=80=9C=
+=E8=BF=87=E5=BA=A6=E5=88=87=E6=8D=A2=E2=80=9D=E7=9A=84=E9=97=AE=E9=A2=98=E3=
+=80=82</p>
+</blockquote></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E7=BA=BF=E7=A8=8B=E6=B1=A0=E4=
+=B8=8D=E5=85=81=E8=AE=B8=E4=BD=BF=E7=94=A8 Executors =E5=8E=BB=E5=88=9B=E5=
+=BB=BA=EF=BC=8C=E8=80=8C=E6=98=AF=E9=80=9A=E8=BF=87 ThreadPoolExecutor =E7=
+=9A=84=E6=96=B9=E5=BC=8F=EF=BC=8C=E8=BF=99=E6=A0=B7 =E7=9A=84=E5=A4=84=E7=
+=90=86=E6=96=B9=E5=BC=8F=E8=AE=A9=E5=86=99=E7=9A=84=E5=90=8C=E5=AD=A6=E6=9B=
+=B4=E5=8A=A0=E6=98=8E=E7=A1=AE=E7=BA=BF=E7=A8=8B=E6=B1=A0=E7=9A=84=E8=BF=90=
+=E8=A1=8C=E8=A7=84=E5=88=99=EF=BC=8C=E8=A7=84=E9=81=BF=E8=B5=84=E6=BA=90=E8=
+=80=97=E5=B0=BD=E7=9A=84=E9=A3=8E=E9=99=A9=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:Executors =E8=BF=94=E5=9B=9E=E7=9A=84=E7=BA=BF=E7=A8=
+=8B=E6=B1=A0=E5=AF=B9=E8=B1=A1=E7=9A=84=E5=BC=8A=E7=AB=AF=E5=A6=82=E4=B8=8B=
+:</p>
+<p>FixedThreadPool =E5=92=8C SingleThreadPool:=E5=85=81=E8=AE=B8=E7=9A=84=
+=E8=AF=B7=E6=B1=82=E9=98=9F=E5=88=97=E9=95=BF=E5=BA=A6=E4=B8=BA Integer.MAX=
+_VALUE=EF=BC=8C=E5=8F=AF=E8=83=BD=E4=BC=9A=E5=A0=86=E7=A7=AF=E5=A4=A7=E9=87=
+=8F=E7=9A=84=E8=AF=B7=E6=B1=82=EF=BC=8C=E4=BB=8E=E8=80=8C=E5=AF=BC=E8=87=B4=
+ OOM=E3=80=82</p>
+<p>CachedThreadPool =E5=92=8C ScheduledThreadPool:=E5=85=81=E8=AE=B8=E7=9A=
+=84=E5=88=9B=E5=BB=BA=E7=BA=BF=E7=A8=8B=E6=95=B0=E9=87=8F=E4=B8=BA Integer.=
+MAX_VALUE=EF=BC=8C=E5=8F=AF=E8=83=BD=E4=BC=9A=E5=88=9B=E5=BB=BA=E5=A4=A7=E9=
+=87=8F=E7=9A=84=E7=BA=BF=E7=A8=8B=EF=BC=8C=E4=BB=8E=E8=80=8C=E5=AF=BC=E8=87=
+=B4 OOM=E3=80=82</p>
+</blockquote></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91SimpleDateFormat =E6=98=AF=E7=BA=
+=BF=E7=A8=8B=E4=B8=8D=E5=AE=89=E5=85=A8=E7=9A=84=E7=B1=BB=EF=BC=8C=E4=B8=80=
+=E8=88=AC=E4=B8=8D=E8=A6=81=E5=AE=9A=E4=B9=89=E4=B8=BAstatic=E5=8F=98=E9=87=
+=8F=EF=BC=8C=E5=A6=82=E6=9E=9C=E5=AE=9A=E4=B9=89=E4=B8=BA static=EF=BC=8C=
+=E5=BF=85=E9=A1=BB=E5=8A=A0=E9=94=81=EF=BC=8C=E6=88=96=E8=80=85=E4=BD=BF=E7=
+=94=A8 DateUtils =E5=B7=A5=E5=85=B7=E7=B1=BB=E3=80=82</p><pre><code class=
+=3D"lang-java">=E6=AD=A3=E4=BE=8B:=E6=B3=A8=E6=84=8F=E7=BA=BF=E7=A8=8B=E5=
+=AE=89=E5=85=A8=EF=BC=8C=E4=BD=BF=E7=94=A8 DateUtils=E3=80=82=E4=BA=A6=E6=
+=8E=A8=E8=8D=90=E5=A6=82=E4=B8=8B=E5=A4=84=E7=90=86:
+
+<span class=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">private</spa=
+n> <span class=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">static</s=
+pan> <span class=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">final</=
+span> ThreadLocal&lt;DateFormat&gt; df =3D <span class=3D"hljs-keyword" sty=
+le=3D"color: rgb(137,89,168);">new</span> ThreadLocal&lt;DateFormat&gt;() {=
+ <span class=3D"hljs-meta">@Override</span>
+
+<span class=3D"hljs-function" style=3D"color: rgb(66,113,174);"><span class=
+=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">protected</span> DateFo=
+rmat <span class=3D"hljs-title" style=3D"color: rgb(142,144,140);">initialV=
+alue</span><span class=3D"hljs-params" style=3D"color: rgb(245,135,31);">()=
+</span> </span>{
+
+<span class=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">return</span=
+> <span class=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">new</span>=
+ SimpleDateFormat(<span class=3D"hljs-string" style=3D"color: rgb(113,140,0=
+);">"yyyy-MM-dd"</span>);
+
+} };
+</code></pre>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:=E5=A6=82=E6=9E=9C=E6=98=AF JDK8 =E7=9A=84=E5=BA=94=
+=E7=94=A8=EF=BC=8C=E5=8F=AF=E4=BB=A5=E4=BD=BF=E7=94=A8 Instant =E4=BB=A3=E6=
+=9B=BF Date=EF=BC=8CLocalDateTime =E4=BB=A3=E6=9B=BF Calendar=EF=BC=8C Date=
+TimeFormatter =E4=BB=A3=E6=9B=BF Simpledateformatter=EF=BC=8C=E5=AE=98=E6=
+=96=B9=E7=BB=99=E5=87=BA=E7=9A=84=E8=A7=A3=E9=87=8A:simple beautiful strong=
+ immutable thread-safe=E3=80=82</p>
+</blockquote></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E9=AB=98=E5=B9=B6=E5=8F=91=E6=
+=97=B6=EF=BC=8C=E5=90=8C=E6=AD=A5=E8=B0=83=E7=94=A8=E5=BA=94=E8=AF=A5=E5=8E=
+=BB=E8=80=83=E9=87=8F=E9=94=81=E7=9A=84=E6=80=A7=E8=83=BD=E6=8D=9F=E8=80=97=
+=E3=80=82=E8=83=BD=E7=94=A8=E6=97=A0=E9=94=81=E6=95=B0=E6=8D=AE=E7=BB=93=E6=
+=9E=84=EF=BC=8C=E5=B0=B1=E4=B8=8D=E8=A6=81=E7=94=A8=E9=94=81;=E8=83=BD =E9=
+=94=81=E5=8C=BA=E5=9D=97=EF=BC=8C=E5=B0=B1=E4=B8=8D=E8=A6=81=E9=94=81=E6=95=
+=B4=E4=B8=AA=E6=96=B9=E6=B3=95=E4=BD=93;=E8=83=BD=E7=94=A8=E5=AF=B9=E8=B1=
+=A1=E9=94=81=EF=BC=8C=E5=B0=B1=E4=B8=8D=E8=A6=81=E7=94=A8=E7=B1=BB=E9=94=81=
+=E3=80=82</p></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E5=AF=B9=E5=A4=9A=E4=B8=AA=E8=
+=B5=84=E6=BA=90=E3=80=81=E6=95=B0=E6=8D=AE=E5=BA=93=E8=A1=A8=E3=80=81=E5=AF=
+=B9=E8=B1=A1=E5=90=8C=E6=97=B6=E5=8A=A0=E9=94=81=E6=97=B6=EF=BC=8C=E9=9C=80=
+=E8=A6=81=E4=BF=9D=E6=8C=81=E4=B8=80=E8=87=B4=E7=9A=84=E5=8A=A0=E9=94=81=E9=
+=A1=BA=E5=BA=8F=EF=BC=8C=E5=90=A6=E5=88=99=E5=8F=AF=E8=83=BD=E4=BC=9A=E9=80=
+=A0 =E6=88=90=E6=AD=BB=E9=94=81=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:=E7=BA=BF=E7=A8=8B=E4=B8=80=E9=9C=80=E8=A6=81=E5=AF=
+=B9=E8=A1=A8 A=E3=80=81B=E3=80=81C =E4=BE=9D=E6=AC=A1=E5=85=A8=E9=83=A8=E5=
+=8A=A0=E9=94=81=E5=90=8E=E6=89=8D=E5=8F=AF=E4=BB=A5=E8=BF=9B=E8=A1=8C=E6=9B=
+=B4=E6=96=B0=E6=93=8D=E4=BD=9C=EF=BC=8C=E9=82=A3=E4=B9=88=E7=BA=BF=E7=A8=8B=
+=E4=BA=8C=E7=9A=84=E5=8A=A0=E9=94=81=E9=A1=BA=E5=BA=8F =E4=B9=9F=E5=BF=85=
+=E9=A1=BB=E6=98=AF A=E3=80=81B=E3=80=81C=EF=BC=8C=E5=90=A6=E5=88=99=E5=8F=
+=AF=E8=83=BD=E5=87=BA=E7=8E=B0=E6=AD=BB=E9=94=81=E3=80=82</p>
+</blockquote></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E5=B9=B6=E5=8F=91=E4=BF=AE=E6=
+=94=B9=E5=90=8C=E4=B8=80=E8=AE=B0=E5=BD=95=E6=97=B6=EF=BC=8C=E9=81=BF=E5=85=
+=8D=E6=9B=B4=E6=96=B0=E4=B8=A2=E5=A4=B1=EF=BC=8C=E8=A6=81=E4=B9=88=E5=9C=A8=
+=E5=BA=94=E7=94=A8=E5=B1=82=E5=8A=A0=E9=94=81=EF=BC=8C=E8=A6=81=E4=B9=88=E5=
+=9C=A8=E7=BC=93=E5=AD=98=E5=8A=A0=E9=94=81=EF=BC=8C=E8=A6=81=E4=B9=88=E5=9C=
+=A8 =E6=95=B0=E6=8D=AE=E5=BA=93=E5=B1=82=E4=BD=BF=E7=94=A8=E4=B9=90=E8=A7=
+=82=E9=94=81=EF=BC=8C=E4=BD=BF=E7=94=A8 version =E4=BD=9C=E4=B8=BA=E6=9B=B4=
+=E6=96=B0=E4=BE=9D=E6=8D=AE=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:=E5=A6=82=E6=9E=9C=E6=AF=8F=E6=AC=A1=E8=AE=BF=E9=97=
+=AE=E5=86=B2=E7=AA=81=E6=A6=82=E7=8E=87=E5=B0=8F=E4=BA=8E 20%=EF=BC=8C=E6=
+=8E=A8=E8=8D=90=E4=BD=BF=E7=94=A8=E4=B9=90=E8=A7=82=E9=94=81=EF=BC=8C=E5=90=
+=A6=E5=88=99=E4=BD=BF=E7=94=A8=E6=82=B2=E8=A7=82=E9=94=81=E3=80=82=E4=B9=90=
+=E8=A7=82=E9=94=81=E7=9A=84=E9=87=8D=E8=AF=95=E6=AC=A1 =E6=95=B0=E4=B8=8D=
+=E5=BE=97=E5=B0=8F=E4=BA=8E 3 =E6=AC=A1=E3=80=82</p>
+</blockquote></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E5=A4=9A=E7=BA=BF=E7=A8=8B=E5=
+=B9=B6=E8=A1=8C=E5=A4=84=E7=90=86=E5=AE=9A=E6=97=B6=E4=BB=BB=E5=8A=A1=E6=97=
+=B6=EF=BC=8CTimer =E8=BF=90=E8=A1=8C=E5=A4=9A=E4=B8=AA TimeTask =E6=97=B6=
+=EF=BC=8C=E5=8F=AA=E8=A6=81=E5=85=B6=E4=B8=AD=E4=B9=8B=E4=B8=80=E6=B2=A1=E6=
+=9C=89=E6=8D=95=E8=8E=B7 =E6=8A=9B=E5=87=BA=E7=9A=84=E5=BC=82=E5=B8=B8=EF=
+=BC=8C=E5=85=B6=E5=AE=83=E4=BB=BB=E5=8A=A1=E4=BE=BF=E4=BC=9A=E8=87=AA=E5=8A=
+=A8=E7=BB=88=E6=AD=A2=E8=BF=90=E8=A1=8C=EF=BC=8C=E4=BD=BF=E7=94=A8 Schedule=
+dExecutorService =E5=88=99=E6=B2=A1=E6=9C=89=E8=BF=99=E4=B8=AA=E9=97=AE=E9=
+=A2=98=E3=80=82</p></li>
+<li><p>=E3=80=90=E6=8E=A8=E8=8D=90=E3=80=91=E4=BD=BF=E7=94=A8 CountDownLatc=
+h =E8=BF=9B=E8=A1=8C=E5=BC=82=E6=AD=A5=E8=BD=AC=E5=90=8C=E6=AD=A5=E6=93=8D=
+=E4=BD=9C=EF=BC=8C=E6=AF=8F=E4=B8=AA=E7=BA=BF=E7=A8=8B=E9=80=80=E5=87=BA=E5=
+=89=8D=E5=BF=85=E9=A1=BB=E8=B0=83=E7=94=A8 countDown =E6=96=B9=E6=B3=95=EF=
+=BC=8C=E7=BA=BF=E7=A8=8B=E6=89=A7=E8=A1=8C=E4=BB=A3=E7=A0=81=E6=B3=A8=E6=84=
+=8F catch =E5=BC=82=E5=B8=B8=EF=BC=8C=E7=A1=AE=E4=BF=9D countDown =E6=96=B9=
+=E6=B3=95=E5=8F=AF=E4=BB=A5=E6=89=A7=E8=A1=8C=EF=BC=8C=E9=81=BF=E5=85=8D=E4=
+=B8=BB=E7=BA=BF=E7=A8=8B=E6=97=A0=E6=B3=95=E6=89=A7=E8=A1=8C =E8=87=B3 coun=
+tDown =E6=96=B9=E6=B3=95=EF=BC=8C=E7=9B=B4=E5=88=B0=E8=B6=85=E6=97=B6=E6=89=
+=8D=E8=BF=94=E5=9B=9E=E7=BB=93=E6=9E=9C=E3=80=82</p></li>
+</ol>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:=E6=B3=A8=E6=84=8F=EF=BC=8C=E5=AD=90=E7=BA=BF=E7=A8=
+=8B=E6=8A=9B=E5=87=BA=E5=BC=82=E5=B8=B8=E5=A0=86=E6=A0=88=EF=BC=8C=E4=B8=8D=
+=E8=83=BD=E5=9C=A8=E4=B8=BB=E7=BA=BF=E7=A8=8B try-catch =E5=88=B0=E3=80=82<=
+/p>
+</blockquote>
+<ol>
+<li>=E3=80=90=E6=8E=A8=E8=8D=90=E3=80=91=E9=81=BF=E5=85=8D Random =E5=AE=9E=
+=E4=BE=8B=E8=A2=AB=E5=A4=9A=E7=BA=BF=E7=A8=8B=E4=BD=BF=E7=94=A8=EF=BC=8C=E8=
+=99=BD=E7=84=B6=E5=85=B1=E4=BA=AB=E8=AF=A5=E5=AE=9E=E4=BE=8B=E6=98=AF=E7=BA=
+=BF=E7=A8=8B=E5=AE=89=E5=85=A8=E7=9A=84=EF=BC=8C=E4=BD=86=E4=BC=9A=E5=9B=A0=
+=E7=AB=9E=E4=BA=89=E5=90=8C=E4=B8=80 seed =E5=AF=BC=E8=87=B4=E7=9A=84=E6=80=
+=A7=E8=83=BD=E4=B8=8B=E9=99=8D=E3=80=82</li>
+</ol>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:Random =E5=AE=9E=E4=BE=8B=E5=8C=85=E6=8B=AC java.util=
+.Random =E7=9A=84=E5=AE=9E=E4=BE=8B=E6=88=96=E8=80=85 Math.random()=E5=AE=
+=9E=E4=BE=8B=E3=80=82</p>
+<p>=E6=AD=A3=E4=BE=8B:=E5=9C=A8 JDK7 =E4=B9=8B=E5=90=8E=EF=BC=8C=E5=8F=AF=
+=E4=BB=A5=E7=9B=B4=E6=8E=A5=E4=BD=BF=E7=94=A8 API ThreadLocalRandom=EF=BC=
+=8C=E5=9C=A8 JDK7 =E4=B9=8B=E5=89=8D=EF=BC=8C=E5=8F=AF=E4=BB=A5=E5=81=9A=E5=
+=88=B0=E6=AF=8F=E4=B8=AA =E7=BA=BF=E7=A8=8B=E4=B8=80=E4=B8=AA=E5=AE=9E=E4=
+=BE=8B=E3=80=82</p>
+</blockquote>
+<ol>
+<li><p>=E3=80=90=E6=8E=A8=E8=8D=90=E3=80=91=E9=80=9A=E8=BF=87=E5=8F=8C=E9=
+=87=8D=E6=A3=80=E6=9F=A5=E9=94=81(double-checked locking)(=E5=9C=A8=E5=B9=
+=B6=E5=8F=91=E5=9C=BA=E6=99=AF)=E5=AE=9E=E7=8E=B0=E5=BB=B6=E8=BF=9F=E5=88=
+=9D=E5=A7=8B=E5=8C=96=E7=9A=84=E4=BC=98 =E5=8C=96=E9=97=AE=E9=A2=98=E9=9A=
+=90=E6=82=A3(=E5=8F=AF=E5=8F=82=E8=80=83 The "Double-Checked Locking is Bro=
+ken" Declaration),=E6=8E=A8=E8=8D=90=E9=97=AE=E9=A2=98 =E8=A7=A3=E5=86=B3=
+=E6=96=B9=E6=A1=88=E4=B8=AD=E8=BE=83=E4=B8=BA=E7=AE=80=E5=8D=95=E4=B8=80=E7=
+=A7=8D(=E9=80=82=E7=94=A8=E4=BA=8E JDK5 =E5=8F=8A=E4=BB=A5=E4=B8=8A=E7=89=
+=88=E6=9C=AC)=EF=BC=8C=E5=B0=86=E7=9B=AE=E6=A0=87=E5=B1=9E=E6=80=A7=E5=A3=
+=B0=E6=98=8E=E4=B8=BA volatile =E5=9E=8B=E3=80=82</p><pre><code class=3D"la=
+ng-java">=E5=8F=8D=E4=BE=8B:
+
+<span class=3D"hljs-class"><span class=3D"hljs-keyword" style=3D"color: rgb=
+(137,89,168);">class</span> <span class=3D"hljs-title" style=3D"color: rgb(=
+142,144,140);">Foo</span> </span>{
+
+<span class=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">private</spa=
+n> Helper helper =3D <span class=3D"hljs-keyword" style=3D"color: rgb(137,8=
+9,168);">null</span>; <span class=3D"hljs-function" style=3D"color: rgb(66,=
+113,174);"><span class=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">p=
+ublic</span> Helper <span class=3D"hljs-title" style=3D"color: rgb(142,144,=
+140);">getHelper</span><span class=3D"hljs-params" style=3D"color: rgb(245,=
+135,31);">()</span> </span>{
+
+<span class=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">if</span> (h=
+elper =3D=3D <span class=3D"hljs-keyword" style=3D"color: rgb(137,89,168);"=
+>null</span>) <span class=3D"hljs-keyword" style=3D"color: rgb(137,89,168);=
+">synchronized</span>(<span class=3D"hljs-keyword" style=3D"color: rgb(137,=
+89,168);">this</span>) { <span class=3D"hljs-keyword" style=3D"color: rgb(1=
+37,89,168);">if</span> (helper =3D=3D <span class=3D"hljs-keyword" style=3D=
+"color: rgb(137,89,168);">null</span>)
+
+helper =3D <span class=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">n=
+ew</span> Helper();
+
+}
+
+<span class=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">return</span=
+> helper; }
+
+<span class=3D"hljs-comment" style=3D"color: rgb(142,144,140);">// other fu=
+nctions and members...</span>
+
+}
+</code></pre></li>
+<li><p>=E3=80=90=E5=8F=82=E8=80=83=E3=80=91volatile =E8=A7=A3=E5=86=B3=E5=
+=A4=9A=E7=BA=BF=E7=A8=8B=E5=86=85=E5=AD=98=E4=B8=8D=E5=8F=AF=E8=A7=81=E9=97=
+=AE=E9=A2=98=E3=80=82=E5=AF=B9=E4=BA=8E=E4=B8=80=E5=86=99=E5=A4=9A=E8=AF=BB=
+=EF=BC=8C=E6=98=AF=E5=8F=AF=E4=BB=A5=E8=A7=A3=E5=86=B3=E5=8F=98=E9=87=8F=E5=
+=90=8C=E6=AD=A5=E9=97=AE=E9=A2=98=EF=BC=8C =E4=BD=86=E6=98=AF=E5=A6=82=E6=
+=9E=9C=E5=A4=9A=E5=86=99=EF=BC=8C=E5=90=8C=E6=A0=B7=E6=97=A0=E6=B3=95=E8=A7=
+=A3=E5=86=B3=E7=BA=BF=E7=A8=8B=E5=AE=89=E5=85=A8=E9=97=AE=E9=A2=98=E3=80=82=
+=E5=A6=82=E6=9E=9C=E6=98=AF count++=E6=93=8D=E4=BD=9C=EF=BC=8C=E4=BD=BF=E7=
+=94=A8=E5=A6=82=E4=B8=8B=E7=B1=BB=E5=AE=9E=E7=8E=B0: AtomicInteger count =
+=3D new AtomicInteger(); count.addAndGet(1); =E5=A6=82=E6=9E=9C=E6=98=AF JD=
+K8=EF=BC=8C=E6=8E=A8 =E8=8D=90=E4=BD=BF=E7=94=A8 LongAdder =E5=AF=B9=E8=B1=
+=A1=EF=BC=8C=E6=AF=94 AtomicLong =E6=80=A7=E8=83=BD=E6=9B=B4=E5=A5=BD(=E5=
+=87=8F=E5=B0=91=E4=B9=90=E8=A7=82=E9=94=81=E7=9A=84=E9=87=8D=E8=AF=95=E6=AC=
+=A1=E6=95=B0)=E3=80=82</p></li>
+<li><p>=E3=80=90=E5=8F=82=E8=80=83=E3=80=91 HashMap =E5=9C=A8=E5=AE=B9=E9=
+=87=8F=E4=B8=8D=E5=A4=9F=E8=BF=9B=E8=A1=8C resize =E6=97=B6=E7=94=B1=E4=BA=
+=8E=E9=AB=98=E5=B9=B6=E5=8F=91=E5=8F=AF=E8=83=BD=E5=87=BA=E7=8E=B0=E6=AD=BB=
+=E9=93=BE=EF=BC=8C=E5=AF=BC=E8=87=B4 CPU =E9=A3=99=E5=8D=87=EF=BC=8C=E5=9C=
+=A8 =E5=BC=80=E5=8F=91=E8=BF=87=E7=A8=8B=E4=B8=AD=E6=B3=A8=E6=84=8F=E8=A7=
+=84=E9=81=BF=E6=AD=A4=E9=A3=8E=E9=99=A9=E3=80=82</p></li>
+<li><p>=E3=80=90=E5=8F=82=E8=80=83=E3=80=91ThreadLocal =E6=97=A0=E6=B3=95=
+=E8=A7=A3=E5=86=B3=E5=85=B1=E4=BA=AB=E5=AF=B9=E8=B1=A1=E7=9A=84=E6=9B=B4=E6=
+=96=B0=E9=97=AE=E9=A2=98=EF=BC=8CThreadLocal =E5=AF=B9=E8=B1=A1=E5=BB=BA=E8=
+=AE=AE=E4=BD=BF=E7=94=A8 static =E4=BF=AE=E9=A5=B0=E3=80=82=E8=BF=99=E4=B8=
+=AA=E5=8F=98=E9=87=8F=E6=98=AF=E9=92=88=E5=AF=B9=E4=B8=80=E4=B8=AA=E7=BA=BF=
+=E7=A8=8B=E5=86=85=E6=89=80=E6=9C=89=E6=93=8D=E4=BD=9C=E5=85=B1=E6=9C=89=E7=
+=9A=84=EF=BC=8C=E6=89=80=E4=BB=A5=E8=AE=BE=E7=BD=AE=E4=B8=BA=E9=9D=99=E6=80=
+=81=E5=8F=98=E9=87=8F=EF=BC=8C=E6=89=80=E6=9C=89=E6=AD=A4=E7=B1=BB=E5=AE=9E=
+=E4=BE=8B=E5=85=B1=E4=BA=AB =E6=AD=A4=E9=9D=99=E6=80=81=E5=8F=98=E9=87=8F =
+=EF=BC=8C=E4=B9=9F=E5=B0=B1=E6=98=AF=E8=AF=B4=E5=9C=A8=E7=B1=BB=E7=AC=AC=E4=
+=B8=80=E6=AC=A1=E8=A2=AB=E4=BD=BF=E7=94=A8=E6=97=B6=E8=A3=85=E8=BD=BD=EF=BC=
+=8C=E5=8F=AA=E5=88=86=E9=85=8D=E4=B8=80=E5=9D=97=E5=AD=98=E5=82=A8=E7=A9=BA=
+=E9=97=B4=EF=BC=8C=E6=89=80=E6=9C=89=E6=AD=A4=E7=B1=BB=E7=9A=84=E5=AF=B9=E8=
+=B1=A1(=E5=8F=AA =E8=A6=81=E6=98=AF=E8=BF=99=E4=B8=AA=E7=BA=BF=E7=A8=8B=E5=
+=86=85=E5=AE=9A=E4=B9=89=E7=9A=84)=E9=83=BD=E5=8F=AF=E4=BB=A5=E6=93=8D=E6=
+=8E=A7=E8=BF=99=E4=B8=AA=E5=8F=98=E9=87=8F=E3=80=82</p></li>
+</ol>
+<h3 id=3D"JAVA=E4=BB=A3=E7=A0=81=E8=A7=84=E8=8C=83-=E4=B8=83=E3=80=81=E6=8E=
+=A7=E5=88=B6=E8=AF=AD=E5=8F=A5">=E4=B8=83=E3=80=81=E6=8E=A7=E5=88=B6=E8=AF=
+=AD=E5=8F=A5</h3>
+<ol>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E5=9C=A8=E4=B8=80=E4=B8=AA swit=
+ch =E5=9D=97=E5=86=85=EF=BC=8C=E6=AF=8F=E4=B8=AA case =E8=A6=81=E4=B9=88=E9=
+=80=9A=E8=BF=87 break/return =E7=AD=89=E6=9D=A5=E7=BB=88=E6=AD=A2=EF=BC=8C=
+=E8=A6=81=E4=B9=88=E6=B3=A8=E9=87=8A=E8=AF=B4=E6=98=8E=E7=A8=8B =E5=BA=8F=
+=E5=B0=86=E7=BB=A7=E7=BB=AD=E6=89=A7=E8=A1=8C=E5=88=B0=E5=93=AA=E4=B8=80=E4=
+=B8=AA case =E4=B8=BA=E6=AD=A2;=E5=9C=A8=E4=B8=80=E4=B8=AA switch =E5=9D=97=
+=E5=86=85=EF=BC=8C=E9=83=BD=E5=BF=85=E9=A1=BB=E5=8C=85=E5=90=AB=E4=B8=80=E4=
+=B8=AA default =E8=AF=AD=E5=8F=A5=E5=B9=B6=E4=B8=94 =E6=94=BE=E5=9C=A8=E6=
+=9C=80=E5=90=8E=EF=BC=8C=E5=8D=B3=E4=BD=BF=E5=AE=83=E4=BB=80=E4=B9=88=E4=BB=
+=A3=E7=A0=81=E4=B9=9F=E6=B2=A1=E6=9C=89=E3=80=82</p></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E5=9C=A8 if/else/for/while/do =
+=E8=AF=AD=E5=8F=A5=E4=B8=AD=E5=BF=85=E9=A1=BB=E4=BD=BF=E7=94=A8=E5=A4=A7=E6=
+=8B=AC=E5=8F=B7=EF=BC=8C=E5=8D=B3=E4=BD=BF=E5=8F=AA=E6=9C=89=E4=B8=80=E8=A1=
+=8C=E4=BB=A3=E7=A0=81=EF=BC=8C=E9=81=BF=E5=85=8D=E4=BD=BF=E7=94=A8=E4=B8=8B=
+=E9=9D=A2=E7=9A=84=E5=BD=A2=E5=BC=8F:if (condition) statements;</p></li>
+<li><p>=E3=80=90=E6=8E=A8=E8=8D=90=E3=80=91=E6=8E=A8=E8=8D=90=E5=B0=BD=E9=
+=87=8F=E5=B0=91=E7=94=A8 else=EF=BC=8C if-else =E7=9A=84=E6=96=B9=E5=BC=8F=
+=E5=8F=AF=E4=BB=A5=E6=94=B9=E5=86=99=E6=88=90:</p><pre><code> if(condition)=
+{
+     ...
+     return obj;=20
+ }
+
+// =E6=8E=A5=E7=9D=80=E5=86=99 else =E7=9A=84=E4=B8=9A=E5=8A=A1=E9=80=BB=E8=
+=BE=91=E4=BB=A3=E7=A0=81;
+</code></pre>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:=E5=A6=82=E6=9E=9C=E9=9D=9E=E5=BE=97=E4=BD=BF=E7=94=
+=A8if()...else if()...else...=E6=96=B9=E5=BC=8F=E8=A1=A8=E8=BE=BE=E9=80=BB=
+=E8=BE=91=EF=BC=8C=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E8=AF=B7=E5=8B=BF=E8=
+=B6=85=E8=BF=873=E5=B1=82=EF=BC=8C=E8=B6=85=E8=BF=87=E8=AF=B7=E4=BD=BF=E7=
+=94=A8=E7=8A=B6=E6=80=81=E8=AE=BE=E8=AE=A1=E6=A8=A1=E5=BC=8F=E3=80=82</p>
+<p>=E6=AD=A3=E4=BE=8B:=E9=80=BB=E8=BE=91=E4=B8=8A=E8=B6=85=E8=BF=87 3 =E5=
+=B1=82=E7=9A=84 if-else =E4=BB=A3=E7=A0=81=E5=8F=AF=E4=BB=A5=E4=BD=BF=E7=94=
+=A8=E5=8D=AB=E8=AF=AD=E5=8F=A5=EF=BC=8C=E6=88=96=E8=80=85=E7=8A=B6=E6=80=81=
+=E6=A8=A1=E5=BC=8F=E6=9D=A5=E5=AE=9E=E7=8E=B0=E3=80=82</p>
+</blockquote></li>
+<li><p>=E3=80=90=E6=8E=A8=E8=8D=90=E3=80=91=E9=99=A4=E5=B8=B8=E7=94=A8=E6=
+=96=B9=E6=B3=95(=E5=A6=82 getXxx/isXxx)=E7=AD=89=E5=A4=96=EF=BC=8C=E4=B8=8D=
+=E8=A6=81=E5=9C=A8=E6=9D=A1=E4=BB=B6=E5=88=A4=E6=96=AD=E4=B8=AD=E6=89=A7=E8=
+=A1=8C=E5=85=B6=E5=AE=83=E5=A4=8D=E6=9D=82=E7=9A=84=E8=AF=AD=E5=8F=A5=EF=BC=
+=8C=E5=B0=86=E5=A4=8D =E6=9D=82=E9=80=BB=E8=BE=91=E5=88=A4=E6=96=AD=E7=9A=
+=84=E7=BB=93=E6=9E=9C=E8=B5=8B=E5=80=BC=E7=BB=99=E4=B8=80=E4=B8=AA=E6=9C=89=
+=E6=84=8F=E4=B9=89=E7=9A=84=E5=B8=83=E5=B0=94=E5=8F=98=E9=87=8F=E5=90=8D=EF=
+=BC=8C=E4=BB=A5=E6=8F=90=E9=AB=98=E5=8F=AF=E8=AF=BB=E6=80=A7=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:=E5=BE=88=E5=A4=9A if =E8=AF=AD=E5=8F=A5=E5=86=85=E7=
+=9A=84=E9=80=BB=E8=BE=91=E7=9B=B8=E5=BD=93=E5=A4=8D=E6=9D=82=EF=BC=8C=E9=98=
+=85=E8=AF=BB=E8=80=85=E9=9C=80=E8=A6=81=E5=88=86=E6=9E=90=E6=9D=A1=E4=BB=B6=
+=E8=A1=A8=E8=BE=BE=E5=BC=8F=E7=9A=84=E6=9C=80=E7=BB=88=E7=BB=93=E6=9E=9C=EF=
+=BC=8C=E6=89=8D=E8=83=BD=E6=98=8E=E7=A1=AE=E4=BB=80=E4=B9=88 =E6=A0=B7=E7=
+=9A=84=E6=9D=A1=E4=BB=B6=E6=89=A7=E8=A1=8C=E4=BB=80=E4=B9=88=E6=A0=B7=E7=9A=
+=84=E8=AF=AD=E5=8F=A5=EF=BC=8C=E9=82=A3=E4=B9=88=EF=BC=8C=E5=A6=82=E6=9E=9C=
+=E9=98=85=E8=AF=BB=E8=80=85=E5=88=86=E6=9E=90=E9=80=BB=E8=BE=91=E8=A1=A8=E8=
+=BE=BE=E5=BC=8F=E9=94=99=E8=AF=AF=E5=91=A2?</p>
+</blockquote><pre><code class=3D"lang-java">=E6=AD=A3=E4=BE=8B:
+
+<span class=3D"hljs-comment" style=3D"color: rgb(142,144,140);">//=E4=BC=AA=
+=E4=BB=A3=E7=A0=81=E5=A6=82=E4=B8=8B</span>
+
+<span class=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">boolean</spa=
+n> existed =3D (file.open(fileName, <span class=3D"hljs-string" style=3D"co=
+lor: rgb(113,140,0);">"w"</span>) !=3D <span class=3D"hljs-keyword" style=
+=3D"color: rgb(137,89,168);">null</span>) &amp;&amp; (...) || (...); <span =
+class=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">if</span> (existed=
+) {
+
+... }
+
+=E5=8F=8D=E4=BE=8B:
+
+<span class=3D"hljs-keyword" style=3D"color: rgb(137,89,168);">if</span> ((=
+file.open(fileName, <span class=3D"hljs-string" style=3D"color: rgb(113,140=
+,0);">"w"</span>) !=3D <span class=3D"hljs-keyword" style=3D"color: rgb(137=
+,89,168);">null</span>) &amp;&amp; (...) || (...)) { ...
+
+}
+</code></pre></li>
+<li><p>=E3=80=90=E6=8E=A8=E8=8D=90=E3=80=91=E5=BE=AA=E7=8E=AF=E4=BD=93=E4=
+=B8=AD=E7=9A=84=E8=AF=AD=E5=8F=A5=E8=A6=81=E8=80=83=E9=87=8F=E6=80=A7=E8=83=
+=BD=EF=BC=8C=E4=BB=A5=E4=B8=8B=E6=93=8D=E4=BD=9C=E5=B0=BD=E9=87=8F=E7=A7=BB=
+=E8=87=B3=E5=BE=AA=E7=8E=AF=E4=BD=93=E5=A4=96=E5=A4=84=E7=90=86=EF=BC=8C=E5=
+=A6=82=E5=AE=9A=E4=B9=89=E5=AF=B9=E8=B1=A1=E3=80=81=E5=8F=98=E9=87=8F=E3=80=
+=81=E8=8E=B7=E5=8F=96=E6=95=B0=E6=8D=AE=E5=BA=93=E8=BF=9E=E6=8E=A5=EF=BC=8C=
+=E8=BF=9B=E8=A1=8C=E4=B8=8D=E5=BF=85=E8=A6=81=E7=9A=84 try-catch =E6=93=8D=
+=E4=BD=9C(=E8=BF=99=E4=B8=AA try-catch =E6=98=AF=E5=90=A6=E5=8F=AF=E4=BB=A5=
+=E7=A7=BB=E8=87=B3=E5=BE=AA=E7=8E=AF=E4=BD=93=E5=A4=96)=E3=80=82</p></li>
+<li><p>=E3=80=90=E6=8E=A8=E8=8D=90=E3=80=91=E6=8E=A5=E5=8F=A3=E5=85=A5=E5=
+=8F=82=E4=BF=9D=E6=8A=A4=EF=BC=8C=E8=BF=99=E7=A7=8D=E5=9C=BA=E6=99=AF=E5=B8=
+=B8=E8=A7=81=E7=9A=84=E6=98=AF=E7=94=A8=E4=BA=8E=E5=81=9A=E6=89=B9=E9=87=8F=
+=E6=93=8D=E4=BD=9C=E7=9A=84=E6=8E=A5=E5=8F=A3=E3=80=82</p></li>
+<li><p>=E3=80=90=E5=8F=82=E8=80=83=E3=80=91=E6=96=B9=E6=B3=95=E4=B8=AD=E9=
+=9C=80=E8=A6=81=E8=BF=9B=E8=A1=8C=E5=8F=82=E6=95=B0=E6=A0=A1=E9=AA=8C=E7=9A=
+=84=E5=9C=BA=E6=99=AF:</p>
+<ul>
+<li>=E8=B0=83=E7=94=A8=E9=A2=91=E6=AC=A1=E4=BD=8E=E7=9A=84=E6=96=B9=E6=B3=
+=95=E3=80=82</li>
+<li>=E6=89=A7=E8=A1=8C=E6=97=B6=E9=97=B4=E5=BC=80=E9=94=80=E5=BE=88=E5=A4=
+=A7=E7=9A=84=E6=96=B9=E6=B3=95=EF=BC=8C=E5=8F=82=E6=95=B0=E6=A0=A1=E9=AA=8C=
+=E6=97=B6=E9=97=B4=E5=87=A0=E4=B9=8E=E5=8F=AF=E4=BB=A5=E5=BF=BD=E7=95=A5=E4=
+=B8=8D=E8=AE=A1=EF=BC=8C=E4=BD=86=E5=A6=82=E6=9E=9C=E5=9B=A0=E4=B8=BA=E5=8F=
+=82=E6=95=B0=E9=94=99=E8=AF=AF=E5=AF=BC=E8=87=B4=E4=B8=AD=E9=97=B4=E6=89=A7=
+=E8=A1=8C=E5=9B=9E=E9=80=80=EF=BC=8C=E6=88=96=E8=80=85=E9=94=99=E8=AF=AF=EF=
+=BC=8C=E9=82=A3=E5=BE=97=E4=B8=8D=E5=81=BF=E5=A4=B1=E3=80=82</li>
+<li>=E9=9C=80=E8=A6=81=E6=9E=81=E9=AB=98=E7=A8=B3=E5=AE=9A=E6=80=A7=E5=92=
+=8C=E5=8F=AF=E7=94=A8=E6=80=A7=E7=9A=84=E6=96=B9=E6=B3=95=E3=80=82</li>
+<li>=E5=AF=B9=E5=A4=96=E6=8F=90=E4=BE=9B=E7=9A=84=E5=BC=80=E6=94=BE=E6=8E=
+=A5=E5=8F=A3=EF=BC=8C=E4=B8=8D=E7=AE=A1=E6=98=AFRPC/API/HTTP=E6=8E=A5=E5=8F=
+=A3=E3=80=82</li>
+<li>=E6=95=8F=E6=84=9F=E6=9D=83=E9=99=90=E5=85=A5=E5=8F=A3=E3=80=82</li>
+</ul></li>
+<li><p>=E3=80=90=E5=8F=82=E8=80=83=E3=80=91=E6=96=B9=E6=B3=95=E4=B8=AD=E4=
+=B8=8D=E9=9C=80=E8=A6=81=E5=8F=82=E6=95=B0=E6=A0=A1=E9=AA=8C=E7=9A=84=E5=9C=
+=BA=E6=99=AF:</p>
+<ul>
+<li>=E6=9E=81=E6=9C=89=E5=8F=AF=E8=83=BD=E8=A2=AB=E5=BE=AA=E7=8E=AF=E8=B0=
+=83=E7=94=A8=E7=9A=84=E6=96=B9=E6=B3=95=EF=BC=8C=E4=B8=8D=E5=BB=BA=E8=AE=AE=
+=E5=AF=B9=E5=8F=82=E6=95=B0=E8=BF=9B=E8=A1=8C=E6=A0=A1=E9=AA=8C=E3=80=82=E4=
+=BD=86=E5=9C=A8=E6=96=B9=E6=B3=95=E8=AF=B4=E6=98=8E=E9=87=8C=E5=BF=85=E9=A1=
+=BB=E6=B3=A8=E6=98=8E=E5=A4=96=E9=83=A8=E5=8F=82=E6=95=B0=E6=A3=80=E6=9F=A5=
+=E3=80=82</li>
+<li>=E5=BA=95=E5=B1=82=E7=9A=84=E6=96=B9=E6=B3=95=E8=B0=83=E7=94=A8=E9=A2=
+=91=E5=BA=A6=E9=83=BD=E6=AF=94=E8=BE=83=E9=AB=98=EF=BC=8C=E4=B8=80=E8=88=AC=
+=E4=B8=8D=E6=A0=A1=E9=AA=8C=E3=80=82=E6=AF=95=E7=AB=9F=E6=98=AF=E5=83=8F=E7=
+=BA=AF=E5=87=80=E6=B0=B4=E8=BF=87=E6=BB=A4=E7=9A=84=E6=9C=80=E5=90=8E=E4=B8=
+=80=E9=81=93=EF=BC=8C=E5=8F=82=E6=95=B0=E9=94=99=E8=AF=AF=E4=B8=8D=E5=A4=AA=
+=E5=8F=AF=E8=83=BD=E5=88=B0=E5=BA=95=E5=B1=82=E6=89=8D=E4=BC=9A=E6=9A=B4=E9=
+=9C=B2=E9=97=AE=E9=A2=98=E3=80=82=E4=B8=80=E8=88=AC DAO =E5=B1=82=E4=B8=8E =
+Service =E5=B1=82=E9=83=BD=E5=9C=A8=E5=90=8C=E4=B8=80=E4=B8=AA=E5=BA=94=E7=
+=94=A8=E4=B8=AD=EF=BC=8C=E9=83=A8=E7=BD=B2=E5=9C=A8=E5=90=8C=E4=B8=80 =E5=
+=8F=B0=E6=9C=8D=E5=8A=A1=E5=99=A8=E4=B8=AD=EF=BC=8C=E6=89=80=E4=BB=A5 DAO =
+=E7=9A=84=E5=8F=82=E6=95=B0=E6=A0=A1=E9=AA=8C=EF=BC=8C=E5=8F=AF=E4=BB=A5=E7=
+=9C=81=E7=95=A5=E3=80=82</li>
+<li>=E8=A2=AB=E5=A3=B0=E6=98=8E=E6=88=90private=E5=8F=AA=E4=BC=9A=E8=A2=AB=
+=E8=87=AA=E5=B7=B1=E4=BB=A3=E7=A0=81=E6=89=80=E8=B0=83=E7=94=A8=E7=9A=84=E6=
+=96=B9=E6=B3=95=EF=BC=8C=E5=A6=82=E6=9E=9C=E8=83=BD=E5=A4=9F=E7=A1=AE=E5=AE=
+=9A=E8=B0=83=E7=94=A8=E6=96=B9=E6=B3=95=E7=9A=84=E4=BB=A3=E7=A0=81=E4=BC=A0=
+=E5=85=A5=E5=8F=82 =E6=95=B0=E5=B7=B2=E7=BB=8F=E5=81=9A=E8=BF=87=E6=A3=80=
+=E6=9F=A5=E6=88=96=E8=80=85=E8=82=AF=E5=AE=9A=E4=B8=8D=E4=BC=9A=E6=9C=89=E9=
+=97=AE=E9=A2=98=EF=BC=8C=E6=AD=A4=E6=97=B6=E5=8F=AF=E4=BB=A5=E4=B8=8D=E6=A0=
+=A1=E9=AA=8C=E5=8F=82=E6=95=B0=E3=80=82</li>
+</ul></li>
+</ol>
+<h3 id=3D"JAVA=E4=BB=A3=E7=A0=81=E8=A7=84=E8=8C=83-=E5=85=AB=E3=80=81=E6=B3=
+=A8=E9=87=8A=E8=A7=84=E7=BA=A6">=E5=85=AB=E3=80=81=E6=B3=A8=E9=87=8A=E8=A7=
+=84=E7=BA=A6</h3>
+<ol>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E7=B1=BB=E3=80=81=E7=B1=BB=E5=
+=B1=9E=E6=80=A7=E3=80=81=E7=B1=BB=E6=96=B9=E6=B3=95=E7=9A=84=E6=B3=A8=E9=87=
+=8A=E5=BF=85=E9=A1=BB=E4=BD=BF=E7=94=A8 Javadoc =E8=A7=84=E8=8C=83=EF=BC=8C=
+=E4=BD=BF=E7=94=A8/<em>*=E5=86=85=E5=AE=B9</em>/=E6=A0=BC=E5=BC=8F=EF=BC=8C=
+=E4=B8=8D=E5=BE=97=E4=BD=BF=E7=94=A8 //xxx =E6=96=B9=E5=BC=8F=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:=E5=9C=A8 IDE =E7=BC=96=E8=BE=91=E7=AA=97=E5=8F=A3=E4=
+=B8=AD=EF=BC=8CJavadoc =E6=96=B9=E5=BC=8F=E4=BC=9A=E6=8F=90=E7=A4=BA=E7=9B=
+=B8=E5=85=B3=E6=B3=A8=E9=87=8A=EF=BC=8C=E7=94=9F=E6=88=90 Javadoc =E5=8F=AF=
+=E4=BB=A5=E6=AD=A3=E7=A1=AE=E8=BE=93=E5=87=BA=E7=9B=B8=E5=BA=94=E6=B3=A8 =
+=E9=87=8A;=E5=9C=A8 IDE =E4=B8=AD=EF=BC=8C=E5=B7=A5=E7=A8=8B=E8=B0=83=E7=94=
+=A8=E6=96=B9=E6=B3=95=E6=97=B6=EF=BC=8C=E4=B8=8D=E8=BF=9B=E5=85=A5=E6=96=B9=
+=E6=B3=95=E5=8D=B3=E5=8F=AF=E6=82=AC=E6=B5=AE=E6=8F=90=E7=A4=BA=E6=96=B9=E6=
+=B3=95=E3=80=81=E5=8F=82=E6=95=B0=E3=80=81=E8=BF=94=E5=9B=9E=E5=80=BC=E7=9A=
+=84=E6=84=8F=E4=B9=89=EF=BC=8C=E6=8F=90=E9=AB=98 =E9=98=85=E8=AF=BB=E6=95=
+=88=E7=8E=87=E3=80=82</p>
+</blockquote></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E6=89=80=E6=9C=89=E7=9A=84=E6=
+=8A=BD=E8=B1=A1=E6=96=B9=E6=B3=95(=E5=8C=85=E6=8B=AC=E6=8E=A5=E5=8F=A3=E4=
+=B8=AD=E7=9A=84=E6=96=B9=E6=B3=95)=E5=BF=85=E9=A1=BB=E8=A6=81=E7=94=A8 Java=
+doc =E6=B3=A8=E9=87=8A=E3=80=81=E9=99=A4=E4=BA=86=E8=BF=94=E5=9B=9E=E5=80=
+=BC=E3=80=81=E5=8F=82=E6=95=B0=E3=80=81 =E5=BC=82=E5=B8=B8=E8=AF=B4=E6=98=
+=8E=E5=A4=96=EF=BC=8C=E8=BF=98=E5=BF=85=E9=A1=BB=E6=8C=87=E5=87=BA=E8=AF=A5=
+=E6=96=B9=E6=B3=95=E5=81=9A=E4=BB=80=E4=B9=88=E4=BA=8B=E6=83=85=EF=BC=8C=E5=
+=AE=9E=E7=8E=B0=E4=BB=80=E4=B9=88=E5=8A=9F=E8=83=BD=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:=E5=AF=B9=E5=AD=90=E7=B1=BB=E7=9A=84=E5=AE=9E=E7=8E=
+=B0=E8=A6=81=E6=B1=82=EF=BC=8C=E6=88=96=E8=80=85=E8=B0=83=E7=94=A8=E6=B3=A8=
+=E6=84=8F=E4=BA=8B=E9=A1=B9=EF=BC=8C=E8=AF=B7=E4=B8=80=E5=B9=B6=E8=AF=B4=E6=
+=98=8E=E3=80=82</p>
+</blockquote></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E6=89=80=E6=9C=89=E7=9A=84=E7=
+=B1=BB=E9=83=BD=E5=BF=85=E9=A1=BB=E6=B7=BB=E5=8A=A0=E5=88=9B=E5=BB=BA=E8=80=
+=85=E4=BF=A1=E6=81=AF=E3=80=82</p></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E6=96=B9=E6=B3=95=E5=86=85=E9=
+=83=A8=E5=8D=95=E8=A1=8C=E6=B3=A8=E9=87=8A=EF=BC=8C=E5=9C=A8=E8=A2=AB=E6=B3=
+=A8=E9=87=8A=E8=AF=AD=E5=8F=A5=E4=B8=8A=E6=96=B9=E5=8F=A6=E8=B5=B7=E4=B8=80=
+=E8=A1=8C=EF=BC=8C=E4=BD=BF=E7=94=A8//=E6=B3=A8=E9=87=8A=E3=80=82=E6=96=B9=
+=E6=B3=95=E5=86=85=E9=83=A8=E5=A4=9A=E8=A1=8C=E6=B3=A8=E9=87=8A=E4=BD=BF=E7=
+=94=A8/<em>&nbsp;</em>/=E6=B3=A8=E9=87=8A=EF=BC=8C=E6=B3=A8=E6=84=8F=E4=B8=
+=8E=E4=BB=A3=E7=A0=81=E5=AF=B9=E9=BD=90=E3=80=82</p></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E6=89=80=E6=9C=89=E7=9A=84=E6=
+=9E=9A=E4=B8=BE=E7=B1=BB=E5=9E=8B=E5=AD=97=E6=AE=B5=E5=BF=85=E9=A1=BB=E8=A6=
+=81=E6=9C=89=E6=B3=A8=E9=87=8A=EF=BC=8C=E8=AF=B4=E6=98=8E=E6=AF=8F=E4=B8=AA=
+=E6=95=B0=E6=8D=AE=E9=A1=B9=E7=9A=84=E7=94=A8=E9=80=94=E3=80=82</p></li>
+<li><p>=E3=80=90=E6=8E=A8=E8=8D=90=E3=80=91=E4=B8=8E=E5=85=B6=E2=80=9C=E5=
+=8D=8A=E5=90=8A=E5=AD=90=E2=80=9D=E8=8B=B1=E6=96=87=E6=9D=A5=E6=B3=A8=E9=87=
+=8A=EF=BC=8C=E4=B8=8D=E5=A6=82=E7=94=A8=E4=B8=AD=E6=96=87=E6=B3=A8=E9=87=8A=
+=E6=8A=8A=E9=97=AE=E9=A2=98=E8=AF=B4=E6=B8=85=E6=A5=9A=E3=80=82=E4=B8=93=E6=
+=9C=89=E5=90=8D=E8=AF=8D=E4=B8=8E=E5=85=B3=E9=94=AE=E5=AD=97=E4=BF=9D=E6=8C=
+=81 =E8=8B=B1=E6=96=87=E5=8E=9F=E6=96=87=E5=8D=B3=E5=8F=AF=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E5=8F=8D=E4=BE=8B:=E2=80=9CTCP =E8=BF=9E=E6=8E=A5=E8=B6=85=E6=97=B6=E2=
+=80=9D=E8=A7=A3=E9=87=8A=E6=88=90=E2=80=9C=E4=BC=A0=E8=BE=93=E6=8E=A7=E5=88=
+=B6=E5=8D=8F=E8=AE=AE=E8=BF=9E=E6=8E=A5=E8=B6=85=E6=97=B6=E2=80=9D=EF=BC=8C=
+=E7=90=86=E8=A7=A3=E5=8F=8D=E8=80=8C=E8=B4=B9=E8=84=91=E7=AD=8B=E3=80=82</p=
+>
+</blockquote></li>
+<li><p>=E3=80=90=E6=8E=A8=E8=8D=90=E3=80=91=E4=BB=A3=E7=A0=81=E4=BF=AE=E6=
+=94=B9=E7=9A=84=E5=90=8C=E6=97=B6=EF=BC=8C=E6=B3=A8=E9=87=8A=E4=B9=9F=E8=A6=
+=81=E8=BF=9B=E8=A1=8C=E7=9B=B8=E5=BA=94=E7=9A=84=E4=BF=AE=E6=94=B9=EF=BC=8C=
+=E5=B0=A4=E5=85=B6=E6=98=AF=E5=8F=82=E6=95=B0=E3=80=81=E8=BF=94=E5=9B=9E=E5=
+=80=BC=E3=80=81=E5=BC=82=E5=B8=B8=E3=80=81=E6=A0=B8=E5=BF=83=E9=80=BB=E8=BE=
+=91 =E7=AD=89=E7=9A=84=E4=BF=AE=E6=94=B9=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:=E4=BB=A3=E7=A0=81=E4=B8=8E=E6=B3=A8=E9=87=8A=E6=9B=
+=B4=E6=96=B0=E4=B8=8D=E5=90=8C=E6=AD=A5=EF=BC=8C=E5=B0=B1=E5=83=8F=E8=B7=AF=
+=E7=BD=91=E4=B8=8E=E5=AF=BC=E8=88=AA=E8=BD=AF=E4=BB=B6=E6=9B=B4=E6=96=B0=E4=
+=B8=8D=E5=90=8C=E6=AD=A5=E4=B8=80=E6=A0=B7=EF=BC=8C=E5=A6=82=E6=9E=9C=E5=AF=
+=BC=E8=88=AA=E8=BD=AF=E4=BB=B6=E4=B8=A5=E9=87=8D=E6=BB=9E=E5=90=8E=EF=BC=8C=
+ =E5=B0=B1=E5=A4=B1=E5=8E=BB=E4=BA=86=E5=AF=BC=E8=88=AA=E7=9A=84=E6=84=8F=
+=E4=B9=89=E3=80=82</p>
+</blockquote></li>
+<li><p>=E3=80=90=E5=8F=82=E8=80=83=E3=80=91=E6=B3=A8=E9=87=8A=E6=8E=89=E7=
+=9A=84=E4=BB=A3=E7=A0=81=E5=B0=BD=E9=87=8F=E8=A6=81=E9=85=8D=E5=90=88=E8=AF=
+=B4=E6=98=8E=EF=BC=8C=E8=80=8C=E4=B8=8D=E6=98=AF=E7=AE=80=E5=8D=95=E7=9A=84=
+=E6=B3=A8=E9=87=8A=E6=8E=89=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:=E4=BB=A3=E7=A0=81=E8=A2=AB=E6=B3=A8=E9=87=8A=E6=8E=
+=89=E6=9C=89=E4=B8=A4=E7=A7=8D=E5=8F=AF=E8=83=BD=E6=80=A7:1)=E5=90=8E=E7=BB=
+=AD=E4=BC=9A=E6=81=A2=E5=A4=8D=E6=AD=A4=E6=AE=B5=E4=BB=A3=E7=A0=81=E9=80=BB=
+=E8=BE=91=E3=80=822)=E6=B0=B8=E4=B9=85=E4=B8=8D=E7=94=A8=E3=80=82=E5=89=8D=
+=E8=80=85=E5=A6=82=E6=9E=9C=E6=B2=A1 =E6=9C=89=E5=A4=87=E6=B3=A8=E4=BF=A1=
+=E6=81=AF=EF=BC=8C=E9=9A=BE=E4=BB=A5=E7=9F=A5=E6=99=93=E6=B3=A8=E9=87=8A=E5=
+=8A=A8=E6=9C=BA=E3=80=82=E5=90=8E=E8=80=85=E5=BB=BA=E8=AE=AE=E7=9B=B4=E6=8E=
+=A5=E5=88=A0=E6=8E=89(=E4=BB=A3=E7=A0=81=E4=BB=93=E5=BA=93=E4=BF=9D=E5=AD=
+=98=E4=BA=86=E5=8E=86=E5=8F=B2=E4=BB=A3=E7=A0=81)=E3=80=82</p>
+</blockquote></li>
+<li><p>=E3=80=90=E5=8F=82=E8=80=83=E3=80=91=E5=AF=B9=E4=BA=8E=E6=B3=A8=E9=
+=87=8A=E7=9A=84=E8=A6=81=E6=B1=82:=E7=AC=AC=E4=B8=80=E3=80=81=E8=83=BD=E5=
+=A4=9F=E5=87=86=E7=A1=AE=E5=8F=8D=E5=BA=94=E8=AE=BE=E8=AE=A1=E6=80=9D=E6=83=
+=B3=E5=92=8C=E4=BB=A3=E7=A0=81=E9=80=BB=E8=BE=91;=E7=AC=AC=E4=BA=8C=E3=80=
+=81=E8=83=BD=E5=A4=9F=E6=8F=8F=E8=BF=B0=E4=B8=9A=E5=8A=A1=E5=90=AB =E4=B9=
+=89=EF=BC=8C=E4=BD=BF=E5=88=AB=E7=9A=84=E7=A8=8B=E5=BA=8F=E5=91=98=E8=83=BD=
+=E5=A4=9F=E8=BF=85=E9=80=9F=E4=BA=86=E8=A7=A3=E5=88=B0=E4=BB=A3=E7=A0=81=E8=
+=83=8C=E5=90=8E=E7=9A=84=E4=BF=A1=E6=81=AF=E3=80=82=E5=AE=8C=E5=85=A8=E6=B2=
+=A1=E6=9C=89=E6=B3=A8=E9=87=8A=E7=9A=84=E5=A4=A7=E6=AE=B5=E4=BB=A3=E7=A0=81=
+=E5=AF=B9=E4=BA=8E=E9=98=85=E8=AF=BB=E8=80=85=E5=BD=A2=E5=90=8C =E5=A4=A9=
+=E4=B9=A6=EF=BC=8C=E6=B3=A8=E9=87=8A=E6=98=AF=E7=BB=99=E8=87=AA=E5=B7=B1=E7=
+=9C=8B=E7=9A=84=EF=BC=8C=E5=8D=B3=E4=BD=BF=E9=9A=94=E5=BE=88=E9=95=BF=E6=97=
+=B6=E9=97=B4=EF=BC=8C=E4=B9=9F=E8=83=BD=E6=B8=85=E6=99=B0=E7=90=86=E8=A7=A3=
+=E5=BD=93=E6=97=B6=E7=9A=84=E6=80=9D=E8=B7=AF;=E6=B3=A8=E9=87=8A=E4=B9=9F=
+=E6=98=AF=E7=BB=99=E7=BB=A7=E4=BB=BB=E8=80=85=E7=9C=8B =E7=9A=84=EF=BC=8C=
+=E4=BD=BF=E5=85=B6=E8=83=BD=E5=A4=9F=E5=BF=AB=E9=80=9F=E6=8E=A5=E6=9B=BF=E8=
+=87=AA=E5=B7=B1=E7=9A=84=E5=B7=A5=E4=BD=9C=E3=80=82</p></li>
+<li><p>=E3=80=90=E5=8F=82=E8=80=83=E3=80=91=E5=A5=BD=E7=9A=84=E5=91=BD=E5=
+=90=8D=E3=80=81=E4=BB=A3=E7=A0=81=E7=BB=93=E6=9E=84=E6=98=AF=E8=87=AA=E8=A7=
+=A3=E9=87=8A=E7=9A=84=EF=BC=8C=E6=B3=A8=E9=87=8A=E5=8A=9B=E6=B1=82=E7=B2=BE=
+=E7=AE=80=E5=87=86=E7=A1=AE=E3=80=81=E8=A1=A8=E8=BE=BE=E5=88=B0=E4=BD=8D=E3=
+=80=82=E9=81=BF=E5=85=8D=E5=87=BA=E7=8E=B0=E6=B3=A8=E9=87=8A=E7=9A=84 =E4=
+=B8=80=E4=B8=AA=E6=9E=81=E7=AB=AF:=E8=BF=87=E5=A4=9A=E8=BF=87=E6=BB=A5=E7=
+=9A=84=E6=B3=A8=E9=87=8A=EF=BC=8C=E4=BB=A3=E7=A0=81=E7=9A=84=E9=80=BB=E8=BE=
+=91=E4=B8=80=E6=97=A6=E4=BF=AE=E6=94=B9=EF=BC=8C=E4=BF=AE=E6=94=B9=E6=B3=A8=
+=E9=87=8A=E6=98=AF=E7=9B=B8=E5=BD=93=E5=A4=A7=E7=9A=84=E8=B4=9F=E6=8B=85=E3=
+=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E5=8F=8D=E4=BE=8B:</p>
+<p>// put elephant into fridge</p>
+<p>put(elephant, fridge);</p>
+<p>=E6=96=B9=E6=B3=95=E5=90=8D put=EF=BC=8C=E5=8A=A0=E4=B8=8A=E4=B8=A4=E4=
+=B8=AA=E6=9C=89=E6=84=8F=E4=B9=89=E7=9A=84=E5=8F=98=E9=87=8F=E5=90=8D eleph=
+ant =E5=92=8C fridge=EF=BC=8C=E5=B7=B2=E7=BB=8F=E8=AF=B4=E6=98=8E=E4=BA=86=
+=E8=BF=99=E6=98=AF=E5=9C=A8=E5=B9=B2=E4=BB=80=E4=B9=88=EF=BC=8C=E8=AF=AD=E4=
+=B9=89=E6=B8=85=E6=99=B0=E7=9A=84=E4=BB=A3=E7=A0=81=E4=B8=8D=E9=9C=80=E8=A6=
+=81=E9=A2=9D=E5=A4=96=E7=9A=84=E6=B3=A8=E9=87=8A=E3=80=82</p>
+</blockquote></li>
+<li><p>=E3=80=90=E5=8F=82=E8=80=83=E3=80=91=E7=89=B9=E6=AE=8A=E6=B3=A8=E9=
+=87=8A=E6=A0=87=E8=AE=B0=EF=BC=8C=E8=AF=B7=E6=B3=A8=E6=98=8E=E6=A0=87=E8=AE=
+=B0=E4=BA=BA=E4=B8=8E=E6=A0=87=E8=AE=B0=E6=97=B6=E9=97=B4=E3=80=82=E6=B3=A8=
+=E6=84=8F=E5=8F=8A=E6=97=B6=E5=A4=84=E7=90=86=E8=BF=99=E4=BA=9B=E6=A0=87=E8=
+=AE=B0=EF=BC=8C=E9=80=9A=E8=BF=87=E6=A0=87=E8=AE=B0=E6=89=AB=E6=8F=8F=EF=BC=
+=8C =E7=BB=8F=E5=B8=B8=E6=B8=85=E7=90=86=E6=AD=A4=E7=B1=BB=E6=A0=87=E8=AE=
+=B0=E3=80=82=E7=BA=BF=E4=B8=8A=E6=95=85=E9=9A=9C=E6=9C=89=E6=97=B6=E5=80=99=
+=E5=B0=B1=E6=98=AF=E6=9D=A5=E6=BA=90=E4=BA=8E=E8=BF=99=E4=BA=9B=E6=A0=87=E8=
+=AE=B0=E5=A4=84=E7=9A=84=E4=BB=A3=E7=A0=81=E3=80=82 1) =E5=BE=85=E5=8A=9E=
+=E4=BA=8B=E5=AE=9C(TODO):( =E6=A0=87=E8=AE=B0=E4=BA=BA=EF=BC=8C=E6=A0=87=E8=
+=AE=B0=E6=97=B6=E9=97=B4=EF=BC=8C[=E9=A2=84=E8=AE=A1=E5=A4=84=E7=90=86=E6=
+=97=B6=E9=97=B4]) =E8=A1=A8=E7=A4=BA=E9=9C=80=E8=A6=81=E5=AE=9E=E7=8E=B0=EF=
+=BC=8C=E4=BD=86=E7=9B=AE=E5=89=8D=E8=BF=98=E6=9C=AA=E5=AE=9E=E7=8E=B0=E7=9A=
+=84=E5=8A=9F=E8=83=BD=E3=80=82=E8=BF=99=E5=AE=9E=E9=99=85=E4=B8=8A=E6=98=AF=
+=E4=B8=80=E4=B8=AA Javadoc =E7=9A=84=E6=A0=87=E7=AD=BE=EF=BC=8C=E7=9B=AE=E5=
+=89=8D=E7=9A=84 Javadoc =E8=BF=98=E6=B2=A1=E6=9C=89=E5=AE=9E=E7=8E=B0=EF=BC=
+=8C=E4=BD=86=E5=B7=B2=E7=BB=8F=E8=A2=AB=E5=B9=BF=E6=B3=9B=E4=BD=BF=E7=94=A8=
+=E3=80=82=E5=8F=AA=E8=83=BD=E5=BA=94=E7=94=A8=E4=BA=8E=E7=B1=BB=EF=BC=8C=E6=
+=8E=A5=E5=8F=A3=E5=92=8C=E6=96=B9=E6=B3=95(=E5=9B=A0=E4=B8=BA=E5=AE=83=E6=
+=98=AF=E4=B8=80=E4=B8=AA Javadoc =E6=A0=87=E7=AD=BE)=E3=80=82 2) =E9=94=99=
+=E8=AF=AF=EF=BC=8C=E4=B8=8D=E8=83=BD=E5=B7=A5=E4=BD=9C(FIXME):(=E6=A0=87=E8=
+=AE=B0=E4=BA=BA=EF=BC=8C=E6=A0=87=E8=AE=B0=E6=97=B6=E9=97=B4=EF=BC=8C[=E9=
+=A2=84=E8=AE=A1=E5=A4=84=E7=90=86=E6=97=B6=E9=97=B4]) =E5=9C=A8=E6=B3=A8=E9=
+=87=8A=E4=B8=AD=E7=94=A8 FIXME =E6=A0=87=E8=AE=B0=E6=9F=90=E4=BB=A3=E7=A0=
+=81=E6=98=AF=E9=94=99=E8=AF=AF=E7=9A=84=EF=BC=8C=E8=80=8C=E4=B8=94=E4=B8=8D=
+=E8=83=BD=E5=B7=A5=E4=BD=9C=EF=BC=8C=E9=9C=80=E8=A6=81=E5=8F=8A=E6=97=B6=E7=
+=BA=A0=E6=AD=A3=E7=9A=84=E6=83=85=E5=86=B5=E3=80=82</p></li>
+</ol>
+<h3 id=3D"JAVA=E4=BB=A3=E7=A0=81=E8=A7=84=E8=8C=83-=E4=B9=9D=E3=80=81=E5=85=
+=B6=E5=AE=83">=E4=B9=9D=E3=80=81=E5=85=B6=E5=AE=83</h3>
+<ol>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E5=9C=A8=E4=BD=BF=E7=94=A8=E6=
+=AD=A3=E5=88=99=E8=A1=A8=E8=BE=BE=E5=BC=8F=E6=97=B6=EF=BC=8C=E5=88=A9=E7=94=
+=A8=E5=A5=BD=E5=85=B6=E9=A2=84=E7=BC=96=E8=AF=91=E5=8A=9F=E8=83=BD=EF=BC=8C=
+=E5=8F=AF=E4=BB=A5=E6=9C=89=E6=95=88=E5=8A=A0=E5=BF=AB=E6=AD=A3=E5=88=99=E5=
+=8C=B9=E9=85=8D=E9=80=9F=E5=BA=A6=E3=80=82 =E8=AF=B4=E6=98=8E:=E4=B8=8D=E8=
+=A6=81=E5=9C=A8=E6=96=B9=E6=B3=95=E4=BD=93=E5=86=85=E5=AE=9A=E4=B9=89:Patte=
+rn pattern =3D Pattern.compile(=E8=A7=84=E5=88=99);</p></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91velocity =E8=B0=83=E7=94=A8 POJO=
+ =E7=B1=BB=E7=9A=84=E5=B1=9E=E6=80=A7=E6=97=B6=EF=BC=8C=E5=BB=BA=E8=AE=AE=
+=E7=9B=B4=E6=8E=A5=E4=BD=BF=E7=94=A8=E5=B1=9E=E6=80=A7=E5=90=8D=E5=8F=96=E5=
+=80=BC=E5=8D=B3=E5=8F=AF=EF=BC=8C=E6=A8=A1=E6=9D=BF=E5=BC=95=E6=93=8E=E4=BC=
+=9A=E8=87=AA=E5=8A=A8=E6=8C=89 =E8=A7=84=E8=8C=83=E8=B0=83=E7=94=A8 POJO =
+=E7=9A=84 getXxx()=EF=BC=8C=E5=A6=82=E6=9E=9C=E6=98=AF boolean =E5=9F=BA=E6=
+=9C=AC=E6=95=B0=E6=8D=AE=E7=B1=BB=E5=9E=8B=E5=8F=98=E9=87=8F(boolean =E5=91=
+=BD=E5=90=8D=E4=B8=8D=E9=9C=80=E8=A6=81=E5=8A=A0 is =E5=89=8D=E7=BC=80)=EF=
+=BC=8C=E4=BC=9A=E8=87=AA=E5=8A=A8=E8=B0=83=E7=94=A8 isXxx()=E6=96=B9=E6=B3=
+=95=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:=E6=B3=A8=E6=84=8F=E5=A6=82=E6=9E=9C=E6=98=AF Boolean=
+ =E5=8C=85=E8=A3=85=E7=B1=BB=E5=AF=B9=E8=B1=A1=EF=BC=8C=E4=BC=98=E5=85=88=
+=E8=B0=83=E7=94=A8 getXxx()=E7=9A=84=E6=96=B9=E6=B3=95=E3=80=82</p>
+</blockquote></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E5=90=8E=E5=8F=B0=E8=BE=93=E9=
+=80=81=E7=BB=99=E9=A1=B5=E9=9D=A2=E7=9A=84=E5=8F=98=E9=87=8F=E5=BF=85=E9=A1=
+=BB=E5=8A=A0$!{var}=E2=80=94=E2=80=94=E4=B8=AD=E9=97=B4=E7=9A=84=E6=84=9F=
+=E5=8F=B9=E5=8F=B7=E3=80=82</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:=E5=A6=82=E6=9E=9C var=3Dnull =E6=88=96=E8=80=85=E4=
+=B8=8D=E5=AD=98=E5=9C=A8=EF=BC=8C=E9=82=A3=E4=B9=88${var}=E4=BC=9A=E7=9B=B4=
+=E6=8E=A5=E6=98=BE=E7=A4=BA=E5=9C=A8=E9=A1=B5=E9=9D=A2=E4=B8=8A=E3=80=82</p=
+>
+</blockquote></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E6=B3=A8=E6=84=8F Math.random()=
+ =E8=BF=99=E4=B8=AA=E6=96=B9=E6=B3=95=E8=BF=94=E5=9B=9E=E6=98=AF double =E7=
+=B1=BB=E5=9E=8B=EF=BC=8C=E6=B3=A8=E6=84=8F=E5=8F=96=E5=80=BC=E7=9A=84=E8=8C=
+=83=E5=9B=B4 0=E2=89=A4x&lt;1(=E8=83=BD=E5=A4=9F =E5=8F=96=E5=88=B0=E9=9B=
+=B6=E5=80=BC=EF=BC=8C=E6=B3=A8=E6=84=8F=E9=99=A4=E9=9B=B6=E5=BC=82=E5=B8=B8=
+)=EF=BC=8C=E5=A6=82=E6=9E=9C=E6=83=B3=E8=8E=B7=E5=8F=96=E6=95=B4=E6=95=B0=
+=E7=B1=BB=E5=9E=8B=E7=9A=84=E9=9A=8F=E6=9C=BA=E6=95=B0=EF=BC=8C=E4=B8=8D=E8=
+=A6=81=E5=B0=86 x =E6=94=BE=E5=A4=A7 10 =E7=9A=84=E8=8B=A5=E5=B9=B2=E5=80=
+=8D=E7=84=B6=E5=90=8E =E5=8F=96=E6=95=B4=EF=BC=8C=E7=9B=B4=E6=8E=A5=E4=BD=
+=BF=E7=94=A8 Random =E5=AF=B9=E8=B1=A1=E7=9A=84 nextInt =E6=88=96=E8=80=85n=
+extLong =E6=96=B9=E6=B3=95=E3=80=82</p></li>
+<li><p>=E3=80=90=E5=BC=BA=E5=88=B6=E3=80=91=E8=8E=B7=E5=8F=96=E5=BD=93=E5=
+=89=8D=E6=AF=AB=E7=A7=92=E6=95=B0 System.currentTimeMillis(); =E8=80=8C=E4=
+=B8=8D=E6=98=AF new Date().getTime();</p>
+<blockquote style=3D"margin-left: 0.0px;">
+<p>=E8=AF=B4=E6=98=8E:=E5=A6=82=E6=9E=9C=E6=83=B3=E8=8E=B7=E5=8F=96=E6=9B=
+=B4=E5=8A=A0=E7=B2=BE=E7=A1=AE=E7=9A=84=E7=BA=B3=E7=A7=92=E7=BA=A7=E6=97=B6=
+=E9=97=B4=E5=80=BC=EF=BC=8C=E7=94=A8 System.nanoTime()=E3=80=82=E5=9C=A8 JD=
+K8 =E4=B8=AD=EF=BC=8C=E9=92=88=E5=AF=B9=E7=BB=9F=E8=AE=A1 =E6=97=B6=E9=97=
+=B4=E7=AD=89=E5=9C=BA=E6=99=AF=EF=BC=8C=E6=8E=A8=E8=8D=90=E4=BD=BF=E7=94=A8=
+ Instant =E7=B1=BB=E3=80=82</p>
+</blockquote></li>
+<li><p>=E3=80=90=E6=8E=A8=E8=8D=90=E3=80=91=E5=B0=BD=E9=87=8F=E4=B8=8D=E8=
+=A6=81=E5=9C=A8 vm =E4=B8=AD=E5=8A=A0=E5=85=A5=E5=8F=98=E9=87=8F=E5=A3=B0=
+=E6=98=8E=E3=80=81=E9=80=BB=E8=BE=91=E8=BF=90=E7=AE=97=E7=AC=A6=EF=BC=8C=E6=
+=9B=B4=E4=B8=8D=E8=A6=81=E5=9C=A8 vm =E6=A8=A1=E6=9D=BF=E4=B8=AD=E5=8A=A0=
+=E5=85=A5=E4=BB=BB=E4=BD=95=E5=A4=8D=E6=9D=82=E7=9A=84=E9=80=BB=E8=BE=91=E3=
+=80=82</p></li>
+<li><p>=E3=80=90=E6=8E=A8=E8=8D=90=E3=80=91=E4=BB=BB=E4=BD=95=E6=95=B0=E6=
+=8D=AE=E7=BB=93=E6=9E=84=E7=9A=84=E6=9E=84=E9=80=A0=E6=88=96=E5=88=9D=E5=A7=
+=8B=E5=8C=96=EF=BC=8C=E9=83=BD=E5=BA=94=E6=8C=87=E5=AE=9A=E5=A4=A7=E5=B0=8F=
+=EF=BC=8C=E9=81=BF=E5=85=8D=E6=95=B0=E6=8D=AE=E7=BB=93=E6=9E=84=E6=97=A0=E9=
+=99=90=E5=A2=9E=E9=95=BF=E5=90=83=E5=85=89=E5=86=85=E5=AD=98=E3=80=82</p></=
+li>
+<li><p>=E3=80=90=E6=8E=A8=E8=8D=90=E3=80=91=E5=AF=B9=E4=BA=8E=E2=80=9C=E6=
+=98=8E=E7=A1=AE=E5=81=9C=E6=AD=A2=E4=BD=BF=E7=94=A8=E7=9A=84=E4=BB=A3=E7=A0=
+=81=E5=92=8C=E9=85=8D=E7=BD=AE=E2=80=9D=EF=BC=8C=E5=A6=82=E6=96=B9=E6=B3=95=
+=E3=80=81=E5=8F=98=E9=87=8F=E3=80=81=E7=B1=BB=E3=80=81=E9=85=8D=E7=BD=AE=E6=
+=96=87=E4=BB=B6=E3=80=81=E5=8A=A8=E6=80=81=E9=85=8D=E7=BD=AE=E5=B1=9E=E6=80=
+=A7=E7=AD=89=E8=A6=81=E5=9D=9A=E5=86=B3=E4=BB=8E=E7=A8=8B=E5=BA=8F=E4=B8=AD=
+=E6=B8=85=E7=90=86=E5=87=BA=E5=8E=BB=EF=BC=8C=E9=81=BF=E5=85=8D=E9=80=A0=E6=
+=88=90=E8=BF=87=E5=A4=9A=E5=9E=83=E5=9C=BE=E3=80=82</p></li>
+</ol>
+    </div>
+</body>
+</html>
+------=_Part_6_438599749.1610004927234--

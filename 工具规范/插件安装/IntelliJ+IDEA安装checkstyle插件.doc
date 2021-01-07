@@ -1,0 +1,434 @@
+Message-ID: <1602351607.11.1610005041076.JavaMail.daemon@ab309fdadf7f>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_10_15029674.1610005041075"
+
+------=_Part_10_15029674.1610005041075
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>IntelliJ IDEA=E5=AE=89=E8=A3=85checkstyle=E6=8F=92=E4=BB=B6</tit=
+le>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>IntelliJ IDEA=E5=AE=89=E8=A3=85checkstyle=E6=8F=92=E4=BB=B6</h1>
+    <div class=3D"Section1">
+        <h4 id=3D"IntelliJIDEA=E5=AE=89=E8=A3=85checkstyle=E6=8F=92=E4=BB=
+=B6-=E4=B8=80.=E5=9C=A8IntelliJIDEA=E4=B8=AD=E5=AE=89=E8=A3=85=E6=8F=92=E4=
+=BB=B6">=E4=B8=80.=E5=9C=A8IntelliJ IDEA=E4=B8=AD=E5=AE=89=E8=A3=85=E6=8F=
+=92=E4=BB=B6</h4>
+<p>1.=E9=80=89=E6=8B=A9=E2=80=9DFile=E2=80=9D=E8=8F=9C=E5=8D=95=E7=BB=84=E4=
+=B8=8B=E7=9A=84=E2=80=9DSettings=E2=80=9D=E8=8F=9C=E5=8D=95=E9=A1=B9:<br>2.=
+=E9=80=89=E6=8B=A9=E2=80=9DPlugins=E2=80=9D=E8=8F=9C=E5=8D=95=E9=A1=B9,=E5=
+=B9=B6=E7=82=B9=E5=87=BB=E4=B8=AD=E4=B8=8B=E6=96=B9=E7=9A=84=E2=80=9DBrowse=
+ repositories=E2=80=A6=E2=80=9D=E6=8C=89=E9=92=AE:<br>3.=E6=90=9C=E7=B4=A2=
+=E5=B9=B6=E5=AE=89=E8=A3=85=E6=89=80=E9=9C=80=E8=A6=81=E7=9A=84=E6=8F=92=E4=
+=BB=B6:<br><span class=3D"confluence-embedded-file-wrapper"><img class=3D"c=
+onfluence-embedded-image confluence-external-resource" alt=3D"=E8=BF=99=E9=
+=87=8C=E5=86=99=E5=9B=BE=E7=89=87=E6=8F=8F=E8=BF=B0" src=3D"https://img-blo=
+g.csdn.net/20180305105624598?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvT=
+W9sbHljaGlu/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA=3D=3D/dissolve/70" d=
+ata-image-src=3D"https://img-blog.csdn.net/20180305105624598?watermark/2/te=
+xt/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvTW9sbHljaGlu/font/5a6L5L2T/fontsize/400/fill=
+/I0JBQkFCMA=3D=3D/dissolve/70"></span><br>4. =E8=8B=A5=E6=9C=89=E9=9C=80=E8=
+=A6=81,=E5=8F=AF=E4=BB=A5=E9=85=8D=E7=BD=AE=E4=BB=A3=E7=90=86=E4=BB=A5=E5=
+=8A=A0=E5=BF=AB=E4=B8=8B=E8=BD=BD=E9=80=9F=E5=BA=A6=E6=88=96=E8=A7=A3=E5=86=
+=B3=E4=B8=8B=E8=BD=BD=E5=A4=B1=E8=B4=A5=E7=9A=84=E9=97=AE=E9=A2=98.</p>
+<p>=E4=BA=8C.=E5=9C=A8IntelliJ IDEA=E4=B8=AD=E9=85=8D=E7=BD=AEJava Code Sty=
+le=E5=8F=8A=E4=BB=A3=E7=A0=81=E6=A0=BC=E5=BC=8F=E5=8C=96=E5=BF=AB=E6=8D=B7=
+=E9=94=AE<br>1.=E4=B8=8B=E8=BD=BDUMX Java Code Style=EF=BC=8C=E5=B9=B6=E5=
+=9C=A8IntelliJ=E4=B8=AD=E9=85=8D=E7=BD=AE=E3=80=82<br>2.=E9=80=89=E6=8B=A9=
+=E2=80=9DFile=E2=80=9D=E8=8F=9C=E5=8D=95=E7=BB=84=E4=B8=8B=E7=9A=84=E2=80=
+=9DSettings=E2=80=9D=E8=8F=9C=E5=8D=95=E9=A1=B9:<br>3.=E9=80=89=E6=8B=A9=E2=
+=80=9DEditor-&gt;Code Style=E2=80=9D=E8=8F=9C=E5=8D=95=E9=A1=B9,=E5=B9=B6=
+=E7=82=B9=E5=87=BB=E5=9B=BE=E7=A4=BA=E7=9A=84=E2=80=9DIntellij IDEA code st=
+yle XML=E2=80=9D=E5=AF=BC=E5=85=A5=E7=AC=AC1=E6=AD=A5=E4=B8=AD=E4=B8=8B=E8=
+=BD=BD=E7=9A=84=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6(=E5=8F=AF=E4=BF=AE=E6=
+=94=B9=E5=AF=BC=E5=85=A5=E7=9A=84=E9=85=8D=E7=BD=AE=E5=90=8D,=E6=AD=A4=E5=
+=A4=84=E4=BD=BF=E7=94=A8=E9=BB=98=E8=AE=A4=E7=9A=84=E2=80=9DUMX-JAVA-Style=
+=E2=80=9D):<br><span class=3D"confluence-embedded-file-wrapper"><img class=
+=3D"confluence-embedded-image confluence-external-resource" alt=3D"=E8=BF=
+=99=E9=87=8C=E5=86=99=E5=9B=BE=E7=89=87=E6=8F=8F=E8=BF=B0" src=3D"https://i=
+mg-blog.csdn.net/20180305111659986?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5=
+uZXQvTW9sbHljaGlu/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA=3D=3D/dissolve=
+/70" data-image-src=3D"https://img-blog.csdn.net/20180305111659986?watermar=
+k/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvTW9sbHljaGlu/font/5a6L5L2T/fontsize/40=
+0/fill/I0JBQkFCMA=3D=3D/dissolve/70"></span><br>4.=E5=B0=86=E5=BD=93=E5=89=
+=8D=E9=A1=B9=E7=9B=AE=E7=9A=84=E2=80=9DSchema:=E2=80=9D=E8=AE=BE=E7=BD=AE=
+=E4=B8=BA=E7=AC=AC3=E6=AD=A5=E4=B8=AD=E5=AF=BC=E5=85=A5=E7=9A=84=E2=80=9DUM=
+X-JAVA-Style=E2=80=9D<br><br>5.=E6=AD=A4=E6=97=B6,=E5=9C=A8=E6=BA=90=E4=BB=
+=A3=E7=A0=81=E4=B8=AD=E5=8F=AF=E4=BB=A5=E4=BD=BF=E7=94=A8=E5=BF=AB=E6=8D=B7=
+=E9=94=AE=E5=B0=86=E4=BB=A3=E7=A0=81=E4=BE=9D=E7=85=A7UMX Java Style Guide=
+=E8=BF=9B=E8=A1=8C=E6=A0=BC=E5=BC=8F=E5=8C=96:</p>
+<ol>
+<li>Ctrl + Alt + L =E6=A0=BC=E5=BC=8F=E5=8C=96=E4=BB=A3=E7=A0=81</li>
+<li>Ctrl + Alt + I =E8=87=AA=E5=8A=A8=E7=BC=A9=E8=BF=9B</li>
+<li>Ctrl + Alt + O =E6=95=B4=E7=90=86import</li>
+</ol>
+<p>=E4=B8=89.=E5=9C=A8IntelliJ IDEA=E4=B8=AD=E5=AE=89=E8=A3=85=E5=92=8C=E4=
+=BD=BF=E7=94=A8=E2=80=9DCheckStyle-IDEA=E2=80=9D=E6=8F=92=E4=BB=B6<br>1.=E6=
+=8C=89=E2=80=9D=E8=AF=B4=E6=98=8E=E4=B8=80=E2=80=9D=E4=B8=AD=E7=9A=84=E6=AD=
+=A5=E9=AA=A4,=E5=AE=89=E8=A3=85=E2=80=9DCheckStyle-IDEA=E2=80=9D=E6=8F=92=
+=E4=BB=B6:<br><span class=3D"confluence-embedded-file-wrapper"><img class=
+=3D"confluence-embedded-image confluence-external-resource" alt=3D"=E8=BF=
+=99=E9=87=8C=E5=86=99=E5=9B=BE=E7=89=87=E6=8F=8F=E8=BF=B0" src=3D"https://i=
+mg-blog.csdn.net/20180305112337352?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5=
+uZXQvTW9sbHljaGlu/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA=3D=3D/dissolve=
+/70" data-image-src=3D"https://img-blog.csdn.net/20180305112337352?watermar=
+k/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvTW9sbHljaGlu/font/5a6L5L2T/fontsize/40=
+0/fill/I0JBQkFCMA=3D=3D/dissolve/70"></span><br><em>* =E6=9C=80=E6=96=B0=E7=
+=89=88=E6=9C=AC=E5=B7=B2=E7=BB=8F=E9=BB=98=E8=AE=A4=E9=9B=86=E6=88=90=E4=BA=
+=86Google Checks,=E6=97=A7=E7=89=88=E6=9C=AC=E9=9C=80=E8=A6=81=E6=89=8B=E5=
+=8A=A8=E5=AF=BC=E5=85=A5=E8=A7=84=E5=88=99=E6=96=87=E4=BB=B6*</em><br>2.=E5=
+=AE=89=E8=A3=85=E6=88=90=E5=8A=9F=E5=90=8E,IntelliJ IDEA=E7=9A=84=E4=B8=8B=
+=E6=96=B9Tab=E9=A1=B5=E4=B8=AD=E4=BC=9A=E5=87=BA=E7=8E=B0=E2=80=9DCheckStyl=
+e=E2=80=9D=E7=9A=84Tab:</p>
+<p>3.=E9=80=89=E6=8B=A9<span style=3D"color: rgb(255,102,0);">=E2=80=9DGoog=
+le Checks</span>=E2=80=9D=E4=BD=9C=E4=B8=BA=E2=80=9DRules=E2=80=9D,=E5=B9=
+=B6=E6=A0=B9=E6=8D=AE=E9=9C=80=E8=A6=81=E7=82=B9=E5=87=BB=E5=B7=A6=E4=BE=A7=
+=E7=9A=84=E5=9B=9B=E4=B8=AA=E6=8C=89=E9=92=AE=E5=AF=B9=E4=BB=A3=E7=A0=81=E8=
+=BF=9B=E8=A1=8C=E6=A3=80=E6=9F=A5,=E5=85=B6=E4=BD=9C=E7=94=A8=E5=88=86=E5=
+=88=AB=E4=B8=BA:<br>1. =E6=A3=80=E6=9F=A5=E5=BD=93=E5=89=8D=E6=96=87=E4=BB=
+=B6&nbsp;<span class=3D"confluence-embedded-file-wrapper"><img class=3D"con=
+fluence-embedded-image confluence-external-resource" alt=3D"=E8=BF=99=E9=87=
+=8C=E5=86=99=E5=9B=BE=E7=89=87=E6=8F=8F=E8=BF=B0" src=3D"https://img-blog.c=
+sdn.net/20180305112643204?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvTW9s=
+bHljaGlu/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA=3D=3D/dissolve/70" data=
+-image-src=3D"https://img-blog.csdn.net/20180305112643204?watermark/2/text/=
+aHR0cDovL2Jsb2cuY3Nkbi5uZXQvTW9sbHljaGlu/font/5a6L5L2T/fontsize/400/fill/I0=
+JBQkFCMA=3D=3D/dissolve/70"></span><br>2. =E6=A3=80=E6=9F=A5=E5=BD=93=E5=89=
+=8D=E6=A8=A1=E5=9D=97<span class=3D"confluence-embedded-file-wrapper"><img =
+class=3D"confluence-embedded-image confluence-external-resource" alt=3D"=E8=
+=BF=99=E9=87=8C=E5=86=99=E5=9B=BE=E7=89=87=E6=8F=8F=E8=BF=B0" src=3D"https:=
+//img-blog.csdn.net/20180305112658429?watermark/2/text/aHR0cDovL2Jsb2cuY3Nk=
+bi5uZXQvTW9sbHljaGlu/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA=3D=3D/disso=
+lve/70" data-image-src=3D"https://img-blog.csdn.net/20180305112658429?water=
+mark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvTW9sbHljaGlu/font/5a6L5L2T/fontsize=
+/400/fill/I0JBQkFCMA=3D=3D/dissolve/70"></span><br>3. =E6=A3=80=E6=9F=A5=E6=
+=95=B4=E4=B8=AA=E9=A1=B9=E7=9B=AE<span class=3D"confluence-embedded-file-wr=
+apper"><img class=3D"confluence-embedded-image confluence-external-resource=
+" alt=3D"=E8=BF=99=E9=87=8C=E5=86=99=E5=9B=BE=E7=89=87=E6=8F=8F=E8=BF=B0" s=
+rc=3D"https://img-blog.csdn.net/20180305112707466?watermark/2/text/aHR0cDov=
+L2Jsb2cuY3Nkbi5uZXQvTW9sbHljaGlu/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA=
+=3D=3D/dissolve/70" data-image-src=3D"https://img-blog.csdn.net/20180305112=
+707466?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvTW9sbHljaGlu/font/5a6L5=
+L2T/fontsize/400/fill/I0JBQkFCMA=3D=3D/dissolve/70"></span><br>4. =E6=A3=80=
+=E6=9F=A5=E6=9C=AA=E6=8F=90=E4=BA=A4=E7=9A=84=E4=BB=A3=E7=A0=81<span class=
+=3D"confluence-embedded-file-wrapper"><img class=3D"confluence-embedded-ima=
+ge confluence-external-resource" alt=3D"=E8=BF=99=E9=87=8C=E5=86=99=E5=9B=
+=BE=E7=89=87=E6=8F=8F=E8=BF=B0" src=3D"https://img-blog.csdn.net/2018030511=
+271548?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvTW9sbHljaGlu/font/5a6L5=
+L2T/fontsize/400/fill/I0JBQkFCMA=3D=3D/dissolve/70" data-image-src=3D"https=
+://img-blog.csdn.net/2018030511271548?watermark/2/text/aHR0cDovL2Jsb2cuY3Nk=
+bi5uZXQvTW9sbHljaGlu/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA=3D=3D/disso=
+lve/70"></span></p>
+<p>=E6=B3=A81: CheckStyle=E6=A3=80=E6=9F=A5=E7=9A=84=E6=98=AF=E4=BB=A3=E7=
+=A0=81=E7=9A=84=E6=A0=BC=E5=BC=8F=E3=80=81=E6=98=AF=E5=90=A6=E7=BC=BA=E5=B0=
+=91=E6=96=87=E6=A1=A3,=E8=80=8C=E9=9D=9E=E5=85=B6=E4=B8=AD=E7=9A=84=E7=BC=
+=BA=E9=99=B7.<br>=E6=B3=A82: UMX Java Style Guide=E4=B8=AD(=E7=9B=AE=E5=89=
+=8D)=E6=B2=A1=E6=9C=89=E5=AF=B9MagicNumber=E4=BD=9C=E8=A6=81=E6=B1=82.=E4=
+=BD=86=E8=8B=A5=E6=9C=89=E8=A6=81=E6=B1=82, MagicNumber=E7=9A=84=E6=A3=80=
+=E6=9F=A5=E4=B9=9F=E5=BA=94=E8=AF=A5=E7=94=B1CheckStyle=E5=AE=8C=E6=88=90,=
+=E5=9B=A0=E4=B8=BAMagicNumber=E4=B8=8D=E5=B1=9E=E4=BA=8E=E7=BC=BA=E9=99=B7,=
+=E8=80=8C=E7=B1=BB=E4=BC=BC=E4=BA=8E=E7=BC=BA=E5=B0=91=E6=96=87=E6=A1=A3<br=
+>=E6=B3=A83: CheckStyle=E6=A3=80=E6=9F=A5=E5=8F=AF=E8=83=BD=E4=BC=9A=E4=BD=
+=9C=E4=B8=BA=E4=BB=A3=E7=A0=81=E5=A4=8D=E5=AE=A1=E7=9A=84=E4=B8=80=E4=B8=AA=
+=E6=AD=A5=E9=AA=A4.=E8=8B=A5=E6=A3=80=E6=9F=A5=E4=B8=8D=E9=80=9A=E8=BF=87,=
+=E4=BB=A3=E7=A0=81=E5=B0=B1=E5=8F=AF=E8=83=BD=E8=A2=AB=E9=80=80=E5=9B=9E=E4=
+=BF=AE=E6=94=B9.</p>
+<p>=E5=9B=9B.=E5=9C=A8IntelliJ IDEA=E4=B8=AD=E5=AE=89=E8=A3=85=E5=92=8C=E4=
+=BD=BF=E7=94=A8=E2=80=9DFindBugs-IDEA=E2=80=9D=E6=8F=92=E4=BB=B6</p>
+<ul>
+<li>=E6=8C=89=E2=80=9D=E8=AF=B4=E6=98=8E=E4=B8=80=E2=80=9D=E4=B8=AD=E7=9A=
+=84=E6=AD=A5=E9=AA=A4,=E5=AE=89=E8=A3=85=E2=80=9D FindBugs -IDEA=E2=80=9D=
+=E6=8F=92=E4=BB=B6</li>
+<li>=E5=AE=89=E8=A3=85=E6=88=90=E5=8A=9F=E5=90=8E,IntelliJ IDEA=E7=9A=84=E4=
+=B8=8B=E6=96=B9Tab=E9=A1=B5=E4=B8=AD=E4=BC=9A=E5=87=BA=E7=8E=B0=E2=80=9DFin=
+dBugs-IDEA=E2=80=9D=E7=9A=84Tab=EF=BC=9A<span class=3D"confluence-embedded-=
+file-wrapper"><img class=3D"confluence-embedded-image confluence-external-r=
+esource" alt=3D"=E8=BF=99=E9=87=8C=E5=86=99=E5=9B=BE=E7=89=87=E6=8F=8F=E8=
+=BF=B0" src=3D"https://img-blog.csdn.net/20180305112822997?watermark/2/text=
+/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvTW9sbHljaGlu/font/5a6L5L2T/fontsize/400/fill/I=
+0JBQkFCMA=3D=3D/dissolve/70" data-image-src=3D"https://img-blog.csdn.net/20=
+180305112822997?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvTW9sbHljaGlu/f=
+ont/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA=3D=3D/dissolve/70"></span></li>
+<li>=E4=B8=8E=E2=80=9DCheckStyle=E2=80=9D=E6=8F=92=E4=BB=B6=E7=B1=BB=E4=BC=
+=BC,=E9=80=9A=E8=BF=87=E5=B7=A6=E4=BE=A7=E7=9A=84=E6=8C=89=E9=92=AE=E5=AF=
+=B9=E4=BB=A3=E7=A0=81=E4=BD=9C=E6=A3=80=E6=9F=A5</li>
+<li><p>=E8=BF=98=E5=8F=AF=E4=BB=A5=E9=80=9A=E8=BF=87=E2=80=9DSettings=E2=80=
+=9D=E5=AF=B9=E9=9C=80=E8=A6=81=E6=A3=80=E6=9F=A5=E7=9A=84Bug=E8=BF=9B=E8=A1=
+=8C=E5=8B=BE=E9=80=89=E3=80=81=E6=8E=92=E9=99=A4=E6=88=96=E6=96=B0=E5=BB=BA=
+=E8=87=AA=E5=AE=9A=E4=B9=89=E7=9A=84=E6=A3=80=E6=9F=A5=E8=A7=84=E5=88=99:</=
+p></li>
+<li><p>FindBugs=E9=80=9A=E8=BF=87Bug Pattern=E6=A3=80=E6=9F=A5=E2=80=9D.cla=
+ss=E2=80=9D=E6=96=87=E4=BB=B6=E6=9D=A5=E5=AF=BB=E6=89=BE=E9=97=AE=E9=A2=98<=
+br>=E9=99=84: FindBugs=E6=8F=90=E4=BE=9B=E7=9A=84Bug=E5=A4=A7=E7=B1=BB:</p>=
+</li>
+<li><p>Bad practice =E4=B8=8D=E5=A5=BD=E7=9A=84=E4=B9=A0=E6=83=AF</p></li>
+<li>Correctness =E4=BB=A3=E7=A0=81=E7=9A=84=E6=AD=A3=E7=A1=AE=E6=80=A7</li>
+<li>Dodgy =E5=B0=8F=E9=97=AE=E9=A2=98</li>
+<li>Malicious code vulnerability =E6=81=B6=E6=84=8F=E4=BB=A3=E7=A0=81</li>
+<li>Internationalization =E5=9B=BD=E9=99=85=E5=8C=96=E9=97=AE=E9=A2=98</li>
+<li>Performance =E6=80=A7=E8=83=BD=E9=97=AE=E9=A2=98</li>
+<li>Security =E5=AE=89=E5=85=A8=E6=80=A7=E9=97=AE=E9=A2=98</li>
+<li>Multithreaded currectness =E7=BA=BF=E7=A8=8B=E9=97=AE=E9=A2=98</li>
+<li>Experrimental =E5=AE=9E=E9=AA=8C=E6=80=A7=E9=97=AE=E9=A2=98</li>
+</ul>
+<p>=E4=BA=94.=E5=9C=A8IntelliJ IDEA=E4=B8=AD=E8=BF=9B=E8=A1=8C=E5=8D=95=E5=
+=85=83=E6=B5=8B=E8=AF=95=E6=97=B6=E4=BD=BF=E7=94=A8=E2=80=9DCoverage=E2=80=
+=9D=E6=8F=92=E4=BB=B6=E8=BF=9B=E8=A1=8C=E8=A6=86=E7=9B=96=E7=8E=87=E7=9A=84=
+=E8=AE=B0=E5=BD=95<br>1. =E4=BD=BF=E7=94=A8=E2=80=9DCoverage=E2=80=9D=E6=8C=
+=89=E9=92=AE=E8=BF=90=E8=A1=8C=E5=8D=95=E5=85=83=E6=B5=8B=E8=AF=95:<br><spa=
+n class=3D"confluence-embedded-file-wrapper"><img class=3D"confluence-embed=
+ded-image confluence-external-resource" alt=3D"=E8=BF=99=E9=87=8C=E5=86=99=
+=E5=9B=BE=E7=89=87=E6=8F=8F=E8=BF=B0" src=3D"https://img-blog.csdn.net/2018=
+0305112940433?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvTW9sbHljaGlu/fon=
+t/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA=3D=3D/dissolve/70" data-image-src=
+=3D"https://img-blog.csdn.net/20180305112940433?watermark/2/text/aHR0cDovL2=
+Jsb2cuY3Nkbi5uZXQvTW9sbHljaGlu/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA=
+=3D=3D/dissolve/70"></span><br>2. =E4=BC=9A=E5=B1=95=E7=A4=BA=E8=A6=86=E7=
+=9B=96=E7=8E=87=E7=9A=84=E6=8A=A5=E8=A1=A8,=E5=9C=A8=E8=A2=AB=E6=B5=8B=E4=
+=BB=A3=E7=A0=81=E4=B8=AD,=E6=9C=AA=E8=A2=AB=E8=A6=86=E7=9B=96=E7=9A=84=E4=
+=BB=A3=E7=A0=81=E5=89=8D=E6=96=B9=E4=BC=9A=E7=94=A8=E7=BA=A2=E8=89=B2=E6=9F=
+=B1=E7=8A=B6=E4=BD=93=E6=A0=87=E6=B3=A8:<br><span class=3D"confluence-embed=
+ded-file-wrapper"><img class=3D"confluence-embedded-image confluence-extern=
+al-resource" alt=3D"=E8=BF=99=E9=87=8C=E5=86=99=E5=9B=BE=E7=89=87=E6=8F=8F=
+=E8=BF=B0" src=3D"https://img-blog.csdn.net/20180305113046207?watermark/2/t=
+ext/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvTW9sbHljaGlu/font/5a6L5L2T/fontsize/400/fil=
+l/I0JBQkFCMA=3D=3D/dissolve/70" data-image-src=3D"https://img-blog.csdn.net=
+/20180305113046207?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvTW9sbHljaGl=
+u/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA=3D=3D/dissolve/70"></span><br>=
+3. =E8=BF=90=E8=A1=8C=E5=A4=9A=E4=B8=AA=E4=B8=8D=E5=90=8C=E7=9A=84=E5=8D=95=
+=E5=85=83=E6=B5=8B=E8=AF=95=E6=97=B6,=E5=8F=AF=E4=BB=A5=E9=80=89=E6=8B=A9=
+=E5=B0=86=E8=A6=86=E7=9B=96=E7=8E=87=E6=8A=A5=E8=A1=A8=E5=90=88=E5=B9=B6:<b=
+r><span class=3D"confluence-embedded-file-wrapper"><img class=3D"confluence=
+-embedded-image confluence-external-resource" alt=3D"=E8=BF=99=E9=87=8C=E5=
+=86=99=E5=9B=BE=E7=89=87=E6=8F=8F=E8=BF=B0" src=3D"https://img-blog.csdn.ne=
+t/20180305113140763?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvTW9sbHljaG=
+lu/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA=3D=3D/dissolve/70" data-image=
+-src=3D"https://img-blog.csdn.net/20180305113140763?watermark/2/text/aHR0cD=
+ovL2Jsb2cuY3Nkbi5uZXQvTW9sbHljaGlu/font/5a6L5L2T/fontsize/400/fill/I0JBQkFC=
+MA=3D=3D/dissolve/70"></span></p>
+    </div>
+</body>
+</html>
+------=_Part_10_15029674.1610005041075--
